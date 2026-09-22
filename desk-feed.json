@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "publishedAt": 1790072760000,
+  "updatedAt": 1790072760000,
+  "source": "grok-bot",
+  "sotd": {
+    "pair": "XAUUSD",
+    "side": "SELL",
+    "state": "ARMED",
+    "entry": 4334,
+    "sl": 4368,
+    "tp1": 4298,
+    "tp2": 4272,
+    "rr": "1:1.1",
+    "thesis": "Hawkish Fed pressured gold toward 4334. Fade rips only if 4368 fails; stand down into US speakers.",
+    "confluence": {
+      "sweep": false,
+      "bos": true,
+      "fvg": false,
+      "ob": false,
+      "mtf": true
+    },
+    "sessionNote": "London · Grok feed · educational only"
+  },
+  "pulse": [
+    {
+      "id": "pulse-xau-1790072760000",
+      "pair": "XAUUSD",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 4334,
+      "sl": 4368,
+      "tp1": 4298,
+      "ageLabel": "0m",
+      "thesis": "SOTD · Fed hawkish · sell rip"
+    },
+    {
+      "id": "pulse-jpy-1790072760000",
+      "pair": "USDJPY",
+      "side": "WAIT",
+      "state": "WAIT",
+      "entry": 156.95,
+      "sl": null,
+      "tp1": null,
+      "ageLabel": "0m",
+      "thesis": "Mid-range 156.7–157.7 · no trigger"
+    },
+    {
+      "id": "pulse-eur-1790072760000",
+      "pair": "EURUSD",
+      "side": "WAIT",
+      "state": "WAIT",
+      "entry": 1.1467,
+      "sl": null,
+      "tp1": null,
+      "ageLabel": "0m",
+      "thesis": "Range 1.145–1.149 · no trigger"
+    },
+    {
+      "id": "pulse-gbp-1790072760000",
+      "pair": "GBPUSD",
+      "side": "WAIT",
+      "state": "WAIT",
+      "entry": 1.3369,
+      "sl": null,
+      "tp1": null,
+      "ageLabel": "0m",
+      "thesis": "Range 1.334–1.340 · no trigger"
+    },
+    {
+      "id": "pulse-btc-1790072760000",
+      "pair": "BTCUSD",
+      "side": "WAIT",
+      "state": "WAIT",
+      "entry": 86057,
+      "sl": null,
+      "tp1": null,
+      "ageLabel": "0m",
+      "thesis": "Soft under 87k · no trigger"
+    }
+  ]
+}
