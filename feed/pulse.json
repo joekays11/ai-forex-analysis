@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-22T20:08:00+03:00",
+  "updated_at": "2026-09-22T21:10:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY afternoon",
+  "session": "NY late",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 100.58,
-    "note": "DXY ~100.58, dollar bid vs EUR/GBP. No classic red-folder print in next 4h. Already out: ADP weekly ~20K, EZ conf -16.5 vs -16, Richmond -2 vs +4. Remaining risk: FOMC Barkin in this window; ECB Nagel ~22:30 EAT; API crude ~23:30 EAT. JPY holiday — thin yen book. Prefer WAIT through Barkin/API."
+    "note": "DXY ~100.58, dollar still bid vs EUR/GBP. No classic red-folder print in next 4h. Already out: ADP weekly ~20K, EZ conf -16.5 vs -16, Richmond -2 vs +4, Fed speakers Williams/Jefferson. Remaining risk: ECB Nagel ~22:30 EAT; API crude ~23:30 EAT. JPY holiday — thin yen book. Prefer WAIT through Nagel/API."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4362,
     "tp1": 4298,
     "rr": 1.9,
-    "reason": "4363-4375 supply still in play after bounce off 4297. Spot ~4330 is mid-range, not a fresh trigger. Sell only on weak reject 4338-4350 with hold back under 4330. Do not chase the bounce. Barkin/API still in the window."
+    "reason": "4363-4375 supply still in play after bounce off ~4297. Spot ~4330 is mid-range, not a fresh trigger. Sell only on weak reject 4338-4350 with hold back under 4330. Do not chase. Nagel/API still in the window."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4330.50,
+      "price": 4330.20,
       "change_pct": -0.86,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
       "location": "mid 4297-4375 after bounce off lows; not at 4338-4350 sell zone",
-      "news": "Barkin now, API later; no red data",
+      "news": "Nagel ~22:30 EAT, API ~23:30 EAT; no red data",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -44,7 +44,7 @@
       "bias": "range",
       "trigger": "none",
       "location": "near session low of 1.1435-1.1478; no hold/break yet",
-      "news": "EZ conf printed; Barkin still",
+      "news": "EZ conf printed; Nagel still",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -58,21 +58,21 @@
       "bias": "range",
       "trigger": "none",
       "location": "near lows of 1.3332-1.3387; mid-low, no trigger",
-      "news": "USD speakers",
+      "news": "USD bid; Nagel/API window",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "USDJPY",
-      "price": 157.33,
+      "price": 157.34,
       "change_pct": -0.03,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "mixed",
       "trigger": "none",
       "location": "mid-high 156.83-157.76",
-      "news": "JPY holiday + Barkin",
+      "news": "JPY holiday + Nagel/API",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -86,7 +86,7 @@
       "bias": "range",
       "trigger": "none",
       "location": "mid-high 84746-86655 after fade from highs",
-      "news": "risk tone into Barkin/API",
+      "news": "risk tone into Nagel/API",
       "entry": null,
       "sl": null,
       "tp1": null
