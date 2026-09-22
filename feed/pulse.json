@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-22T21:10:00+03:00",
+  "updated_at": "2026-09-22T22:14:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY late",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 100.58,
-    "note": "DXY ~100.58, dollar still bid vs EUR/GBP. No classic red-folder print in next 4h. Already out: ADP weekly ~20K, EZ conf -16.5 vs -16, Richmond -2 vs +4, Fed speakers Williams/Jefferson. Remaining risk: ECB Nagel ~22:30 EAT; API crude ~23:30 EAT. JPY holiday — thin yen book. Prefer WAIT through Nagel/API."
+    "dxy": 100.59,
+    "note": "DXY ~100.59, dollar still firm vs EUR/GBP. No classic red-folder print in next 4h. Remaining risk: ECB Nagel ~22:30 EAT; API crude ~23:30 EAT; AUD flash PMI ~02:00 EAT. JPY holiday — thin yen book. Prefer WAIT through Nagel/API."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -23,7 +23,7 @@
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4330.20,
+      "price": 4330.00,
       "change_pct": -0.86,
       "side": "WAIT",
       "status": "WATCH",
@@ -37,7 +37,7 @@
     },
     {
       "symbol": "EURUSD",
-      "price": 1.1441,
+      "price": 1.1442,
       "change_pct": -0.19,
       "side": "WAIT",
       "status": "WATCH",
@@ -51,8 +51,8 @@
     },
     {
       "symbol": "GBPUSD",
-      "price": 1.3343,
-      "change_pct": -0.17,
+      "price": 1.3340,
+      "change_pct": -0.20,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "range",
@@ -65,13 +65,13 @@
     },
     {
       "symbol": "USDJPY",
-      "price": 157.34,
-      "change_pct": -0.03,
+      "price": 157.36,
+      "change_pct": 0.01,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "mixed",
       "trigger": "none",
-      "location": "mid-high 156.83-157.76",
+      "location": "mid-high 156.83-157.78",
       "news": "JPY holiday + Nagel/API",
       "entry": null,
       "sl": null,
@@ -79,7 +79,7 @@
     },
     {
       "symbol": "BTCUSD",
-      "price": 86240,
+      "price": 86280,
       "change_pct": -0.35,
       "side": "WAIT",
       "status": "WATCH",
