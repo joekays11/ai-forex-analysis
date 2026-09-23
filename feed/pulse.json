@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-23T04:26:00+03:00",
+  "updated_at": "2026-09-23T05:05:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 100.58,
-    "note": "DXY steady near 100.58. JPY Autumnal Equinox holiday — thin yen book. No red-folder US/EU/UK print in the next 4h. EZ/UK flash PMI cluster is later (~10:15–11:30 EAT). UNGA is background. Prefer WAIT through thin Asia."
+    "dxy": 100.61,
+    "note": "DXY firm near 100.61. JPY Autumnal Equinox holiday — thin yen book. No red-folder US/EU/UK print in the next 4h. EZ/UK flash PMI cluster later (~10:15–11:30 EAT). UNGA is background. Prefer WAIT through thin Asia into London PMI."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4382,
     "tp1": 4298,
     "rr": 1.6,
-    "reason": "Spot ~4357 is still hanging under 4363-4376 supply after the bounce off ~4292. No confirmed reject candle or hold-under 4350. Trigger fails; location only half-valid. Leave the mid-range fade alone."
+    "reason": "Spot ~4348 is sitting on the 4350 fade line under 4363-4376 supply after the bounce off ~4292. No confirmed reject candle or hold-under 4350. Trigger fails; location only half-valid. Leave the mid-range fade alone into London PMI."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4357.33,
-      "change_pct": 0.35,
+      "price": 4348.20,
+      "change_pct": -0.36,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "under 4363-4376 supply after bounce off ~4292; no reject/hold-under 4350",
+      "location": "on 4350 fade line under 4363-4376 supply after bounce off ~4292; no reject/hold-under",
       "news": "no red US/EU/UK print next 4h; EZ/UK PMI later",
       "entry": null,
       "sl": null,
@@ -37,13 +37,13 @@
     },
     {
       "symbol": "EURUSD",
-      "price": 1.1441,
-      "change_pct": -0.2,
+      "price": 1.1446,
+      "change_pct": -0.07,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "range",
       "trigger": "none",
-      "location": "mid-low of 1.1429-1.1478 after bounce off ~1.1430; no hold/break",
+      "location": "mid-low of 1.1429-1.1478; no hold/break",
       "news": "EZ flash PMI later morning; no red next 4h",
       "entry": null,
       "sl": null,
@@ -51,13 +51,13 @@
     },
     {
       "symbol": "GBPUSD",
-      "price": 1.3336,
-      "change_pct": -0.23,
+      "price": 1.3326,
+      "change_pct": -0.12,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "off ~1.3322 lows (two-month trough zone); no confirmed breakdown",
+      "location": "holding just above ~1.3322 two-month trough; no confirmed breakdown",
       "news": "UK flash PMI later; dollar still bid",
       "entry": null,
       "sl": null,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "USDJPY",
-      "price": 157.36,
-      "change_pct": 0.01,
+      "price": 157.50,
+      "change_pct": 0.12,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "mixed",
@@ -79,8 +79,8 @@
     },
     {
       "symbol": "BTCUSD",
-      "price": 86455,
-      "change_pct": -0.16,
+      "price": 86234,
+      "change_pct": 0.04,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "range",
