@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-23T05:05:00+03:00",
+  "updated_at": "2026-09-23T06:00:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 100.61,
-    "note": "DXY firm near 100.61. JPY Autumnal Equinox holiday — thin yen book. No red-folder US/EU/UK print in the next 4h. EZ/UK flash PMI cluster later (~10:15–11:30 EAT). UNGA is background. Prefer WAIT through thin Asia into London PMI."
+    "dxy": 100.62,
+    "note": "DXY firm near 100.62. No true red-folder US/UK print in the next 4h. French/German flash PMI hits ~09:15–09:30 EAT (EZ flash ~10:00 EAT); treat EUR as pre-event. Tokyo is back after Tuesday Autumnal Equinox. Prefer WAIT through thin late-Asia into the PMI window."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,33 +18,33 @@
     "sl": 4382,
     "tp1": 4298,
     "rr": 1.6,
-    "reason": "Spot ~4348 is sitting on the 4350 fade line under 4363-4376 supply after the bounce off ~4292. No confirmed reject candle or hold-under 4350. Trigger fails; location only half-valid. Leave the mid-range fade alone into London PMI."
+    "reason": "Spot ~4338 already slipped through the 4350 fade line toward ~4334 session lows after the reject from 4363-4376. No bounce-fail trigger at the line. Do not chase the lows; only fade a reclaim-fail back into 4350-4363 ahead of London PMI."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4348.20,
-      "change_pct": -0.36,
+      "price": 4337.50,
+      "change_pct": -0.48,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "on 4350 fade line under 4363-4376 supply after bounce off ~4292; no reject/hold-under",
-      "news": "no red US/EU/UK print next 4h; EZ/UK PMI later",
+      "location": "under 4350 fade line, parked on ~4334 session lows after 4363-4376 reject; chase risk",
+      "news": "no red US print next 4h; EZ PMI later morning",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "EURUSD",
-      "price": 1.1446,
-      "change_pct": -0.07,
+      "price": 1.1437,
+      "change_pct": -0.11,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "range",
       "trigger": "none",
-      "location": "mid-low of 1.1429-1.1478; no hold/break",
-      "news": "EZ flash PMI later morning; no red next 4h",
+      "location": "soft in the lower half of 1.1429-1.1478; no hold/break",
+      "news": "FR/DE flash PMI ~09:15–09:30 EAT; EZ flash ~10:00 EAT",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -57,8 +57,8 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "holding just above ~1.3322 two-month trough; no confirmed breakdown",
-      "news": "UK flash PMI later; dollar still bid",
+      "location": "still hugging ~1.3322 two-month trough; no confirmed breakdown",
+      "news": "UK flash PMI later (~11:30 EAT); dollar still bid",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -71,21 +71,21 @@
       "status": "WATCH",
       "bias": "mixed",
       "trigger": "none",
-      "location": "mid-high 156.83-157.78",
-      "news": "JPY holiday — thin book",
+      "location": "mid-high 156.83-157.78; no location trigger",
+      "news": "Tokyo open again after Equinox holiday; book still rebuilding",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "BTCUSD",
-      "price": 86234,
-      "change_pct": 0.04,
+      "price": 86491,
+      "change_pct": 0.92,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "range",
       "trigger": "none",
-      "location": "mid-high 85077-86720 after fade from highs",
+      "location": "mid-high of ~85160-86720 after bounce; no break/hold",
       "news": "risk tone into Asia; no crypto-specific red print",
       "entry": null,
       "sl": null,
