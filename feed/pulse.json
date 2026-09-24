@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T11:05:00+03:00",
+  "updated_at": "2026-09-24T12:05:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.12,
-    "note": "Public DXY cluster ~101.12 (Trading Economics 101.09-101.12). Dollar still firm into London. Gold public cluster ~4276 (FXStreet 4275.80, SMARTT 4275.54; TE still 4281-4284). Day box ~4274-4303. BTC public cluster ~84000 (FXStreet 83983, TE 84073-84091). Next 4h (to ~15:05 EAT): RED-FOLDER SNB presser + German ifo + ECB Economic Bulletin ~11:00 EAT (live), FOMC Williams ~11:10 EAT, BoE Dhingra ~12:30 EAT, GBP CBI sales ~13:00 EAT. US jobless claims 15:30 EAT is just outside this window. News blackout on. Do not chase."
+    "dxy": 101.10,
+    "note": "Public DXY cluster ~101.10 (TE 101.06-101.11). Dollar still firm into late London, pre-NY. Gold public cluster ~4276 (Octa 4275.8, prior FXStreet 4275.80; TE gold prints 4280-4284 still lag). Day box ~4274-4303. BTC public cluster ~84100 (Octa 84100-84129; TE ~84550 is a separate print). Next 4h (to ~16:05 EAT): GBP CBI sales ~13:00 EAT, FOMC Barkin ~15:00 EAT, RED-FOLDER US jobless claims + current account + CAD retail sales 15:30 EAT, FOMC Hammack ~15:50 EAT. Trump-Xi summit is the geo overlay. News blackout on. Do not chase."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4355,
     "tp1": 4268,
     "rr": 1.6,
-    "reason": "Public spot ~4276 is sitting on the ~4274-4295 floor (day box ~4274-4303), not the 4318-4332 fade location. Trigger + location both fail; SNB presser + ifo are live. Do not short the floor."
+    "reason": "Public spot ~4276 is sitting on the ~4274-4295 floor (day box ~4274-4303), not the 4318-4332 fade location. Trigger + location both fail; USD claims 15:30 EAT is inside the window. Do not short the floor."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
       "price": 4275.80,
-      "change_pct": -0.26,
+      "change_pct": -0.33,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public cluster ~4276 (FXStreet 4275.80 / SMARTT 4275.54) hugging ~4274-4295 floor; fade zone 4318-4332 not in play",
-      "news": "SNB presser + German ifo + ECB bulletin live ~11:00 EAT — blackout; do not short the floor",
+      "location": "public cluster ~4276 (Octa 4275.8) hugging ~4274-4295 floor; fade zone 4318-4332 not in play",
+      "news": "USD jobless claims 15:30 EAT inside window — blackout; do not short the floor",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -43,8 +43,8 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public print ~1.1384 (FXStreet 1.13837 / TE 1.1385-1.1389) off the ~1.1369 floor, still under 1.1400; no hold or confirmed break",
-      "news": "German ifo + ECB bulletin live; SNB presser can still whip EUR even if the print is CHF-labelled",
+      "location": "public print ~1.1384 (TE 1.13838 / Octa 1.1385) off the ~1.1369 floor, still under 1.1400; no hold or confirmed break",
+      "news": "USD claims + current account 15:30 EAT; Fed speakers from 15:00 EAT — blackout",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -52,41 +52,41 @@
     {
       "symbol": "GBPUSD",
       "price": 1.3242,
-      "change_pct": 0.02,
+      "change_pct": 0.03,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public print ~1.3242 (FXStreet 1.32418 / TE 1.3242-1.3246) off the ~1.3223 day-box floor; 1.3200 nearby but no bounce location and no confirmed break",
-      "news": "BoE Dhingra ~12:30 EAT and CBI sales ~13:00 EAT still inside the window; SNB/ifo risk-spill blackout",
+      "location": "public print ~1.3242 (TE 1.32424 / Octa 1.3241) off the ~1.3223 day-box floor; 1.3200 nearby but no bounce location and no confirmed break",
+      "news": "CBI sales ~13:00 EAT then USD claims 15:30 EAT; speaker + red-folder blackout",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "USDJPY",
-      "price": 158.43,
-      "change_pct": 0.07,
+      "price": 158.41,
+      "change_pct": 0.05,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bullish",
       "trigger": "none",
-      "location": "public cluster ~158.43 (FXStreet 158.43 / TE 158.37-158.47) tagging the ~158.49 session high / ~157.80 low; neither a hold above 158.50 nor a clean dip-buy",
-      "news": "SNB presser live can splash USD crosses; Williams ~11:10 EAT — do not chase either side",
+      "location": "public cluster ~158.41 (TE 158.411 / Octa 158.42) under the ~158.49 session high / above ~157.80 low; neither a hold above 158.50 nor a clean dip-buy",
+      "news": "Fed speakers + USD claims 15:30 EAT can whip JPY crosses — do not chase either side",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "BTCUSD",
-      "price": 83983,
-      "change_pct": -0.47,
+      "price": 84100,
+      "change_pct": -0.30,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public cluster ~84000 (FXStreet 83983 / TE 84073-84091) in the mid of the ~83730-84480 box; no hold above 86880",
-      "news": "no crypto-specific red print; SNB presser + London risk can still whip BTC",
+      "location": "public cluster ~84100 (Octa 84100-84129) in the mid of the ~83730-84550 box; no hold above 86880",
+      "news": "no crypto-specific red print; USD claims + London/NY risk can still whip BTC",
       "entry": null,
       "sl": null,
       "tp1": null
