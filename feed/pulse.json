@@ -1,7 +1,7 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T17:05:00+03:00",
+  "updated_at": "2026-09-24T17:12:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
@@ -14,26 +14,26 @@
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4300,
+    "entry": 4298,
     "sl": 4318,
-    "tp1": 4250,
-    "rr": 2.78,
-    "reason": "INTRADAY NY AM — HTF markdown intact. Spot ~4283 sits mid of 4244-4303 day box (EQ ~4274) after SSL sweep. Do not short EQ into/through New Home Sales. Plan arms only if NHS/Silver Bullet prints a Judas rally into 4298-4308 then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4250 session SSL. Blackout until post-NHS structure."
+    "tp1": 4248,
+    "rr": 2.5,
+    "reason": "SCALP Silver Bullet — HTF markdown + DXY SMT aligned. SSL swept 4244 after PDL break. Spot ~4262 is discount of 4244-4303 dealing range (EQ ~4273.5). Do not short the mid. Plan arms only on Judas/Silver Bullet rally into 4294-4308 CE/PDH-array then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 retest of session SSL. Fed speakers + Trump-Xi still live overlay."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4282.94,
-      "change_pct": -0.12,
-      "side": "WAIT",
-      "status": "WATCH",
+      "price": 4262,
+      "change_pct": -0.59,
+      "side": "SELL",
+      "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public ~4283 inside 4244-4303 day box (EQ ~4274); 4298-4308 premium fade not tagged",
-      "news": "RED-FOLDER New Home Sales 17:00 EAT in print + Paulson ~17:10 — blackout; do not short the mid or fade a news spike",
-      "entry": null,
-      "sl": null,
-      "tp1": null
+      "location": "public ~4262 inside 4244-4303 day box (EQ ~4273.5, discount); SSL 4244 swept, 4294-4308 premium fade not tagged",
+      "news": "NHS 684k vs ~620k printed 17:00 EAT; Paulson/EIA/KC Fed + Trump-Xi still in window — no chase mid-range",
+      "entry": 4298,
+      "sl": 4318,
+      "tp1": 4248
     },
     {
       "symbol": "EURUSD",
