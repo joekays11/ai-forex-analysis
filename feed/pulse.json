@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T19:10:00+03:00",
+  "updated_at": "2026-09-24T20:07:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY LUNCH",
+  "session": "NY PM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.30,
-    "note": "Public DXY ~101.30 (Investing 101.30 / TE 101.32-101.35). XAUUSD Investing 4253.87 day 4244.79-4303.30 (EQ ~4274). EURUSD ~1.1396, USDJPY cluster ~158.2-159.0. NHS/claims already printed. No red-folder majors left in next 4h. 7y note auction 20:00 EAT still live. Banxico (MXN, med) ~22:00 EAT. Trump-Xi headlines ongoing. Williams hike-by-year-end still in the tape. Yields/USD bid on the day; gold in day-range discount near SSL, not a clean premium tag."
+    "dxy": 101.28,
+    "note": "Public DXY ~101.28 (TE 101.278 +0.18%). XAUUSD Investing 4272.72 day 4244.79-4303.30 (EQ ~4274). EURUSD ~1.1396, USDJPY cluster ~158.2-159.0. Claims/NHS already printed. 7y note competitive bids 20:00 EAT LIVE. Banxico (MXN, med) ~22:00 EAT. Trump-Xi headlines ongoing. Williams hike-by-year-end still in the tape. Yields/USD bid; gold bounced SSL 4245 into day EQ, not a clean premium tag."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY OTE + breaker — HTF markdown + DXY bid. Day box 4245-4303 (EQ ~4274). Spot ~4254 is discount/SSL, not the 4298 fade. Arms only on Judas/relief into 4284-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. 7y auction 20:00 EAT in ~50m — no chase, no short the low."
+    "reason": "INTRADAY OTE + breaker — HTF markdown + DXY bid. Day box 4245-4303 (EQ ~4274). Spot ~4273 is EQ after SSL probe, not the 4298 fade. Arms only on Judas/relief into 4284-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. 7y auction 20:00 EAT LIVE — no chase EQ, no short the bounce."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4254,
-      "change_pct": -0.78,
+      "price": 4273,
+      "change_pct": -0.34,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Investing 4253.87 inside day 4244.79-4303.30 (EQ ~4274); discount/SSL probe of 4245, 4284-4303 OTE/premium fade not tagged",
-      "news": "no red majors next 4h; 7y auction 20:00 EAT + Trump-Xi headlines — blackout on chasing the low",
+      "location": "Investing 4272.72 inside day 4244.79-4303.30 (EQ ~4274); SSL 4245 swept then bounce to EQ, 4284-4303 OTE/premium fade not tagged",
+      "news": "7y note auction 20:00 EAT LIVE; no red majors left after claims/NHS; Banxico 22:00 EAT + Trump-Xi — blackout on chasing EQ",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
