@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T00:08:00+03:00",
+  "updated_at": "2026-09-25T01:01:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.21,
-    "note": "DXY cluster ~101.21-101.28 (Yahoo 101.21 +0.11% day 101.00-101.38; TE 101.278 +0.18%). USD still bid. XAU public cluster ~4274 (Investing 4273.89 -0.31% day 4244.79-4303.30; FXEmpire 4273.80; TE 4265.29). Cash box 4244-4303, EQ ~4274. No USD red-folder in next 4h. GBP GfK ~02:01 EAT Fri (medium). EUR German GfK in the same early window (medium). Bailey speak + Durable Goods 15:30 EAT + UMich 17:00 EAT after the 4h window."
+    "dxy": 101.26,
+    "note": "DXY cluster ~101.25-101.31 (DealPlexus 101.25 +0.16% day 101.00-101.40; TE ~101.27 +0.18%; GuruFocus 101.311). USD still bid. 10Y ~5.21%. XAU public cluster ~4274 (Investing 4273.67 -0.32% day 4244.79-4303.30). Cash box 4244.79-4303.30, EQ ~4274. No USD red-folder in next 4h (01:01-05:01 EAT). GBP GfK medium early Asia. Williams 12:15 EAT, Durable Goods 15:30 EAT, UMich 17:00 EAT after the 4h window. CN holiday."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 00:08 EAT. Day box 4244-4303 cash, EQ ~4274. Spot ~4274 is EQ after SSL 4244 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Asia open Friday — no chase the EQ, no short mid-box."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid + 10Y 5.21%. Fri Asia 01:01 EAT. Day box 4244.79-4303.30 cash, EQ ~4274. Spot ~4274 is EQ after SSL 4244 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Asia open Friday — no chase the EQ, no short mid-box."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
       "price": 4274,
-      "change_pct": -0.31,
+      "change_pct": -0.32,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Spot ~4274 (Investing 4273.89 / FXEmpire 4273.80) inside cash day 4244-4303 (EQ ~4274); sitting at EQ after SSL 4244 tap, 4288-4303 OTE/premium fade not tagged.",
-      "news": "no USD red in next 4h; GBP GfK ~02:01 EAT Fri medium; EUR GfK same window medium; Durable Goods 15:30 EAT + UMich 17:00 EAT after 4h — blackout on chasing the EQ",
+      "location": "Spot ~4274 (Investing 4273.67) inside cash day 4244.79-4303.30 (EQ ~4274); sitting at EQ after SSL 4244 tap, 4288-4303 OTE/premium fade not tagged.",
+      "news": "no USD red in next 4h; GBP GfK medium early Asia; Williams 12:15 EAT + Durable Goods 15:30 EAT + UMich 17:00 EAT after 4h — blackout on chasing the EQ",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
