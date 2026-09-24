@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T01:01:00+03:00",
+  "updated_at": "2026-09-25T01:07:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.26,
-    "note": "DXY cluster ~101.25-101.31 (DealPlexus 101.25 +0.16% day 101.00-101.40; TE ~101.27 +0.18%; GuruFocus 101.311). USD still bid. 10Y ~5.21%. XAU public cluster ~4274 (Investing 4273.67 -0.32% day 4244.79-4303.30). Cash box 4244.79-4303.30, EQ ~4274. No USD red-folder in next 4h (01:01-05:01 EAT). GBP GfK medium early Asia. Williams 12:15 EAT, Durable Goods 15:30 EAT, UMich 17:00 EAT after the 4h window. CN holiday."
+    "dxy": 101.24,
+    "note": "DXY ~101.24 (TE 101.244 +0.15%). USD still bid into Friday Asia. 10Y remains elevated (~5.21% prior print). XAU public cluster ~4274 (GoldTracker 4274.18 -0.33%; TE ~4274; MarketsGrid 4275.20). Cash box 4244.79-4303.30, EQ ~4274. No USD red-folder in next 4h (01:07-05:07 EAT). GBP GfK medium ~02:01 EAT. Williams 12:15 EAT, Durable Goods 15:30 EAT, UMich 17:00 EAT after the 4h window. CN holiday. Thin Friday Asia."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,33 +18,33 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid + 10Y 5.21%. Fri Asia 01:01 EAT. Day box 4244.79-4303.30 cash, EQ ~4274. Spot ~4274 is EQ after SSL 4244 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Asia open Friday — no chase the EQ, no short mid-box."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid + elevated 10Y. Fri Asia 01:07 EAT. Day box 4244.79-4303.30 cash, EQ ~4274. Spot ~4274 is EQ after SSL 4244 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Asia open Friday — no chase the EQ, no short mid-box."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
       "price": 4274,
-      "change_pct": -0.32,
+      "change_pct": -0.33,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Spot ~4274 (Investing 4273.67) inside cash day 4244.79-4303.30 (EQ ~4274); sitting at EQ after SSL 4244 tap, 4288-4303 OTE/premium fade not tagged.",
-      "news": "no USD red in next 4h; GBP GfK medium early Asia; Williams 12:15 EAT + Durable Goods 15:30 EAT + UMich 17:00 EAT after 4h — blackout on chasing the EQ",
+      "location": "Spot ~4274 (GoldTracker 4274.18) inside cash day 4244.79-4303.30 (EQ ~4274); sitting at EQ after SSL 4244 tap, 4288-4303 OTE/premium fade not tagged.",
+      "news": "no USD red in next 4h; GBP GfK medium ~02:01 EAT; Williams 12:15 EAT + Durable Goods 15:30 EAT + UMich 17:00 EAT after 4h — blackout on chasing the EQ",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
     },
     {
       "symbol": "EURUSD",
-      "price": 1.1387,
-      "change_pct": -0.01,
+      "price": 1.1380,
+      "change_pct": -0.07,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Yahoo 1.1387 (day 1.1364-1.1401) under 1.1400. Bounce off session lows into mid-box, no hold of 1.1400 and no confirmed breakdown",
-      "news": "no EUR/USD red in next 4h; German GfK medium in the early window — no trigger",
+      "location": "Yahoo 1.1380 (day 1.1364-1.1401) under 1.1400. Mid-box bounce off session lows, no hold of 1.1400 and no confirmed breakdown",
+      "news": "no EUR/USD red in next 4h; GBP GfK medium early Asia only — no trigger",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -72,20 +72,20 @@
       "bias": "bullish",
       "trigger": "none",
       "location": "Yahoo 158.79 (day 157.79-158.89) pulled off the 158.89 wick. Neither a hold above 158.90 nor a clean dip-buy",
-      "news": "no JPY/USD red in next 4h; BOJ Core CPI yellow early Asia — do not chase 159",
+      "news": "no JPY/USD red in next 4h; thin Friday Asia — do not chase 159",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "BTCUSD",
-      "price": 84275,
-      "change_pct": -0.15,
+      "price": 84344,
+      "change_pct": -0.25,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Yahoo ~84275 / Investing ~84658 (day box ~82990-84820) mid-box; no hold of the highs and no confirmed break",
+      "location": "Yahoo 84344 (day 82990-84820) mid-to-upper box; no hold of the highs and no confirmed break",
       "news": "no crypto-specific red print; Asia risk-on/off can still whip BTC",
       "entry": null,
       "sl": null,
