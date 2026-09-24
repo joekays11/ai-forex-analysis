@@ -1,36 +1,36 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T15:02:00+03:00",
+  "updated_at": "2026-09-24T15:16:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "LONDON",
+  "session": "NY AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.23,
-    "note": "Public DXY ~101.23 (Trading Economics). Public FX cluster this print: EURUSD ~1.1373 (Inv 1.1371 / Octa 1.1373 / TE 1.13741 / Xe 1.13749), GBPUSD ~1.3226 (Inv+Octa 1.3224-1.3226 / TE 1.32288 / Xe 1.32313), USDJPY ~158.77 (TE 158.74 / Octa 158.77 / Xe 158.72 / Inv 158.85), XAUUSD ~4258 (Octa 4256.5 / Xe 4257 / TE 4258.6 / Inv PH 4261; MarketVeo 4293 looks stale vs the ~4245-4303 day box), BTCUSD ~83555 (Octa 83550-83579 / TE 83555 / MarketVeo 83562). Next 4h (to ~19:02 EAT): FOMC Barkin ~15:00 EAT; RED-FOLDER US initial + continuing jobless claims + US current account + CAD retail sales 15:30 EAT; FOMC Hammack ~15:50 EAT; BoE Breeden ~16:30 EAT; New Home Sales 17:00 EAT; FOMC Paulson ~17:10 EAT. Yields/USD bid, gold offered off the 4287 prev close. News blackout on. Do not chase."
+    "dxy": 101.28,
+    "note": "Public DXY ~101.28 (Investing 101.28 / TE ~101.22-101.30), day box 101.00-101.32, RSI stretched. Public FX cluster: EURUSD ~1.1373, GBPUSD ~1.3226, USDJPY ~158.77. XAUUSD ~4263 (Inv 4262.79 range 4244.79-4303.30 / prior cluster 4255-4261 / MS 4254). Prev close 4287.35. Next 4h (to ~19:16 EAT): RED-FOLDER US initial + continuing jobless claims + current account + CAD retail 15:30 EAT; FOMC Hammack ~15:50; BoE Breeden ~16:30; New Home Sales 17:00 EAT; FOMC Paulson ~17:10. Yields/USD bid, gold offered into NY AM open. News blackout on."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4322,
-    "sl": 4355,
-    "tp1": 4268,
-    "rr": 1.6,
-    "reason": "Public gold cluster ~4258 has already slipped through the old 4274-4295 floor toward the ~4245 day-box low. Fade location 4318-4332 is not in play; shorting the session floor into 15:30 EAT USD claims fails trigger + location. Leave the 4322 plan parked."
+    "entry": 4302,
+    "sl": 4318,
+    "tp1": 4250,
+    "rr": 3.25,
+    "reason": "INTRADAY NY AM Judas / Silver Bullet — HTF markdown intact (BOS from 4399/4371). Spot ~4263 sits in day-range discount after sweeping toward 4245 SSL; 4322 fade is dead. Do not short the floor into 15:30 EAT claims. Plan only arms if claims/NHS print a Judas rally into 4298-4308 (today high / CE of 4245-4303) then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4250 session SSL, TP2 4235 weekly SSL."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4258.55,
-      "change_pct": -0.67,
+      "price": 4262.79,
+      "change_pct": -0.57,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public cluster ~4258 (Octa 4256.5 / Xe 4257 / TE 4258.6 / Inv 4261) sitting on the lower third of the ~4245-4303 day box; 4318-4332 fade zone not in play",
-      "news": "USD jobless claims 15:30 EAT + New Home Sales 17:00 EAT inside window — blackout; do not short the floor",
+      "location": "Inv 4262.79 inside 4244.79-4303.30 day box (discount vs EQ 4274); HTF discount of 4235-4399 swing; 4298-4308 premium fade not in play",
+      "news": "USD jobless claims + current account 15:30 EAT + New Home Sales 17:00 EAT inside window — blackout; do not short the floor or fade a news spike",
       "entry": null,
       "sl": null,
       "tp1": null
