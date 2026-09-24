@@ -1,0 +1,174 @@
+//@version=5
+// THE SMART Ai · TV Signal Desk
+// Signals only. You place the trade.
+// Attach to XAUUSD, EURUSD, GBPUSD, USDJPY, BTCUSD (same script).
+indicator("THE SMART Ai · TV Signal Desk", overlay = true, max_labels_count = 80, max_lines_count = 20)
+
+// ── Inputs
+grpCore = "Core"
+htfTf        = input.timeframe("240", "HTF trend", group = grpCore)
+swingLen     = input.int(12, "Swing lookback", minval = 3, maxval = 50, group = grpCore)
+emaFastLen   = input.int(21, "Fast EMA", minval = 5, group = grpCore)
+emaSlowLen   = input.int(50, "Slow EMA", minval = 10, group = grpCore)
+adxLen       = input.int(14, "ADX length", minval = 5, group = grpCore)
+adxMin       = input.float(16.0, "Min ADX (chop filter)", minval = 0, step = 0.5, group = grpCore)
+atrLen       = input.int(14, "ATR length", group = grpCore)
+slAtr        = input.float(1.2, "SL × ATR", minval = 0.4, step = 0.1, group = grpCore)
+rrTarget     = input.float(1.8, "TP1 R-multiple", minval = 1.0, step = 0.1, group = grpCore)
+
+grpSess = "Sessions (exchange time)"
+useSession   = input.bool(true, "Session filter", group = grpSess)
+sessFxGold   = input.session("0700-2000", "FX / Gold window", group = grpSess)
+sessBtc      = input.session("0000-2359", "BTC window", group = grpSess)
+btcWeekends  = input.bool(true, "Allow BTC on weekends", group = grpSess)
+
+grpAlert = "Alerts"
+secretTag    = input.string("smart-ai", "Passphrase tag (not a broker key)", group = grpAlert)
+fireOnce     = input.bool(true, "One signal per direction until opposite / flat", group = grpAlert)
+
+// ── Pair family
+tkr     = str.upper(syminfo.ticker)
+isGold  = str.contains(tkr, "XAU") or str.contains(tkr, "GOLD")
+isBtc   = str.contains(tkr, "BTC")
+isJpy   = str.contains(tkr, "JPY")
+deskPair =
+     isGold ? "XAUUSD" :
+     isBtc  ? "BTCUSD" :
+     str.contains(tkr, "EUR") and str.contains(tkr, "USD") ? "EURUSD" :
+     str.contains(tkr, "GBP") and str.contains(tkr, "USD") ? "GBPUSD" :
+     str.contains(tkr, "USD") and str.contains(tkr, "JPY") ? "USDJPY" :
+     tkr
+
+pip =
+     isGold ? 0.10 :
+     isBtc  ? 1.00 :
+     isJpy  ? 0.01 :
+     0.0001
+
+digits =
+     isGold ? 2 :
+     isBtc  ? 0 :
+     isJpy  ? 3 :
+     5
+
+// ── Session
+inFxSess  = not na(time(timeframe.period, sessFxGold))
+inBtcSess = not na(time(timeframe.period, sessBtc))
+weekend   = dayofweek == dayofweek.saturday or dayofweek == dayofweek.sunday
+sessionOk =
+     not useSession ? true :
+     isBtc ? (inBtcSess and (btcWeekends or not weekend)) :
+     inFxSess
+
+// ── Trend + structure
+emaF = ta.ema(close, emaFastLen)
+emaS = ta.ema(close, emaSlowLen)
+htfFast = request.security(syminfo.tickerid, htfTf, ta.ema(close, 50), barmerge.gaps_off, barmerge.lookahead_off)
+htfSlow = request.security(syminfo.tickerid, htfTf, ta.ema(close, 200), barmerge.gaps_off, barmerge.lookahead_off)
+htfBull = htfFast > htfSlow
+htfBear = htfFast < htfSlow
+stackUp = emaF > emaS and close > emaF
+stackDn = emaF < emaS and close < emaF
+
+[diPlus, diMinus, adx] = ta.dmi(adxLen, adxLen)
+trendOn = adx >= adxMin
+
+atr = ta.atr(atrLen)
+swingLo = ta.lowest(low, swingLen)[1]
+swingHi = ta.highest(high, swingLen)[1]
+buySweep  = low < swingLo and close > swingLo and close > open
+sellSweep = high > swingHi and close < swingHi and close < open
+bosUp   = ta.crossover(close, swingHi)
+bosDn   = ta.crossunder(close, swingLo)
+
+buyRaw  = sessionOk and trendOn and htfBull and stackUp and (buySweep or bosUp)
+sellRaw = sessionOk and trendOn and htfBear and stackDn and (sellSweep or bosDn)
+
+// ── Debounce
+var string armed = "WAIT"
+newBuy  = buyRaw and (not fireOnce or armed != "BUY")
+newSell = sellRaw and (not fireOnce or armed != "SELL")
+if newBuy
+    armed := "BUY"
+if newSell
+    armed := "SELL"
+if not sessionOk or not trendOn
+    armed := "WAIT"
+
+side  = newBuy ? "BUY" : newSell ? "SELL" : "WAIT"
+state = newBuy or newSell ? "ARMED" : "WAIT"
+
+slDist = math.max(atr * slAtr, pip * 8)
+tpDist = slDist * rrTarget
+entryPx = close
+slPx = newBuy ? entryPx - slDist : newSell ? entryPx + slDist : na
+tpPx = newBuy ? entryPx + tpDist : newSell ? entryPx - tpDist : na
+rrStr = "1:" + str.tostring(rrTarget, "#.0")
+
+fmt(px) => na(px) ? "null" : str.tostring(px, "#." + str.repeat("0", digits))
+
+thesis() =>
+     side + " " + deskPair + " · HTF " + (htfBull ? "bull" : htfBear ? "bear" : "flat") +
+     " · ADX " + str.tostring(adx, "#.0") +
+     (buySweep or sellSweep ? " · sweep" : "") +
+     (bosUp or bosDn ? " · BOS" : "") +
+     " · " + timeframe.period
+
+jsonMsg() =>
+     "{" +
+     "\"version\":1," +
+     "\"source\":\"tv-bot\"," +
+     "\"desk\":\"THE SMART Ai\"," +
+     "\"tag\":\"" + secretTag + "\"," +
+     "\"pair\":\"" + deskPair + "\"," +
+     "\"ticker\":\"" + syminfo.ticker + "\"," +
+     "\"tf\":\"" + timeframe.period + "\"," +
+     "\"side\":\"" + side + "\"," +
+     "\"state\":\"" + state + "\"," +
+     "\"entry\":" + fmt(entryPx) + "," +
+     "\"sl\":" + fmt(slPx) + "," +
+     "\"tp1\":" + fmt(tpPx) + "," +
+     "\"rr\":\"" + rrStr + "\"," +
+     "\"confluence\":{" +
+     "\"sweep\":" + (buySweep or sellSweep ? "true" : "false") + "," +
+     "\"bos\":" + (bosUp or bosDn ? "true" : "false") + "," +
+     "\"fvg\":false," +
+     "\"ob\":false," +
+     "\"mtf\":" + ((newBuy and htfBull) or (newSell and htfBear) ? "true" : "false") +
+     "}," +
+     "\"thesis\":\"" + thesis() + "\"," +
+     "\"sessionNote\":\"TV signal · educational only\"" +
+     "}"
+
+if barstate.isconfirmed and (newBuy or newSell)
+    alert(jsonMsg(), alert.freq_once_per_bar_close)
+
+// ── Visuals
+plot(emaF, "EMA fast", color.new(#dcb04e, 0), linewidth = 1)
+plot(emaS, "EMA slow", color.new(#8b8b8b, 20), linewidth = 1)
+plotshape(newBuy,  title = "BUY",  style = shape.labelup,   location = location.belowbar, color = color.new(#8fad90, 0), text = "BUY",  textcolor = color.black, size = size.small)
+plotshape(newSell, title = "SELL", style = shape.labeldown, location = location.abovebar, color = color.new(#c17a72, 0), text = "SELL", textcolor = color.white, size = size.small)
+
+if newBuy and barstate.isconfirmed
+    line.new(bar_index, slPx, bar_index + 8, slPx, color = color.new(#c17a72, 20), style = line.style_dotted)
+    line.new(bar_index, tpPx, bar_index + 8, tpPx, color = color.new(#8fad90, 20), style = line.style_dotted)
+if newSell and barstate.isconfirmed
+    line.new(bar_index, slPx, bar_index + 8, slPx, color = color.new(#c17a72, 20), style = line.style_dotted)
+    line.new(bar_index, tpPx, bar_index + 8, tpPx, color = color.new(#8fad90, 20), style = line.style_dotted)
+
+var table hud = table.new(position.top_right, 2, 7, bgcolor = color.new(#09090b, 12), border_color = color.new(#dcb04e, 70), border_width = 1)
+if barstate.islast
+    table.cell(hud, 0, 0, "DESK", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 0, deskPair + "  " + timeframe.period, text_color = color.new(#f3f1ec, 0), text_size = size.tiny)
+    table.cell(hud, 0, 1, "STATE", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 1, armed, text_color = armed == "BUY" ? color.new(#8fad90, 0) : armed == "SELL" ? color.new(#c17a72, 0) : color.new(#dcb04e, 0), text_size = size.small)
+    table.cell(hud, 0, 2, "HTF", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 2, htfBull ? "BULL" : htfBear ? "BEAR" : "FLAT", text_color = color.new(#f3f1ec, 0), text_size = size.tiny)
+    table.cell(hud, 0, 3, "ADX", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 3, str.tostring(adx, "#.0") + (trendOn ? " ON" : " CHOP"), text_color = color.new(#f3f1ec, 0), text_size = size.tiny)
+    table.cell(hud, 0, 4, "SESS", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 4, sessionOk ? "OPEN" : "CLOSED", text_color = color.new(#f3f1ec, 0), text_size = size.tiny)
+    table.cell(hud, 0, 5, "LAST", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 5, side, text_color = color.new(#f3f1ec, 0), text_size = size.tiny)
+    table.cell(hud, 0, 6, "NOTE", text_color = color.new(#d7cfc3, 0), text_size = size.tiny)
+    table.cell(hud, 1, 6, "signals only", text_color = color.new(#8b8b8b, 0), text_size = size.tiny)
