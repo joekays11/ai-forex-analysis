@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T15:22:00+03:00",
+  "updated_at": "2026-09-24T15:25:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.29,
-    "note": "Public DXY ~101.29 (TE 101.29 / DealPlexus 101.30 / cluster 101.22-101.30), day box 101.00-101.32, RSI stretched. Public FX cluster: EURUSD ~1.1373, GBPUSD ~1.3226, USDJPY ~158.77. XAUUSD ~4263 (Inv 4262.58 range 4244.79-4303.30 / TE 4270.94). Prev close 4287.35. Next 4h (to ~19:22 EAT): RED-FOLDER US initial + continuing jobless claims + current account 15:30 EAT; FOMC Hammack ~15:50; New Home Sales 17:00 EAT; FOMC Paulson ~17:10. Yields/USD bid, gold offered into NY AM open. News blackout on."
+    "note": "Public DXY ~101.29 (TE 101.296 / DealPlexus 101.30 / cluster 101.22-101.30), day box 101.00-101.32, RSI stretched ~71. Public FX cluster: EURUSD ~1.1373, GBPUSD ~1.3226, USDJPY ~158.77. XAUUSD ~4263 (Inv 4262.58 range 4244.79-4303.30 / TE 4269.28). Prev close 4287.35. Next 4h (to ~19:25 EAT): RED-FOLDER US initial + continuing jobless claims + current account 15:30 EAT; FOMC Hammack ~15:50; New Home Sales 17:00 EAT; FOMC Paulson ~17:10; EIA gas 17:30. Yields/USD bid, gold offered into NY AM open. News blackout on."
   },
   "sotd": {
     "symbol": "XAUUSD",
