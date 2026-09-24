@@ -1,0 +1,72 @@
+name: gold-desk webhook
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - feed/pulse.json
+      - bridge/emit_ticket.py
+      - .github/workflows/gold-desk-webhook.yml
+  workflow_dispatch:
+
+jobs:
+  emit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build ticket and route
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error, sys
+          sys.path.insert(0, "bridge")
+          from emit_ticket import build_ticket, classify, load_pulse, sign
+
+          pulse = load_pulse("feed/pulse.json")
+          ticket = build_ticket(pulse)
+          mode = classify(ticket)
+          ticket["mode"] = mode
+          print("status", ticket.get("status"), "mode", mode, "key", ticket.get("idempotency_key"))
+          body = json.dumps(ticket, separators=(",", ":")).encode()
+
+          def post(url, data, headers):
+              req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+              try:
+                  with urllib.request.urlopen(req, timeout=20) as resp:
+                      print(url.split("?")[0], resp.status)
+              except urllib.error.HTTPError as e:
+                  print("HTTP", e.code, e.read()[:300])
+              except Exception as e:
+                  print("post fail", e)
+
+          if mode == "silent":
+              print("WAIT — no execute, no notify")
+          else:
+              tg = os.environ.get("TELEGRAM_BOT_TOKEN")
+              chat = os.environ.get("TELEGRAM_CHAT_ID")
+              if tg and chat:
+                  text = f"GOLD DESK {ticket.get('status')} {ticket.get('side')} {ticket.get('symbol')}\nentry {ticket.get('entry')} sl {ticket.get('sl')} tp {ticket.get('tp1')} rr {ticket.get('rr')}\n{ticket.get('idempotency_key')}"
+                  q = json.dumps({"chat_id": chat, "text": text}).encode()
+                  post(f"https://api.telegram.org/bot{tg}/sendMessage", q, {"Content-Type": "application/json"})
+              disc = os.environ.get("DISCORD_WEBHOOK_URL")
+              if disc:
+                  q = json.dumps({"content": f"GOLD DESK {mode} {ticket.get('side')} {ticket.get('symbol')} {ticket.get('entry')}"}).encode()
+                  post(disc, q, {"Content-Type": "application/json"})
+
+          if mode == "execute":
+              url = os.environ.get("WEBHOOK_URL")
+              secret = os.environ.get("WEBHOOK_SECRET")
+              if not url or not secret:
+                  print("LIVE ticket ready but WEBHOOK_URL / WEBHOOK_SECRET not set — file-only path: use listener --poll")
+              else:
+                  post(url, body, {
+                      "Content-Type": "application/json",
+                      "X-Gold-Desk-Signature": sign(body, secret),
+                  })
+          PY
