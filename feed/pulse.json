@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T23:05:00+03:00",
+  "updated_at": "2026-09-25T00:05:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.29,
-    "note": "Public DXY cluster ~101.28-101.33 (TE 101.280 +0.18%, GF 101.284, MW 101.28-101.33). USD still bid vs gold. XAU public cluster ~4273-4275 (biquote 4274.75 -0.33%, LiveEx 4273.32 -0.41%, TE 4271.83 -0.36%). Day box gold cash ~4244-4303, EQ ~4274. No USD red-folder in next 4h. GBP GfK ~02:01 EAT Fri (medium). EUR GfK / Durable Goods after the 4h window. Williams hawkish overlay still in the tape."
+    "dxy": 101.28,
+    "note": "DXY cluster ~101.01-101.29 (TE 101.28 +0.18%, DealPlexus 101.38, MW ~101.01). USD still bid vs gold, RSI stretched. XAU public cluster ~4272 (biquote 4271.72 -0.40%, prior NY cash close mix 4259-4274). Thu cash box 4244-4303, EQ ~4274. No USD red-folder in next 4h. GBP GfK ~02:01 EAT Fri (medium). Durable Goods 15:30 EAT + UMich 17:00 EAT after the window."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Day box 4244-4303 cash, EQ ~4274. Spot ~4274 is EQ after SSL 4245 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Asia open — no chase the EQ, no short mid-box."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 00:05 EAT. Day box 4244-4303 cash, EQ ~4274. Spot ~4272 is EQ after SSL 4244 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Asia open Friday — no chase the EQ, no short mid-box."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4274,
-      "change_pct": -0.33,
+      "price": 4272,
+      "change_pct": -0.40,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Spot ~4274 (biquote 4274.75 / LiveEx 4273.32 / TE 4271.83) inside cash day 4244-4303 (EQ ~4274); sitting at EQ after SSL 4245 tap, 4288-4303 OTE/premium fade not tagged.",
-      "news": "no USD red in next 4h; GBP GfK ~02:01 EAT Fri medium only; EUR GfK + Durable Goods after 4h — blackout on chasing the EQ",
+      "location": "Spot ~4272 (biquote 4271.72) inside cash day 4244-4303 (EQ ~4274); sitting at EQ after SSL 4244 tap, 4288-4303 OTE/premium fade not tagged.",
+      "news": "no USD red in next 4h; GBP GfK ~02:01 EAT Fri medium only; Durable Goods 15:30 EAT + UMich 17:00 EAT after 4h — blackout on chasing the EQ",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
