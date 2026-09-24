@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T17:12:00+03:00",
+  "updated_at": "2026-09-24T18:02:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY AM",
+  "session": "NY PM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.28,
-    "note": "Public DXY ~101.28 (TE 101.28 / MW 101.28 day box ~101.00-101.32). Public FX cluster: EURUSD ~1.1382, GBPUSD ~1.3240, USDJPY ~158.20 (Investing/LiveEx ~157.9 vs TE ~158.8 — not a tick). XAUUSD ~4283 (FXst 4282.94 / LiveEx ~4290 / FXMARE ~4276; day box ~4244-4303). BTCUSD ~84190 (Yahoo 84191). Claims + CA already out. RED-FOLDER New Home Sales 17:00 EAT is in the print window; Paulson ~17:10, EIA gas 17:30, KC Fed 18:00. Trump-Xi geo overlay. News blackout. Yields/USD still bid on the day."
+    "dxy": 101.26,
+    "note": "Public DXY ~101.26 (TE 101.29 / ForexFin 101.22 / TU 101.03). XAUUSD ~4256 (Investing 4255.55 @18:02 EAT; day 4251.00-4303.30). EURUSD ~1.1375, USDJPY ~158.78. NHS 684k vs ~0.62m already printed 17:00 EAT. KC Fed ~18:00 EAT. 7y note auction 20:00 EAT. Trump-Xi geo overlay. Yields/USD bid; gold sold NY AM into discount."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "SCALP Silver Bullet — HTF markdown + DXY SMT aligned. SSL swept 4244 after PDL break. Spot ~4262 is discount of 4244-4303 dealing range (EQ ~4273.5). Do not short the mid. Plan arms only on Judas/Silver Bullet rally into 4294-4308 CE/PDH-array then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 retest of session SSL. Fed speakers + Trump-Xi still live overlay."
+    "reason": "INTRADAY OTE + breaker — HTF markdown + DXY bid. NY AM displacement 4303→4251 swept PDL 4275. Spot ~4256 is discount of 4251-4303 (EQ ~4277). Do not short the low. Arms only on Judas/relief into 4284-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL retest, TP2 4235 weekly SSL. Silver Bullet 17-18 EAT closed. 7y auction 20:00 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4262,
-      "change_pct": -0.59,
+      "price": 4256,
+      "change_pct": -0.76,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "public ~4262 inside 4244-4303 day box (EQ ~4273.5, discount); SSL 4244 swept, 4294-4308 premium fade not tagged",
-      "news": "NHS 684k vs ~620k printed 17:00 EAT; Paulson/EIA/KC Fed + Trump-Xi still in window — no chase mid-range",
+      "location": "public ~4256 inside 4251-4303 day box (EQ ~4277, deep discount); PDL 4275 swept, 4284-4303 OTE/premium fade not tagged",
+      "news": "NHS printed 17:00 EAT; KC Fed ~18:00; 7y auction 20:00 EAT + Trump-Xi — no chase session lows",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
