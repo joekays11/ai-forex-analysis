@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-24T22:15:00+03:00",
+  "updated_at": "2026-09-24T23:00:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NEW YORK",
+  "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.27,
-    "note": "Public DXY cluster ~101.21-101.32 (TE 101.21 +0.11%, MW 101.28 +0.18%, GF 101.32). USD still bid vs gold. XAU public cluster ~4262-4273 (TE 4271.68 -0.37%, Comex settle 4263, FXEmpire ~4261). Investing majors 14:02 print EUR 1.1363 / GBP 1.3208 / JPY 158.98 / BTC ~83870. Day box gold 4244-4303, EQ ~4274. No USD/EUR/JPY red-folder in next 4h. Banxico hold residual ~22:00 EAT. GBP GfK ~02:01 EAT Fri at window edge (medium). Durable Goods 15:30 EAT Fri. Williams hike-by-year-end still in the tape."
+    "dxy": 101.31,
+    "note": "Public DXY cluster ~101.28-101.34 (TE 101.29 +0.19%, MW 101.34 +0.24%, DealPlexus 101.38). USD still bid vs gold near 52w highs. XAU public cluster ~4269-4273 (GoldTracker 4272.15 -0.38%, TE 4271.61). Day box gold 4244.89-4376.01 print / cash cluster high ~4303, EQ ~4274. No USD red-folder in next 4h. GBP GfK ~02:01 EAT Fri (medium). Durable Goods 15:30 EAT Fri. Williams hawkish overlay still in the tape."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY OTE + breaker — HTF markdown + DXY bid. Day box 4244-4303 (EQ ~4274). Spot cluster ~4272 is EQ after SSL 4244 tap, not the 4298 fade. Arms only on Judas/relief into 4284-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Late NY + Banxico residual — no chase the low, no short the EQ bounce."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Day box 4245-4303 cash (print H 4376 / L 4245), EQ ~4274. Spot 4272 is EQ after SSL 4245 tap, not the 4298 fade. Arms only on Asia/London Judas-relief into 4288-4303 OTE/CE then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Late NY into Asia — no chase the low, no short the EQ bounce."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
       "price": 4272,
-      "change_pct": -0.37,
+      "change_pct": -0.38,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Spot cluster ~4272 (TE 4271.68 / Comex 4263) inside day 4244-4303 (EQ ~4274); sitting at EQ after SSL 4244 tap, 4284-4303 OTE/premium fade not tagged. Public spread 4261-4290, not a tick",
-      "news": "no USD red in next 4h after claims/NHS/7y; Banxico 22:00 EAT residual — blackout on chasing the low",
+      "location": "Spot 4272.15 (GoldTracker) / TE 4271.61 inside cash day 4245-4303 (EQ ~4274); sitting at EQ after SSL 4245 tap, 4288-4303 OTE/premium fade not tagged. Print high 4376 is outlier vs cash 4303.",
+      "news": "no USD red in next 4h; GBP GfK ~02:01 EAT Fri medium only; Durable Goods 15:30 EAT Fri — blackout on chasing the low",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
