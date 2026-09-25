@@ -1,39 +1,39 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T15:16:00+03:00",
+  "updated_at": "2026-09-25T16:08:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "PRE-NY",
+  "session": "NY AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 100.99,
-    "note": "Public DXY ~100.99 (-0.29%) session 100.94-101.31, still under ~101.80 52w cap after fading 101.31. XAU public ~4303 (+0.67%) Fri box 4256.35-4315.79 after tagging PDH ~4305 and sweeping BSL into 4316. USDJPY faded to ~157.68 from 159.00. Next red-folder: USD Durable Goods HIGH 15:30 EAT / 12:30 UTC (headline cons. ~-0.3%/-0.4% vs prior +1.1%; core/ex-transp cons. ~+0.5%/+0.6%). Fed Schmid ~16:20 EAT. UMich final ~17:00 EAT into Silver Bullet. London KZ closed; NY AM 15:30-18:00 EAT opens into the print. Do not arm into 15:30 data."
+    "note": "Public DXY ~100.99 (-0.3%) session 100.94-101.31 after tagging 101.31; still under 101.80 52w cap. XAU public ~4299 (+0.7/0.8%) Fri box 4256.61-4315.73 after sweeping PDL zone into 4256 then running PDH 4305 into 4316 BSL. Durable Goods printed 15:30 EAT: headline 0.0% vs ~-0.4% cons (beat), ex-transp +0.3% vs +0.6% (miss), core capex ex-air +1.6% vs +0.5% (hawkish). Reaction muted; gold held the bounce. Next red-folder: UMich Sentiment Final 17:00 EAT (cons. 47.8 / 1y infl 4.6%) into Silver Bullet 17:00-18:00 EAT. Fed Schmid window ~16:20 EAT. Hammack ~21:00 EAT. Do not arm through 17:00 print."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4320,
-    "sl": 4344,
-    "tp1": 4248,
-    "rr": 3.0,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY still firm under 101.80 despite the 100.99 fade. Spot ~4303 is premium of Fri box 4256-4316 and sitting on dealing-range EQ ~4311 (range 4244-4378). Day high 4315.79 ran PDH magnet 4305 and probed BSL; no confirmed 5-15m MSS + FVG/CE hold. SMT vs DXY is aligned bid (DXY LL, gold HH), not a short-confirm divergence. Trigger + location incomplete into Durable Goods HIGH 15:30 EAT and UMich 17:00 EAT. Arms only after further BSL raid / wick into 4318-4328 then 5-15m MSS + FVG/CE, or after confirmed 15m break + retest of 4264 once the 15:30 print is digested. SL beyond a full 4336+ wick. TP1 4248 SSL / Thu cash-low magnet. Do not chase mid-range or the 4316 wick."
+    "entry": 4322,
+    "sl": 4348,
+    "tp1": 4272,
+    "rr": 1.92,
+    "reason": "INTRADAY Silver Bullet / Judas + OTE — HTF markdown (week -1.8%, month -4/-8%) with DXY still firm under 101.80. Spot ~4299 is mid-premium of Fri box 4256-4316 and slight discount of dealing range EQ ~4311 (4244-4378). Asia/London swept SSL toward 4256 then NY AM ran PDH/BSL into 4316; no 5-15m MSS + FVG/CE hold after the wick. SMT vs DXY is bid (DXY fade, gold HH vs PDH), not a short-confirm divergence. UMich Final HIGH 17:00 EAT lands inside Silver Bullet. Arms only after a further BSL raid / wick into 4318-4328 then 5-15m MSS + FVG/CE, or after confirmed 15m break + retest of 4272 once 17:00 is digested. SL beyond a full 4336+ wick, not PDH. TP1 4272 CE; TP2 4248 SSL/PDL magnet. Do not chase mid-range 4299."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4303.2,
-      "change_pct": 0.67,
+      "price": 4299.4,
+      "change_pct": 0.72,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public ~4303 (Fri box 4256.35-4315.79 / Thu cash ~4244-4305). At dealing-range EQ ~4311 of 4244-4378. Premium of day range after PDH 4305 raid — location improved into BSL, but not a confirmed OTE/CE hold. No LTF MSS below 4264 + retest.",
-      "news": "BLACKOUT: USD Durable Goods HIGH 15:30 EAT inside next ~15m; Schmid ~16:20 EAT; UMich final 17:00 EAT into Silver Bullet — do not chase PRE-NY 4316 wick",
-      "entry": 4320,
-      "sl": 4344,
-      "tp1": 4248
+      "location": "Public ~4299 (Fri box 4256.61-4315.73 / Thu cash ~4245-4305). Slightly below dealing-range EQ ~4311 of 4244-4378. Mid-premium of day after PDH 4305 + 4316 BSL raid — location improved into BSL but not a confirmed OTE/CE hold. No LTF MSS below 4272 + retest.",
+      "news": "Durable Goods 15:30 EAT done (0.0% / core capex +1.6%). BLACKOUT: UMich Final 17:00 EAT into Silver Bullet 17:00-18:00 EAT; Schmid ~16:20 EAT — do not chase NY AM mid-range 4299",
+      "entry": 4322,
+      "sl": 4348,
+      "tp1": 4272
     },
     {
       "symbol": "EURUSD",
