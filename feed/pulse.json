@@ -1,36 +1,36 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T21:05:00+03:00",
+  "updated_at": "2026-09-25T22:07:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY late / Friday close",
+  "session": "Friday NY close into Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.04,
-    "note": "DXY ~101.04 (range 100.87-101.31, prev ~101.29) off the week high, still holding the mid-100s. XAU Investing 4283.50; day box 4255.00-4315.73, EQ ~4285. Week dealing 4244-4399. Durable Goods + UMich Final already through. No red-folder USD print in the next 4h. FOMC Hammack ~21:00 EAT (live/window). Friday NY tape thinning into the close / weekend gap. Prior premium-sell 4303-4316 still not a live location at current mid-EQ."
+    "note": "DXY ~101.04 (range 100.87-101.31, prev ~101.29) off the week high, still holding the mid-100s. XAU spot ~4284; day box 4255.00-4315.73, EQ ~4285. Week dealing 4244-4399. Durable Goods + UMich Final already through. No red-folder USD print in the next 4h. CFTC positioning ~22:30 EAT (not red). Hammack window faded. Friday tape thinning into Asia / weekend gap. Prior premium-sell 4303-4316 still not a live location at current mid-EQ. 10Y ~5.17-5.19%."
   },
   "sotd": {
     "symbol": "XAUUSD",
-    "side": "WAIT",
+    "side": "SELL",
     "status": "WAIT",
-    "grade": "—",
+    "grade": "C",
     "entry": null,
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY AMD/Po3 WAIT. Spot ~4284 sits on Fri EQ of 4255-4316 after PDH/BSL 4303-4316 was swept and faded. HTF week still discount-to-bearish (4399 to 4244). No LTF MSS + FVG/CE at a valid OTE/OB. NY AM + Silver Bullet closed. Hammack ~21:00 EAT + Friday thin tape. Do not sell EQ or buy mid-box."
+    "reason": "INTRADAY AMD/Po3 + OTE WAIT. Spot ~4284 sits on Fri EQ of 4255-4316 after PDH/BSL 4303-4316 was swept and faded. HTF week still discount-to-bearish (4399 to 4244). No LTF MSS + FVG/CE at a valid OTE/OB. NY AM + Silver Bullet closed. No red USD next 4h; CFTC + weekend gap only. Do not sell EQ or buy mid-box."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4283.50,
-      "change_pct": 0.23,
-      "side": "WAIT",
+      "price": 4284.01,
+      "change_pct": 0.45,
+      "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none — need 5-15m MSS + FVG/CE only if price revisits 4303-4316 BSL or 4255/4244 SSL",
-      "location": "Investing ~4283.5 (day 4255.00-4315.73). Day EQ ~4285. Week range 4244-4399 discount. Not at PDH, not at PDL/SSL. Public feeds also print ~4279-4291.",
-      "news": "No red-folder USD print next 4h. Hammack speech ~21:00 EAT (live). Friday close/weekend gap.",
+      "location": "Spot ~4284 (day 4255.00-4315.73). Day EQ ~4285. Week range 4244-4399 discount. Not at PDH, not at PDL/SSL. Public feeds also print ~4283-4291.",
+      "news": "No red-folder USD print next 4h. CFTC ~22:30 EAT (not red). Friday close/weekend gap.",
       "entry": null,
       "sl": null,
       "tp1": null
