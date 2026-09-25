@@ -1,39 +1,39 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T17:05:00+03:00",
+  "updated_at": "2026-09-25T17:07:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY AM / Silver Bullet",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 100.98,
-    "note": "Public DXY ~100.98 (-0.31%) after 101.31 tag; still under 101.80 52w cap. XAU public ~4301 (spot cluster ~4279-4311, Fri box 4256.61-4315.73). Durable Goods and Schmid already through. LIVE BLACKOUT: UMich Sentiment Final + Inflation Expectations 17:00 EAT (cons. ~47.4 / 1y infl 4.6%) inside Silver Bullet 17:00-18:00 EAT. Hammack ~21:00 EAT. China Mid-Autumn holiday. Do not arm into the print."
+    "dxy": 100.97,
+    "note": "Public DXY ~100.97 (-0.31%) after 101.31 tag; still under 101.80 52w cap. XAU public ~4263 (Investing 4262.66 at 10:07 ET), Fri box 4255.00-4315.73. Durable Goods + Schmid through. UMich Final printed 17:00 EAT: sentiment 48.1 (flash 47.8 / cons ~47.6-47.8), 1y infl 4.6% unrevised, 5y 3.4%. Gold Judas-ran BSL to 4316 then displaced into 4255 SSL. Hammack ~21:00 EAT, Baker Hughes ~20:00 EAT. China Mid-Autumn holiday. Do not chase the dump."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4322,
-    "sl": 4348,
-    "tp1": 4272,
-    "rr": 1.92,
-    "reason": "INTRADAY Silver Bullet / Judas + OTE — HTF markdown (week soft, month -4/-8%) with DXY still firm under 101.80. Spot ~4301 is mid-premium of Fri box 4256-4316 and slight discount of dealing range EQ ~4311 (4244-4378). Asia/London swept SSL toward 4256 then NY AM ran PDH/BSL into 4316; no confirmed 5-15m MSS + FVG/CE hold after the wick. SMT vs DXY is still bid (DXY fade, gold holding the NY AM high zone), not a short-confirm divergence. UMich Final is printing now inside Silver Bullet. Arms only after a further BSL raid / wick into 4318-4328 then 5-15m MSS + FVG/CE, or after confirmed 15m break + retest of 4272 once 17:00 is digested. SL beyond a full 4336+ wick, not PDH. TP1 4272 CE; TP2 4248 SSL/PDL magnet. Do not chase mid-range 4301 into the print."
+    "entry": 4308,
+    "sl": 4336,
+    "tp1": 4258,
+    "rr": 1.79,
+    "reason": "INTRADAY Silver Bullet / Judas + OTE — HTF markdown (week soft, month -4/-8%) with DXY still firm under 101.80. Spot ~4263 is discount of Fri box 4255-4316 (EQ ~4285) and discount of dealing range EQ ~4310 (4244-4376). Asia/London held SSL then NY AM Judas-ran PDH/BSL into 4316; UMich Final 48.1/4.6% just printed and price displaced into 4255 SSL. No confirmed 5-15m MSS + FVG/CE hold on a retrace. SMT vs DXY mixed (DXY fade, gold now offered). Arms only after a Silver Bullet retrace into 4298-4316 CE/OTE then 5-15m MSS + FVG/CE, not at the 4255 low. SL beyond a full 4316+ wick, not PDH. TP1 4258 SSL; TP2 4244 PDL. Do not chase mid-dump 4263."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4301.0,
-      "change_pct": 0.62,
+      "price": 4263.0,
+      "change_pct": -0.26,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public ~4301 (Fri box 4256.61-4315.73 / cluster 4279-4311). Slightly below dealing-range EQ ~4311 of 4244-4378. Mid-premium of day after PDH/BSL raid into 4316 — location improved into BSL but not a confirmed OTE/CE hold. No LTF MSS below 4272 + retest.",
-      "news": "BLACKOUT: UMich Final + Infl Exp 17:00 EAT printing inside Silver Bullet 17:00-18:00 EAT. Schmid already through. Hammack ~21:00 EAT. Do not chase NY AM mid-range 4301",
-      "entry": 4322,
-      "sl": 4348,
-      "tp1": 4272
+      "location": "Public ~4263 (Fri box 4255.00-4315.73). Discount of day EQ ~4285 and dealing-range EQ ~4310 of 4244-4376. NY AM Judas ran BSL/PDH into 4316 then UMich displacement into 4255 SSL — location is now wrong for a market sell.",
+      "news": "UMich Final 17:00 EAT printed: 48.1 / 1y infl 4.6% / 5y 3.4%. Digesting inside Silver Bullet. Hammack ~21:00 EAT. Do not chase 4263 dump or buy 4255 blind",
+      "entry": 4308,
+      "sl": 4336,
+      "tp1": 4258
     },
     {
       "symbol": "EURUSD",
