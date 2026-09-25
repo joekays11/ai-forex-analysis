@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T05:05:00+03:00",
+  "updated_at": "2026-09-25T05:08:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.26,
-    "note": "DXY ~101.26 still firm near two-month highs into Friday Asia. Public XAU cluster ~4274 (LiveExchanges 4273.67 -0.40% / FXEmpire ~4274 / CNBC XAU= ~4276); Investing print ~4292 is the high tape, not a confirmed break of 4303. Still inside Thu cash ~4244.8-4303.3. No USD/EUR/GBP red-folder in next 4h (05:05-09:05 EAT). JPY BOJ Core CPI ~08:00 EAT (typically low/med). GfK at the window edge ~09:00 EAT. Williams/Bailey ~12:15 EAT, Durable Goods 15:30 EAT, UMich final ~17:00 EAT. CN/KR holiday. Thin Friday Asia."
+    "dxy": 101.27,
+    "note": "DXY ~101.27 firm near two-month highs (52w high ~101.80). Gold tape split: Investing 4291.59 (day 4264.46-4295.89, prev 4273.67) / TE 4293.02 / XE 4291.04 vs earlier LiveExchanges cluster ~4274. Still inside Thu cash ~4244-4303. No USD red-folder in next 4h (05:08-09:08 EAT). JPY BOJ Core CPI ~08:00 EAT (low/med). GfK ~09:00 EAT window edge. Williams/Bailey ~12:15 EAT, Durable Goods 15:30 EAT, UMich final ~17:00 EAT. CN/KR holiday. Thin Friday Asia."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 05:05 EAT. Public cluster ~4274 is mid-box after the 4264 tap; Investing ~4292 only kisses the low of 4288-4303 OTE/CE. Arms only on Judas-relief into 4288-4303 then LTF MSS + FVG. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 05:08 EAT. High tape 4291-4296 tags the low of 4288-4303 OTE/CE; public cluster still mixed vs ~4274. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range or pre-KZ."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4274,
-      "change_pct": -0.40,
+      "price": 4292,
+      "change_pct": 0.42,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public cluster ~4274 (LiveExchanges 4273.67) mid of Thu cash ~4244.8-4303.3 and off Fri 4264 tap; Investing ~4292 is high-tape only. 4288-4303 OTE/premium fade not accepted. Mid-box — location fail.",
-      "news": "no USD red in next 4h; BOJ Core CPI ~08:00 EAT (not red). Williams/Bailey ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing mid-range",
+      "location": "Investing 4291.59 / TE 4293 / XE 4291 vs ~4274 cluster. Fri range ~4264.5-4295.9 inside Thu cash 4244-4303. Touched low of 4288-4303 OTE; no LTF MSS/displacement. Mid-to-premium of Thu box — location incomplete.",
+      "news": "no USD red in next 4h; BOJ Core CPI ~08:00 EAT (not red). Williams/Bailey ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing Asia mid-range",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
