@@ -1,36 +1,36 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T18:10:00+03:00",
+  "updated_at": "2026-09-25T19:10:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY PM / Friday fade",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.00,
-    "note": "Public DXY ~101.00 (-0.24%) after 101.31 tag; still under 101.80 52w cap. XAU public ~4281 (Investing; day 4255.00-4315.73). Durable Goods + UMich Final already through. No red-folder data print in the next 4h. Baker Hughes ~20:00 EAT, FOMC Hammack ~21:00 EAT. Friday NY close approaching; tape thinning. China Mid-Autumn holiday. Do not chase mid-range bounces."
+    "dxy": 101.28,
+    "note": "Public DXY ~101.28 (biquote; day 101.20-101.30) after earlier 101.31 tag; still under 101.80 52w cap. XAU public ~4298 (biquote 4297.93/4298.11; day 4254.27-4315.84). Durable Goods + UMich Final already through. No red-folder data print in the next 4h. Baker Hughes ~20:00 EAT, FOMC Hammack ~21:00 EAT. Friday NY close approaching; tape thinning. China Mid-Autumn holiday. Do not chase mid-range longs; premium 4298-4316 is the only sell location."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
-    "status": "WAIT",
+    "status": "ARMED",
     "grade": "B",
     "entry": 4308,
     "sl": 4336,
     "tp1": 4258,
     "rr": 1.79,
-    "reason": "INTRADAY Judas+OTE — HTF markdown (week soft, month -4/-8%) with DXY still firm under 101.80. Spot ~4281 is mid/EQ of Fri box 4255-4316 (EQ ~4285.5) after bounce off 4255 SSL. NY AM Judas ran BSL/PDH into 4316 then displaced into SSL; NY AM/Silver Bullet 15:30-18:00 EAT just closed. No 5-15m MSS + FVG/CE hold in premium. SMT vs DXY mixed (DXY faded off 101.31 while gold mid-range). Arms only after retrace into 4298-4316 CE/OTE then 5-15m MSS + FVG/CE, not mid-range 4281 and not at the 4255 low. SL beyond a full 4316+ wick, not PDH. TP1 4258 SSL; TP2 4244 PDL. Speech + Friday-thin risk."
+    "reason": "INTRADAY Judas+OTE — HTF markdown (week soft ~-1.8%, month soft) with DXY firm ~101.28 under 101.80. Spot ~4298 tags the low of Fri premium 4298-4316 after NY AM Judas ran BSL/PDH into 4316 then displaced toward 4254 SSL. Day EQ ~4285; week dealing EQ ~4317 so 4298 is premium of the Friday box, still a touch discount to the 4244-4399 week range. NY AM/Silver Bullet 15:30-18:00 EAT closed. No confirmed 5-15m MSS + FVG/CE hold yet — ARMED not LIVE. SMT vs DXY mixed (dollar bid while gold bounced). Arms only in 4298-4316 after 5-15m MSS + FVG/CE, not a market sell at 4298 (RR would collapse) and not a buy of 4254. SL beyond a full 4316+ wick, not PDH. TP1 4258 SSL; TP2 4244 PDL. Speech + Friday-thin risk."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4281.0,
-      "change_pct": 0.17,
+      "price": 4298.0,
+      "change_pct": 0.77,
       "side": "SELL",
-      "status": "WAIT",
+      "status": "ARMED",
       "bias": "bearish",
-      "trigger": "none",
-      "location": "Public ~4281 (Fri box 4255-4316; Investing 4255.00-4315.73). Mid/EQ ~4285.5 after bounce off 4255 SSL. Premium sell zone is 4298-4316; current print is not that location.",
-      "news": "No red-folder data next 4h. Hammack ~21:00 EAT, Baker Hughes ~20:00 EAT, Friday thin tape. Do not chase 4281 bounce or buy 4255 blind",
+      "trigger": "5-15m MSS + FVG/CE hold inside 4298-4316",
+      "location": "Public ~4298 (biquote 4297.93-4298.11; Fri box 4254.27-4315.84). Day EQ ~4285; now at the low of premium 4298-4316 after bounce off 4254 SSL. Not mid-box anymore, not PDH.",
+      "news": "No red-folder data next 4h. Hammack ~21:00 EAT, Baker Hughes ~20:00 EAT, Friday thin tape. Do not market-sell 4298 or buy 4254 blind",
       "entry": 4308,
       "sl": 4336,
       "tp1": 4258
