@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T14:20:00+03:00",
+  "updated_at": "2026-09-25T15:12:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "PRE-NY",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.16,
-    "note": "Public DXY ~100.97-101.23 (session 100.95-101.31) still under ~101.80 52w cap after the weekly push toward 101.40. XAU public ~4314.8 (+1.05%) Fri box 4256.33-4315.84 after tagging PDH ~4305 and extending BSL. USDJPY faded toward ~157.83 from 159.00. Next red-folder: USD Durable Goods HIGH 15:30 EAT / 12:30 UTC (headline cons. ~-0.3% vs prior +1.1%; core/ex-transp cons. ~+0.6%). Fed Schmid ~15:20 EAT. UMich final ~17:00 EAT into Silver Bullet. London KZ closed; NY AM 15:30-18:00 EAT opens into the print. Do not arm into 15:30 data."
+    "dxy": 100.99,
+    "note": "Public DXY ~100.99 (-0.25%) session 100.94-101.31, still under ~101.80 52w cap after fading 101.31. XAU public ~4303 (+0.67%) Fri box 4256.35-4315.79 after tagging PDH ~4305 and sweeping BSL into 4316. USDJPY faded toward ~157.83 from 159.00. Next red-folder: USD Durable Goods HIGH 15:30 EAT / 12:30 UTC (headline cons. ~-0.3%/-0.4% vs prior +1.1%; core/ex-transp cons. ~+0.6%). Fed Schmid ~16:20 EAT. UMich final ~17:00 EAT into Silver Bullet. London KZ closed; NY AM 15:30-18:00 EAT opens into the print. Do not arm into 15:30 data."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4344,
     "tp1": 4248,
     "rr": 3.0,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY still firm under 101.80. Spot ~4315 is premium of Fri box 4256-4316 and at dealing-range EQ ~4311 (range 4244-4378). Day high 4315.84 ran PDH magnet 4305 and is probing BSL; no confirmed 5-15m MSS + FVG/CE hold. Trigger + location incomplete into Durable Goods HIGH 15:30 EAT and UMich 17:00 EAT. Arms only after further BSL raid / wick into 4318-4328 then 5-15m MSS + FVG/CE, or after confirmed 15m break + retest of 4264 once the 15:30 print is digested. SL beyond a full 4336+ wick. TP1 4248 SSL / Thu cash-low magnet. Do not chase mid-range or the 4316 wick."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY still firm under 101.80 despite the 100.99 fade. Spot ~4303 is premium of Fri box 4256-4316 and sitting on dealing-range EQ ~4311 (range 4244-4378). Day high 4315.79 ran PDH magnet 4305 and probed BSL; no confirmed 5-15m MSS + FVG/CE hold. SMT vs DXY is aligned bid (DXY LL, gold HH), not a short-confirm divergence. Trigger + location incomplete into Durable Goods HIGH 15:30 EAT and UMich 17:00 EAT. Arms only after further BSL raid / wick into 4318-4328 then 5-15m MSS + FVG/CE, or after confirmed 15m break + retest of 4264 once the 15:30 print is digested. SL beyond a full 4336+ wick. TP1 4248 SSL / Thu cash-low magnet. Do not chase mid-range or the 4316 wick."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4314.8,
-      "change_pct": 1.05,
+      "price": 4303.2,
+      "change_pct": 0.67,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public ~4314.8 (Fri box 4256.33-4315.84 / Thu cash ~4244-4305). At dealing-range EQ ~4311 of 4244-4378. Premium of day range after PDH 4305 raid — location improved into BSL, but not a confirmed OTE/CE hold. No LTF MSS below 4264 + retest.",
-      "news": "BLACKOUT: USD Durable Goods HIGH 15:30 EAT inside next 75m; Schmid ~15:20 EAT; UMich final 17:00 EAT into Silver Bullet — do not chase PRE-NY 4316 wick",
+      "location": "Public ~4303 (Fri box 4256.35-4315.79 / Thu cash ~4244-4305). At dealing-range EQ ~4311 of 4244-4378. Premium of day range after PDH 4305 raid — location improved into BSL, but not a confirmed OTE/CE hold. No LTF MSS below 4264 + retest.",
+      "news": "BLACKOUT: USD Durable Goods HIGH 15:30 EAT inside next 18m; Schmid ~16:20 EAT; UMich final 17:00 EAT into Silver Bullet — do not chase PRE-NY 4316 wick",
       "entry": 4320,
       "sl": 4344,
       "tp1": 4248
