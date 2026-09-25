@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T10:00:00+03:00",
+  "updated_at": "2026-09-25T10:07:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.25,
-    "note": "DXY last public cluster ~101.25 firm near two-month highs (52w ~101.80). Public gold ~4269 (Fri 24h ~4257-4295; Thu cash ~4244-4303). No USD red-folder print in next 4h (10:00-14:00 EAT). Williams + Bailey speeches ~12:15 EAT (speaker risk). Durable Goods 15:30 EAT, UMich final ~17:00 EAT after window. London KZ 09:00-12:00 EAT still open; NY AM 15:30-18:00 EAT after Durables."
+    "dxy": 101.15,
+    "note": "DXY ~101.15 (-0.09%) day 101.13-101.31, still firm near two-month highs (52w ~101.80). XAUUSD ~4277 (Fri 4256.6-4295.9; Thu cash 4244-4305). No USD red-folder print in next 4h (10:07-14:07 EAT). Williams + Bailey speeches ~12:15 EAT (speaker risk). Durable Goods 15:30 EAT, UMich final ~17:00 EAT after window. London KZ 09:00-12:00 EAT open; NY AM 15:30-18:00 EAT after Durables."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Spot ~4269 sits mid of Fri 4257-4295 and discount vs dealing range 4244-4378 (EQ ~4311). Not in 4288-4303 OTE/CE. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT, or after confirmed 15m break + retest of 4264. SL beyond full 4303 wick, not Asia high. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range into 12:15 EAT speakers."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Spot ~4277 sits day-EQ of Fri 4257-4296 and discount vs dealing range 4244-4378 (EQ ~4311). Not in 4288-4303 OTE/CE. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT, or after confirmed 15m break + retest of 4264. SL beyond full 4305 wick, not Asia high. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range into 12:15 EAT speakers."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4269,
-      "change_pct": 0.05,
+      "price": 4277,
+      "change_pct": 0.07,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public ~4269 (Fri 24h 4257-4295 / Thu cash ~4244-4303). Discount vs dealing range 4244-4378 EQ 4311. Sitting on 4264-4270 S1, not in 4288-4303 OTE/CE. No confirmed LTF MSS below 4264 + retest — location incomplete for shorts.",
+      "location": "Public ~4277 (Fri 24h 4256.6-4295.9 / Thu cash ~4244-4305). Discount vs dealing range 4244-4378 EQ 4311. Sitting day-EQ ~4276, not in 4288-4303 OTE/CE. No confirmed LTF MSS below 4264 + retest — location incomplete for shorts.",
       "news": "no USD red-folder in next 4h; Williams+Bailey ~12:15 EAT; Durable Goods 15:30 EAT / UMich 17:00 EAT after window — blackout on chasing London mid-range",
       "entry": 4298,
       "sl": 4318,
