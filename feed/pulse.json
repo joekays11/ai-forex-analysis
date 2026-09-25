@@ -1,36 +1,36 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T19:12:00+03:00",
+  "updated_at": "2026-09-25T20:01:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY midday / Friday",
+  "session": "NY late / Friday close",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.20,
-    "note": "Public DXY ~101.20 (MarketWatch ~101.28 range 101.21-101.31; Investing ~100.90; LiveExchanges ~101.15) still under 101.80 52w cap. XAU public cluster ~4278 (CNBC spot ~4276, LiveExchanges ~4280, FXEmpire ~4277-4283; day box ~4254-4316). Durable Goods + UMich Final already through. No red-folder data print in the next 4h. Baker Hughes ~20:00 EAT, FOMC Hammack ~21:00 EAT. Friday NY tape can thin into the close. China Mid-Autumn holiday. Prior XAU premium-sell 4298-4316 no longer valid — spot left that box toward day EQ ~4285. Do not chase mid-range."
+    "dxy": 100.90,
+    "note": "DXY ~100.90 (range 100.87-101.31, prev 101.24) off the session high. XAU Investing 4284.73 / bid-ask ~4285.5, +0.26% vs 4273.67; day box 4255.00-4315.73, EQ ~4285. Week dealing 4244-4399. Durable Goods + UMich Final already through. No red-folder USD print in the next 4h. Baker Hughes ~20:00 EAT, FOMC Hammack ~21:00 EAT. Friday NY tape thinning into the close. Prior premium-sell 4298-4316 still invalid at current EQ."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "WAIT",
-    "status": "INVALIDATED",
+    "status": "WAIT",
     "grade": "—",
     "entry": null,
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "Prior INTRADAY Judas+OTE SELL ARMED only inside Fri premium 4298-4316. Public spot now ~4278, below that box and near day EQ ~4285 after the bounce off ~4254 failed to hold premium. Trigger + location no longer both pass. HTF still soft (week/month), DXY firm under 101.80, but mid-box is not a sell and 4254 SSL is not a blind buy. No new 5-15m MSS + FVG/CE at a valid POI. Flat into Hammack + Friday thin tape."
+    "reason": "INTRADAY AMD/Po3 WAIT. Spot ~4285 sits on Fri EQ of 4255-4316 after PDH/BSL 4303-4316 was swept and faded. HTF week still discount-to-bearish (4399 to 4244). No LTF MSS + FVG/CE at a valid OTE/OB. NY AM + Silver Bullet closed. Hammack ~21:00 EAT + Friday thin tape. Do not sell EQ or buy mid-box."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4278.0,
-      "change_pct": 0.10,
+      "price": 4284.73,
+      "change_pct": 0.26,
       "side": "WAIT",
-      "status": "INVALIDATED",
+      "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — prior 4298-4316 MSS/FVG condition expired",
-      "location": "Public cluster ~4278 (CNBC ~4276 / LiveEx ~4280 / FXEmpire ~4277-4283). Fri box ~4254-4316; day EQ ~4285. Below premium 4298-4316, not at 4254 SSL, not at PDH.",
-      "news": "No red-folder data next 4h. Hammack ~21:00 EAT, Baker Hughes ~20:00 EAT, Friday thin tape. Do not market-sell 4278 or buy 4254 blind",
+      "trigger": "none — need 5-15m MSS + FVG/CE only if price revisits 4303-4316 BSL or 4255/4244 SSL",
+      "location": "Investing ~4284.7 (day 4255.00-4315.73). Day EQ ~4285. Week range 4244-4399 discount. Not at PDH, not at PDL/SSL.",
+      "news": "No red-folder USD print next 4h. Hammack speech ~21:00 EAT. Baker Hughes around 20:00 EAT. Friday close/weekend gap.",
       "entry": null,
       "sl": null,
       "tp1": null
