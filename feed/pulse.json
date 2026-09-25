@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T06:05:00+03:00",
+  "updated_at": "2026-09-25T06:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.3,
-    "note": "DXY ~101.3 firm near two-month highs. Public gold LiveExchanges 4273.67 (24h 4246.28-4302.93, -0.40%) — the 05:08 EAT 4291-4296 high-tape tag has faded back to the mid of Thu cash ~4244-4303. No USD red-folder in next 4h (06:05-10:05 EAT). JPY BOJ Core CPI ~08:00 EAT (low/med). German GfK ~09:00 EAT window edge. Williams/Bailey ~12:15 EAT, Durable Goods 15:30 EAT, UMich final ~17:00 EAT. CN/KR holiday. Thin Friday Asia into pre-London."
+    "dxy": 101.23,
+    "note": "DXY ~101.23 firm near two-month highs (52w 101.80). Spot gold tape ~4285 (Fri Asia range 4264-4296; Thu cash 4245-4303). No USD red-folder in next 4h (06:06-10:06 EAT). JPY BOJ Core CPI ~08:00 EAT (low/med). German GfK ~09:00 EAT window edge. Williams/Bailey ~12:15 EAT, Durable Goods 15:30 EAT, UMich final ~17:00 EAT. Thin Friday Asia into pre-London."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 06:05 EAT. Public print ~4274 is mid-box of Thu 4244-4303, not the 4288-4303 premium. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range or pre-KZ."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 06:06 EAT. Spot ~4285 sits mid-box of Fri 4264-4296 and Thu 4245-4303, not the 4288-4303 premium/OTE. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range or pre-KZ."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4274,
-      "change_pct": -0.4,
+      "price": 4285,
+      "change_pct": 0.26,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "LiveExchanges 4273.67 (24h 4246.28-4302.93). Mid of Thu cash 4244-4303 after the 05:08 4291-4296 high-tape fade. Not in 4288-4303 OTE/CE. No LTF MSS/displacement — location incomplete.",
+      "location": "Investing ~4284.91 (Fri range 4264.46-4295.89). Mid of Thu cash 4245-4303 after Asia lift off 4264. Not in 4288-4303 OTE/CE. No LTF MSS/displacement — location incomplete.",
       "news": "no USD red in next 4h; BOJ Core CPI ~08:00 EAT (not red); GfK ~09:00 EAT window edge. Williams/Bailey ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing Asia mid-range",
       "entry": 4298,
       "sl": 4318,
