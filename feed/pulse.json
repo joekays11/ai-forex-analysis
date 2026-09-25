@@ -3,11 +3,11 @@
   "source": "Grok",
   "updated_at": "2026-09-25T12:00:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "LONDON",
+  "session": "PRE-NY",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.15,
-    "note": "DXY ~101.15 (-0.14%) still firm near two-month / 52w highs (~101.80). Public refs: XAU ~4279.5, EURUSD ~1.1386, GBPUSD ~1.3226, USDJPY ~158.07, BTC ~84037. Speaker risk LIVE: BoE Gov Bailey + FOMC Williams ~12:15 EAT. USD red-folder Durable Goods HIGH now INSIDE the next 4h (15:30 EAT / 12:30 UTC; cons. headline ~-0.3% vs prior +1.1%). UMich final ~17:00 EAT after this window. London KZ closing; NY open into the print. Do not arm into speeches or the 15:30 data."
+    "note": "DXY ~101.15 (-0.14%) still firm near two-month / 52w highs (~101.80). Public refs: XAU ~4286, EURUSD ~1.1386, GBPUSD ~1.3226, USDJPY ~158.07, BTC ~84037. Speaker risk LIVE: BoE Gov Bailey + FOMC Williams ~12:15 EAT. USD red-folder Durable Goods HIGH now INSIDE the next 4h (15:30 EAT / 12:30 UTC; cons. headline ~-0.3% vs prior +1.1%). UMich final ~17:00 EAT after this window. London KZ closed; NY AM 15:30-18:00 EAT opens into the print. Do not arm into speeches or the 15:30 data."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Spot ~4279.5 is still day-EQ of Fri ~4257-4296 and discount vs dealing range 4244-4378 (EQ ~4311). Not in 4288-4303 OTE/CE. Trigger + location both fail into Bailey/Williams ~12:15 EAT and Durable Goods HIGH 15:30 EAT. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG, or after confirmed 15m break + retest of 4264 once speakers AND the 15:30 print are done. SL beyond full 4305 wick. TP1 4248 SSL. Do not chase mid-range."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Spot ~4286 sits mid/upper of Fri box 4257-4296 and still discount vs dealing range 4244-4378 (EQ ~4311). Not a clean 4288-4305 OTE/CE hold with LTF MSS. Trigger + location fail into Williams/Bailey ~12:15 EAT and Durable Goods HIGH 15:30 EAT. Arms only after Judas-relief into 4288-4305 then 5-15m MSS + FVG/CE, or after confirmed 15m break + retest of 4264 once speakers AND the 15:30 print are digested. SL beyond full 4305/PDH wick. TP1 4248 SSL / Thu cash-low magnet. Do not chase mid-range."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4279.5,
-      "change_pct": 0.31,
+      "price": 4286,
+      "change_pct": 0.30,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public ~4279.5 (Fri box ~4257-4296 / Thu cash ~4244-4305). Discount vs dealing range 4244-4378 EQ 4311. Sitting day-EQ, not in 4288-4303 OTE/CE. No confirmed LTF MSS below 4264 + retest — location incomplete for shorts.",
+      "location": "Public ~4286 (Fri box 4257-4296 / Thu cash 4244-4305). Discount vs dealing range 4244-4378 EQ 4311. Mid/upper day range, not parked in 4288-4305 OTE/CE. No confirmed LTF MSS below 4264 + retest — location incomplete for shorts; bounce from 4256 already spent.",
       "news": "BLACKOUT: Bailey+Williams speaker risk ~12:15 EAT LIVE; USD Durable Goods HIGH 15:30 EAT now inside next 4h; UMich 17:00 EAT after window — do not chase London mid-range",
       "entry": 4298,
       "sl": 4318,
