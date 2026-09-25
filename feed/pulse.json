@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T06:06:00+03:00",
+  "updated_at": "2026-09-25T07:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.23,
-    "note": "DXY ~101.23 firm near two-month highs (52w 101.80). Spot gold tape ~4285 (Fri Asia range 4264-4296; Thu cash 4245-4303). No USD red-folder in next 4h (06:06-10:06 EAT). JPY BOJ Core CPI ~08:00 EAT (low/med). German GfK ~09:00 EAT window edge. Williams/Bailey ~12:15 EAT, Durable Goods 15:30 EAT, UMich final ~17:00 EAT. Thin Friday Asia into pre-London."
+    "dxy": 101.22,
+    "note": "DXY ~101.22 still firm vs 52w 101.80. Public gold tape ~4271 (Investing 4271.18; Fri range 4264.46-4295.89; LiveExchanges ~4273.67). No USD red-folder in next 4h (07:06-11:06 EAT). JPY BOJ Core CPI ~08:00 EAT (low/med). German GfK ~09:00 EAT (med). EUR M3 ~11:00 EAT (low). Williams/Bailey ~12:15 EAT, Durable Goods ~15:30 EAT, UMich final ~17:00 EAT. Thin Friday Asia into pre-London."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 06:06 EAT. Spot ~4285 sits mid-box of Fri 4264-4296 and Thu 4245-4303, not the 4288-4303 premium/OTE. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range or pre-KZ."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 07:06 EAT. Spot ~4271 left the 4288-4303 premium/OTE and sits mid-discount of Fri 4264-4296 / Thu 4245-4303. No LTF MSS + FVG at the planned CE. Do not chase the mid-range dump toward 4248. Arms only if price reclaims into 4288-4303 then prints LTF MSS in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4285,
-      "change_pct": 0.26,
+      "price": 4271,
+      "change_pct": -0.06,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Investing ~4284.91 (Fri range 4264.46-4295.89). Mid of Thu cash 4245-4303 after Asia lift off 4264. Not in 4288-4303 OTE/CE. No LTF MSS/displacement — location incomplete.",
-      "news": "no USD red in next 4h; BOJ Core CPI ~08:00 EAT (not red); GfK ~09:00 EAT window edge. Williams/Bailey ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing Asia mid-range",
+      "location": "Investing ~4271.18 (Fri range 4264.46-4295.89). Off the 4296 Asia high into mid-discount of Thu 4245-4303. Not in 4288-4303 OTE/CE. No LTF MSS/displacement at premium — location failed; do not chase.",
+      "news": "no USD red in next 4h; BOJ Core CPI ~08:00 EAT (not red); GfK ~09:00 EAT (med). Williams/Bailey ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing Asia mid-range",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
@@ -43,8 +43,8 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "LiveExchanges 1.1377 (24h 1.1361-1.1399). Stuck under 1.1400. Mid-box, no hold of 1.1400 and no confirmed breakdown",
-      "news": "no EUR/USD red in next 4h; GfK ~09:00 EAT at window edge (not a USD red) — no trigger",
+      "location": "LiveExchanges 1.1377. Stuck under 1.1400. Mid-box, no hold of 1.1400 and no confirmed breakdown",
+      "news": "no EUR/USD red in next 4h; GfK ~09:00 EAT (med, not a USD red) — no trigger",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -57,7 +57,7 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "LiveExchanges 1.3219 (24h 1.3207-1.3254). Soft after the 1.3254 fade; neither a bounce location nor a confirmed break of 1.3200",
+      "location": "LiveExchanges 1.3219. Soft after the 1.3254 fade; neither a bounce location nor a confirmed break of 1.3200",
       "news": "no GBP red-folder in next 4h — Bailey later (~12:15 EAT), no trigger",
       "entry": null,
       "sl": null,
@@ -71,7 +71,7 @@
       "status": "WATCH",
       "bias": "bullish",
       "trigger": "none",
-      "location": "LiveExchanges 158.86 inside 157.82-159.03. Off the ~159.03 wick. Neither a hold above 159.00 nor a clean dip-buy; intervention risk still elevated near 159",
+      "location": "LiveExchanges 158.86. Off the ~159.03 wick. Neither a hold above 159.00 nor a clean dip-buy; intervention risk still elevated near 159",
       "news": "BOJ Core CPI ~08:00 EAT (typically low/med). No USD red-folder in next 4h — do not chase 159",
       "entry": null,
       "sl": null,
@@ -85,7 +85,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "LiveExchanges 84533 (24h 83056-84818) mid-box; no hold of the highs and no confirmed break",
+      "location": "LiveExchanges ~84533 mid-box vs ~83056-84818; no hold of the highs and no confirmed break",
       "news": "no crypto-specific red print; Asia risk-on/off can still whip BTC",
       "entry": null,
       "sl": null,
