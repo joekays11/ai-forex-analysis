@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T08:00:00+03:00",
+  "updated_at": "2026-09-25T08:05:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.28,
-    "note": "DXY 101.28 firm (Fri 101.21-101.31, prev ~101.29) near two-month highs (52w 101.80). Spot gold ~4274 (Fri Asia 4264-4296; Thu cash ~4245-4305). No USD red-folder in next 4h (08:00-12:00 EAT). GfK ~09:00 EAT (med). Williams/Bailey ~12:15 EAT just after window. Durable Goods 15:30 EAT, UMich final ~17:00 EAT. Thin Friday Asia into pre-London."
+    "note": "DXY 101.28 firm (Fri 101.21-101.31) near two-month highs (52w 101.80). Spot gold ~4270 (Fri Asia 4264-4296; Thu cash 4244-4303). No USD red-folder in next 4h (08:01-12:01 EAT). Williams speech ~12:15 EAT just after window. Durable Goods 15:30 EAT, UMich final 17:00 EAT. Thin Friday Asia into London KZ 09:00-12:00 EAT."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4318,
     "tp1": 4248,
     "rr": 2.5,
-    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 08:00 EAT. Spot ~4274 sits EQ/slight discount of Fri 4264-4296 and Thu 4245-4305, not the 4288-4303 premium/OTE. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range or pre-KZ."
+    "reason": "INTRADAY Judas + OTE — HTF markdown + DXY bid. Fri Asia 08:01 EAT. Spot ~4270 sits slight discount of Fri 4264-4296 and mid of Thu 4244-4303, not the 4288-4303 premium/OTE. Arms only after Judas-relief into 4288-4303 then LTF MSS + FVG in London 09:00-12:00 EAT. SL beyond full 4303 wick. TP1 4248 SSL, TP2 4235 weekly SSL. Do not chase mid-range or pre-KZ."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4274,
-      "change_pct": -0.1,
+      "price": 4270,
+      "change_pct": 0.11,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid ~4274 (Fri range ~4264-4296). EQ of Thu cash 4245-4305 after fade from Asia 4296. Not in 4288-4303 OTE/CE. No LTF MSS/displacement — location incomplete.",
-      "news": "no USD red in next 4h; Williams/Bailey ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing Asia mid-range",
+      "location": "Public mid ~4270 (Fri range 4264-4296). Slight discount of today, EQ/mid of Thu cash 4244-4303 after fade from Asia 4296. Not in 4288-4303 OTE/CE. No LTF MSS/displacement — location incomplete.",
+      "news": "no USD red in next 4h; Williams ~12:15 EAT + Durable Goods 15:30 EAT after 4h — blackout on chasing Asia mid-range",
       "entry": 4298,
       "sl": 4318,
       "tp1": 4248
