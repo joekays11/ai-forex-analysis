@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T20:04:00+03:00",
+  "updated_at": "2026-09-25T21:00:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY late / Friday close",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 100.97,
-    "note": "DXY ~100.97 (range 100.87-101.31, prev ~101.29) still off the session high. XAU Investing 4290.28 / FXEmpire ~4279; day box 4255.00-4315.73, EQ ~4285. Week dealing 4244-4399. Durable Goods + UMich Final already through. No red-folder USD print in the next 4h. FOMC Hammack ~21:00 EAT. Friday NY tape thinning into the close / weekend gap. Prior premium-sell 4298-4316 still not a live location at current mid-EQ."
+    "dxy": 100.90,
+    "note": "DXY ~100.90 (range 100.87-101.31, prev ~101.29) fading the week high. XAU Investing 4290.78; day box 4255.00-4315.73, EQ ~4285. Week dealing 4244-4399. Durable Goods + UMich Final already through. No red-folder USD print in the next 4h. FOMC Hammack ~21:00 EAT (live/window). Friday NY tape thinning into the close / weekend gap. Prior premium-sell 4303-4316 still not a live location at current mid-EQ."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY AMD/Po3 WAIT. Spot ~4290 sits just above Fri EQ of 4255-4316 after PDH/BSL 4303-4316 was swept and faded. HTF week still discount-to-bearish (4399 to 4244). No LTF MSS + FVG/CE at a valid OTE/OB. NY AM + Silver Bullet closed. Hammack ~21:00 EAT + Friday thin tape. Do not sell EQ or buy mid-box."
+    "reason": "INTRADAY AMD/Po3 WAIT. Spot ~4291 sits just above Fri EQ of 4255-4316 after PDH/BSL 4303-4316 was swept and faded. HTF week still discount-to-bearish (4399 to 4244). No LTF MSS + FVG/CE at a valid OTE/OB. NY AM + Silver Bullet closed. Hammack ~21:00 EAT + Friday thin tape. Do not sell EQ or buy mid-box."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4290.28,
-      "change_pct": 0.39,
+      "price": 4290.78,
+      "change_pct": 0.40,
       "side": "WAIT",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none — need 5-15m MSS + FVG/CE only if price revisits 4303-4316 BSL or 4255/4244 SSL",
-      "location": "Investing ~4290.3 (day 4255.00-4315.73). Day EQ ~4285. Week range 4244-4399 discount. Not at PDH, not at PDL/SSL. Public feeds also print ~4279-4292.",
+      "location": "Investing ~4290.8 (day 4255.00-4315.73). Day EQ ~4285. Week range 4244-4399 discount. Not at PDH, not at PDL/SSL. Public feeds also print ~4280-4294.",
       "news": "No red-folder USD print next 4h. Hammack speech ~21:00 EAT. Friday close/weekend gap.",
       "entry": null,
       "sl": null,
