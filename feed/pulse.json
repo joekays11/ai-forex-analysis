@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T01:11:00+03:00",
+  "updated_at": "2026-09-28T02:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "Sydney/Asia open",
+  "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 100.97,
-    "note": "DXY last public ~100.97-101.04 after Fri fade off ~101.40. Gold public cluster ~4285-4286 (LiveExchanges 4285.55 H 4314.81 L 4246.28; FXStreet ~4285.27). EUR ~1.1391 / GBP ~1.3250 / USDJPY ~157.28 / BTC ~84530. No USD/EUR/GBP red-folder next 4h. JPY BoJ minutes + SPPI ~02:50 EAT can whip metals via USDJPY. First USD: Bowman ~15:15 EAT; Dallas Fed later; Barkin ~20:30 EAT. RBA Tue 00:30 EAT."
+    "note": "DXY public cluster ~100.97 (Investing) vs ~99.8 on some futures feeds. Gold public ~4260-4266 after fade from Fri ~4285. Day box ~4258-4285. EUR ~1.139 / GBP ~1.325 / USDJPY ~157.3. No USD red-folder next 4h. JPY BoJ minutes + SPPI ~02:50 EAT is a void window for metals. First USD: Bowman ~15:15 EAT; Dallas Fed 17:30 EAT; Barkin later. RBA Tue ~00:30 EAT."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY Po3/AMD + Judas WAIT. Asia 01:11 EAT, public spot ~4286 sits on Fri EQ of 4246-4315 and in weekly discount (4244-4399, EQ ~4322). HTF daily still bearish from 4510 LH sequence. No London/NY killzone, no fresh displacement/MSS, not at PDH ~4315 or PDL/SSL 4246/4244. Do not fade thin Sunday/Asia mid. JPY 02:50 EAT is a void window."
+    "reason": "INTRADAY AMD/Judas + OTE WAIT. Asia 02:06 EAT, spot ~4265 sits on/near Fri-Sun SSL 4244-4258 and in weekly discount (4244-4399, EQ ~4322). HTF daily still bearish from 4510 LH sequence. No London/NY killzone, no fresh displacement/MSS, not at PDH ~4315 premium. Do not fade thin Asia mid into JPY 02:50 EAT void."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4285.55,
-      "change_pct": -0.01,
+      "price": 4265.5,
+      "change_pct": -0.46,
       "side": "WAIT",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — need London Judas sweep of Asia high/low then 5-15m MSS + FVG/CE. Watch 4315 Fri BSL/PDH for sells only after displacement; 4246/4244 SSL for buys only after MSS.",
-      "location": "Public spot ~4286. Fri box 4246-4315 EQ ~4281. Week 4244-4399 discount (EQ ~4322). Asia open, not OTE, not PDH, not PDL.",
-      "news": "No USD red-folder next 4h. JPY BoJ minutes/SPPI ~02:50 EAT can whip metals via USDJPY. Bowman ~15:15 EAT; RBA Tue 00:30 EAT.",
+      "trigger": "none — need London Judas sweep of Asia high/low then 5-15m MSS + FVG/CE. Watch 4315 Fri BSL/PDH for sells only after displacement; 4244-4258 SSL for buys only after bullish MSS.",
+      "location": "Public spot ~4265. Session box 4258-4285. Week 4244-4399 discount (EQ ~4322). Asia, not OTE, testing PDL/SSL not PDH.",
+      "news": "No USD red-folder next 4h. JPY BoJ minutes/SPPI ~02:50 EAT can whip metals via USDJPY. Bowman ~15:15 EAT; Dallas Fed 17:30 EAT; RBA Tue 00:30 EAT.",
       "entry": null,
       "sl": null,
       "tp1": null
