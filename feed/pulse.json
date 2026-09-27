@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-25T23:10:00+03:00",
+  "updated_at": "2026-09-28T00:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY late / Friday close",
+  "session": "Asia open / Monday",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.00,
-    "note": "DXY public ~100.96-101.12 (session 100.87-101.31, week high 101.40) still firm vs mid-Sep 99s. XAU public ~4279-4311 (LE 4279.5 / FXS 4311 / futures GC 4322). Day box ~4256-4316. Week dealing 4244-4399. Durable Goods, UMich Final, Williams/Schmid/Hammack already through. CFTC (Tue 22 Sep positioning) printed Friday. No red-folder USD print in the next 4h. ~50m to typical Friday NY FX close; weekend gap risk."
+    "dxy": 101.04,
+    "note": "DXY last cash close ~101.04 (Fri session 100.87-101.31, 52w 95.55-101.80) still firm. XAU public ~4285-4286 (spot cluster 4284.89-4286.12; Investing last 4285.37). Fri day box 4255-4316. Week dealing 4244-4399. No red-folder USD in next 4h. First USD: Bowman speak ~15:15 EAT, Dallas Fed later; Barkin ~19:30 EAT. RBA Tue 00:30 EAT."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY AMD/Po3 WAIT. Public mid ~4290 sits on Fri EQ of 4256-4316 after NY swept PDH/BSL 4303-4316 and faded. HTF week still discount-to-bearish (4399 to 4244). No LTF MSS + FVG/CE at a valid OTE/OB. NY AM + Silver Bullet closed. Thin Friday tape + weekend gap. Do not sell EQ or buy mid-box."
+    "reason": "INTRADAY Po3/AMD + Judas WAIT. Asia 00:06 EAT, spot ~4286 sits on Fri EQ of 4255-4316 and in weekly discount (4244-4399, EQ ~4322). HTF daily still bearish from 4510 LH sequence. No London/NY killzone, no fresh displacement/MSS, not at PDH 4316 or PDL/SSL 4255/4244. Do not fade Asia mid."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4290.00,
-      "change_pct": 0.45,
+      "price": 4286.00,
+      "change_pct": 0.00,
       "side": "WAIT",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — need 5-15m MSS + FVG/CE only if price revisits 4303-4316 BSL or 4255/4244 SSL",
-      "location": "Public mid ~4290 (LE ~4279 / FXS ~4311 / GC ~4322). Day 4256-4316. Day EQ ~4286. Week range 4244-4399 discount. Not at PDH, not at PDL/SSL.",
-      "news": "No red-folder USD print next 4h. Data + Fed speak already through. CFTC out (low). Friday close/weekend gap.",
+      "trigger": "none — need London Judas sweep of Asia high/low then 5-15m MSS + FVG/CE. Watch 4316 Fri BSL/PDH for sells only after displacement; 4255/4244 SSL for buys only after MSS.",
+      "location": "Public ~4286. Fri box 4255-4316 EQ ~4286. Week 4244-4399 discount (EQ ~4322). Asia open, not OTE, not PDH, not PDL.",
+      "news": "No red-folder USD next 4h. Bowman ~15:15 EAT; Dallas Fed later; Barkin ~19:30 EAT. RBA Tue 00:30 EAT.",
       "entry": null,
       "sl": null,
       "tp1": null
