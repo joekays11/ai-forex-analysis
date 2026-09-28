@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T23:12:00+03:00",
+  "updated_at": "2026-09-28T23:16:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA OPEN",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.21,
-    "note": "Public mids (not broker ticks): XAU ~4118 (Investing 4118.16; biquote ~4122; MarketScreener ~4133; PH hist 4121.52). Day H/L session ~4261 / 4111; Investing range 4285.37 / 4111.08; open ~4260; PDH/Fri ~4285; SSL print ~4110.72. DXY 101.21 (H 101.31 L 100.98, prev 100.97). No red-folder USD next 4h. Cook/Barkin/Lagarde/Ramsden spent. BRC Shop Price low impact. RBA Cash Rate Tue ~07:30 EAT (outside 4h). JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. Firm DXY + ~5.2% yields keep gold bid-less after ~150pt NY dump."
+    "dxy": 101.16,
+    "note": "Public mids (not broker ticks): XAU ~4130 band (LiveEx 4136.33; MarketScreener ~4135; biquote ~4119; goldpriceticker ~4128). Day H/L ~4262 / 4111; SSL print ~4110.72. DXY ~101.16 (H 101.31 L 100.98, prev ~100.97). No red-folder next 4h. Ramsden/Bowman/Lagarde/Cook/Barkin spent. BRC Shop Price low. AUD Household Spending low if it prints overnight. RBA Cash Rate Tue ~07:30 EAT (outside 4h). JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. Firm DXY after NY gold dump (~150pts off ~4261) keeps metals bid-less into Asia."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Po3. 23:12 EAT ASIA OPEN. Public spot ~4118 after Judas/open tap ~4261 then displacement through prior SSL into 4110.72. Hold 4118 is extreme discount of 4261-4111 dealing range (EQ ~4186), not a premium trigger. HTF daily LH bearish; DXY 101.21 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4186-4228 EQ/OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones spent; Silver Bullet spent."
+    "reason": "INTRADAY AMD+Po3. 23:16 EAT ASIA OPEN. Public spot ~4130 after Judas/open tap ~4261 then displacement through prior SSL into ~4111. Hold ~4130 is discount of 4262-4111 dealing range (EQ ~4186), not a premium trigger. HTF daily LH bearish; DXY ~101.16 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4186-4228 EQ/OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones spent; Silver Bullet spent. Trigger+location both fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4118.16,
-      "change_pct": -3.9,
+      "price": 4136.33,
+      "change_pct": -3.49,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — NY expansion already printed ~4261 to ~4111; 23:12 EAT hold ~4118 is not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4186-4228 yet. 4118 is Asia-open discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. Cook/Barkin spent.",
-      "location": "Public mid ~4118 (Investing 4118.16; biquote ~4122). Session H/L ~4261 / 4111 (SSL print ~4110.72). PDH/Fri ~4285. Discount of day range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "No USD red-folder next 4h. Cook/Barkin spent. BRC Shop Price low. RBA Tue ~07:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri.",
+      "trigger": "none — NY expansion already printed ~4261 to ~4111; 23:16 EAT hold ~4130 is not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4186-4228 yet. Discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
+      "location": "Public mid ~4130 (LiveEx 4136.33; MarketScreener ~4135; biquote ~4119). Session H/L ~4262 / 4111 (SSL ~4110.72). PDH/Fri ~4285. Discount of day range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "No USD red-folder next 4h. Cook/Barkin/Lagarde spent. BRC Shop Price low. RBA Tue ~07:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
@@ -44,7 +44,7 @@
       "bias": "bearish",
       "trigger": "none",
       "location": "Public mid 1.1377 (LiveEx 1.1377 H 1.1391 L 1.1355). Tight box below 1.1400; no hold above 1.1410 and no confirmed break of ~1.1355.",
-      "news": "No EUR red-folder next 4h. Lagarde medium — spent. Soft blackout into leftover FOMC speaker headlines.",
+      "news": "No EUR red-folder next 4h. Lagarde medium — spent. Soft leftover FOMC-speaker headlines only.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -58,7 +58,7 @@
       "bias": "neutral",
       "trigger": "none",
       "location": "Public mid 1.3267 (LiveEx 1.3267 H 1.3275 L 1.3226). Mid-high of day box. Neither a discount bounce nor a confirmed hold of 1.3280.",
-      "news": "No GBP red print next 4h. Ramsden already spent. BRC Shop Price late Mon night / Tue EAT (low).",
+      "news": "No GBP red print next 4h. Ramsden spent. BRC Shop Price low impact.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -72,7 +72,7 @@
       "bias": "bullish",
       "trigger": "none",
       "location": "Public mid 157.24 (LiveEx 157.24 H 157.84 L 156.54). Mid of day box after fade off ~157.8s. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-159.",
-      "news": "BoJ minutes + SPPI already printed — spent JPY event risk, not a trigger. Do not chase the fade.",
+      "news": "BoJ minutes + SPPI spent — not a trigger. Do not chase the fade into Asia.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -86,7 +86,7 @@
       "bias": "neutral",
       "trigger": "none",
       "location": "Public mid ~83926 (LiveEx 83926 H 84890 L 82713). Mid of recent box; no hold of highs and no confirmed break of ~82700. Public feeds still diverge ~83.3k-84.0k.",
-      "news": "No crypto-specific red print. Thin NY PM can still whip BTC; Cook/Barkin already spent.",
+      "news": "No crypto-specific red print. Thin Asia open can still whip BTC.",
       "entry": null,
       "sl": null,
       "tp1": null
