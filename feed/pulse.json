@@ -1,7 +1,7 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T10:13:00+03:00",
+  "updated_at": "2026-09-28T11:08:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "London",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
@@ -14,25 +14,25 @@
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4228,
-    "sl": 4272,
+    "entry": 4232,
+    "sl": 4274,
     "tp1": 4138,
-    "rr": 2.05,
-    "reason": "INTRADAY AMD+Judas/OTE. London 10:13 EAT. Spot ~4162 after PDH/Asia 4285 Judas tap then displacement to session L ~4161. HTF daily LH from 4510/4399 still bearish; DXY 101.15 firm so no bullish SMT. Location is extreme discount of 4285-4161 dealing range (EQ 4223) — do not chase the dump and do not buy the first bounce. Arm London into NY: A) retrace into 4223-4248 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4228 / SL 4272 beyond full wick not Asia H/PDH 4285 / TP1 4138 TP2 4112. B) SFP of 4161 then bullish MSS + OTE long only as scalp against HTF."
+    "rr": 2.24,
+    "reason": "INTRADAY AMD+Judas/OTE. London 11:08 EAT. Spot ~4162 after PDH/Asia 4285 Judas tap then displacement to session L ~4152-4161. HTF daily LH from 4510/4399 still bearish; DXY 101.15-101.20 firm so no bullish SMT. Location is extreme discount of 4285-4152 dealing range (EQ ~4218) — do not chase the dump and do not buy the first bounce. Arm London into NY: A) retrace into 4218-4248 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4232 / SL 4274 beyond full wick not Asia H/PDH 4285 / TP1 4138 TP2 4112. B) SFP of 4152-4161 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4162.3,
+      "price": 4162.0,
       "change_pct": -2.88,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — London expansion already printed 4285 to 4161; no OTE/CE tap yet. Prior 4191/4175 objectives spent. Bounce toward 4185-4210 is not 5-15m bullish MSS and not premium. Need retrace into 4223-4248 then bearish MSS + FVG/CE, or SFP of 4161 then bullish MSS. Sells only from premium/EQ after displacement; buys only after confirmed MSS off 4161.",
-      "location": "Spot ~4162. Session 4161-4262; PDH ~4285; Fri BSL ~4316. Week L printing. Extreme discount of day range EQ 4223 and week EQ ~4279. Wrong location for shorts now.",
-      "news": "No USD red-folder next 4h to 14:13 EAT. Ramsden medium ~13:00 EAT. Dallas Fed ~17:30 EAT; Bowman/Cook/Barkin later Mon. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
-      "entry": 4228,
-      "sl": 4272,
+      "trigger": "none — London expansion already printed 4285 to ~4152-4161; no OTE/CE tap yet. Prior 4191/4175 objectives spent. Bounce toward 4185-4210 is not 5-15m bullish MSS and not premium. Need retrace into 4218-4248 then bearish MSS + FVG/CE, or SFP of 4152-4161 then bullish MSS. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
+      "location": "Spot ~4162. Session ~4152-4262; PDH ~4285; Fri BSL ~4316. Week L printing. Extreme discount of day range EQ ~4218 and week EQ ~4279. Wrong location for shorts now.",
+      "news": "No USD red-folder next 4h to 15:08 EAT. Ramsden medium ~13:00 EAT. Bowman ~15:15 EAT (yellow). Dallas Fed ~17:30 EAT; Cook/Barkin later Mon. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
+      "entry": 4232,
+      "sl": 4274,
       "tp1": 4138
     },
     {
