@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T05:11:00+03:00",
+  "updated_at": "2026-09-28T06:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.13,
-    "note": "XAU public cluster ~4218 (biquote last 4215 bid/ask 4214.92/4215.08; FXStreet 4221.44). Session box biquote 4206-4261; PDH/prev close cluster ~4285. DXY 101.13 (+0.10%). No USD/EUR/GBP red-folder next 4h (to 09:11 EAT). Nationwide HPI ~09:00 EAT (low). Bowman ~15:15 EAT; Lagarde ~16:30 EAT (orange); Dallas Fed Mfg ~17:30 EAT (low). RBA cash Tue ~00:30 EAT. Japan Silver Week = thin Asia book."
+    "dxy": 101.10,
+    "note": "XAU public cluster ~4196 (Investing 4195.51; biquote ~4196; session L ~4194). Session box ~4194-4261; PDH/prev close ~4285. DXY 101.10 (+0.13%), range 101.06-101.20. No USD red-folder next 4h (to 10:06 EAT). Bowman ~15:15 EAT; Lagarde ~16:30 EAT (orange); Dallas Fed Mfg ~17:30 EAT (low). RBA cash Tue ~00:30 EAT. Japan Silver Week = thin Asia book."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY Judas/AMD + OTE. Asia 05:11 EAT. Spot ~4218 after SSL/weekly low break and session L ~4206. HTF daily LH from 4510/4399 still bearish; DXY bid so no bullish SMT. Location is discount expansion, not OTE. No London KZ, no 5-15m bullish MSS off 4206, no bearish MSS from a premium array. Do not chase the dump or the 4214-4221 bounce. Arm London 09:00-12:00 EAT: A) Judas rally into 4244-4261 (CE/FVG/Asia H) then bearish MSS + FVG/CE short; B) SFP of 4206 then bullish MSS + OTE long only as scalp against HTF."
+    "reason": "INTRADAY Judas/AMD. Asia 06:06 EAT. Spot ~4196 after fresh SSL/weekly-low expansion (session L ~4194 vs 05:11 L ~4206). HTF daily LH from 4510/4399 still bearish; DXY bid ~101.10 so no bullish SMT. Location is discount continuation, not OTE and not a premium short. No London KZ, no 5-15m bullish MSS off 4194, no bearish MSS from 4244-4261. Do not chase the dump. Arm London 09:00-12:00 EAT: A) Judas rally into 4244-4261 (CE/FVG/Asia H) then bearish MSS + FVG/CE short; B) SFP of 4194 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4218.0,
-      "change_pct": -1.28,
+      "price": 4196.0,
+      "change_pct": -2.08,
       "side": "WAIT",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — SSL/weekly ~4244 and session L ~4206 taken. Need London Judas of Asia H (~4261) then 5-15m bearish MSS + FVG/CE, or SFP of 4206 then bullish MSS. Sells only from premium 4244-4261/4285 PDH after displacement; buys only after confirmed MSS off 4206.",
-      "location": "Spot ~4218 (biquote 4215 / FXStreet 4221). Session 4206-4261; PDH/Sun ~4285; Fri BSL ~4316. Below last-week low 4244. Asia discount, not OTE, not PDH.",
-      "news": "No USD red-folder next 4h to 09:11 EAT. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; RBA Tue ~00:30 EAT.",
+      "trigger": "none — fresh SSL/session L ~4194 taken. Need London Judas of Asia H (~4261) then 5-15m bearish MSS + FVG/CE, or SFP of 4194 then bullish MSS. Sells only from premium 4244-4261/4285 PDH after displacement; buys only after confirmed MSS off 4194.",
+      "location": "Spot ~4196 (Investing 4195.51 / cluster 4194-4210). Session 4194-4261; PDH/Sun ~4285; Fri BSL ~4316. Below last-week low ~4244. Asia discount expansion, not OTE, not PDH.",
+      "news": "No USD red-folder next 4h to 10:06 EAT. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; RBA Tue ~00:30 EAT.",
       "entry": null,
       "sl": null,
       "tp1": null
