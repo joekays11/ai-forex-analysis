@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T00:12:00+03:00",
+  "updated_at": "2026-09-29T01:10:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.18,
-    "note": "Public mids (not broker ticks): XAU ~4136 (LiveEx 4136.33; prior print ~4115). Day H/L ~4262 / 4116. DXY ~101.18. No USD red-folder next 4h. Low-impact BRC Shop Price into the window; AUD Household Spending ~04:30 EAT (low). Next red is RBA Cash Rate 07:30 EAT (forecast 4.60% vs 4.35%) + Bullock presser 08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT. Firm DXY after NY gold dump (~125-145pts off ~4262) keeps metals bid-less into Asia; bounce off ~4116 is still discount."
+    "dxy": 101.20,
+    "note": "Public mids (not broker ticks): XAU ~4119 (LiveEx 4118.94; biquote/Investing ~4115-4117). Day H/L ~4262 / 4111. DXY ~101.20 (H 101.31 L 100.97). No USD red-folder next 4h. RBA Cash Rate + statement ~07:30 EAT (high AUD, not USD). Bullock presser ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT. Firm DXY after NY gold dump (~145pts off ~4262 into ~4111) keeps metals bid-less into Asia; hold ~4119 is still the discount extreme of 4262-4111, not a short location."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Po3. 00:12 EAT ASIA. Public spot ~4136 after Judas/open tap ~4262 then displacement through prior SSL into ~4116. Hold ~4136 is still discount of 4262-4116 dealing range (EQ ~4189), not a premium trigger. HTF daily LH bearish; DXY ~101.18 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4116. Arm London: A) retrace into 4204-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4116-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones not open; Silver Bullet 17:00-18:00 EAT. Trigger+location both fail — WAIT."
+    "reason": "INTRADAY AMD+Po3. 01:10 EAT ASIA. Public spot ~4119 after Judas/open tap ~4262 then displacement through prior SSL into ~4111. Hold ~4119 is discount of 4262-4111 dealing range (EQ ~4187), not a premium trigger. HTF daily LH + Monday MSS bearish; DXY ~101.20 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH 4316 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones not open; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location both fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4136.33,
-      "change_pct": -3.49,
+      "price": 4118.94,
+      "change_pct": -3.89,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — NY expansion already printed ~4262 to ~4116; 00:12 EAT hold ~4136 is a shallow bounce, not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4204-4230 yet. Discount after ~125pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
-      "location": "Public mid ~4136 (LiveEx 4136.33). Session H/L ~4262 / 4116. PDH/Fri ~4285. Discount of day range EQ ~4189. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "No USD red-folder next 4h. BRC low. RBA Cash Rate ~07:30 EAT (4.60% vs 4.35%). JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT.",
+      "trigger": "none — NY expansion already printed ~4262 to ~4111; 01:10 EAT hold ~4119 is a stall on the low, not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~145pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
+      "location": "Public mid ~4119 (LiveEx 4118.94; other publics ~4115-4117). Session H/L ~4262 / 4111. PDH/Fri ~4316. Discount of day range EQ ~4187. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "No USD red-folder next 4h. RBA Cash Rate ~07:30 EAT (AUD high). JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
