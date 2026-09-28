@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T03:07:00+03:00",
+  "updated_at": "2026-09-28T03:13:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 99.77,
-    "note": "DXY public cluster ~99.77 (Yahoo DX-Y.NYB +0.09%) vs ~100.35 on some index pages. Gold public ~4265 (biquote 4265.15, session 4257-4275). EUR ~1.138 / GBP ~1.323 / USDJPY ~157.4. No USD red-folder next 4h (to 07:07 EAT). JPY BoJ minutes + SPPI ~02:50 EAT already in the rear-view as a void. First USD: Bowman ~15:15 EAT; Dallas Fed ~17:30 EAT; Barkin later. RBA Tue ~00:30 EAT."
+    "note": "Public cluster (not broker ticks): XAU ~4274 FXStreet / ~4257-4261 on some spot pages. EUR 1.1385, GBP 1.3236, USDJPY 157.40, BTC ~84400. DXY last public ~99.77. No red-folder in next 4h (to 07:13 EAT). JPY BoJ minutes/SPPI already printed ~02:50 EAT. First USD print is Bowman ~15:15 EAT; Dallas Fed ~17:30 EAT; Lagarde ~16:30 EAT. RBA cash rate Tue ~00:30 EAT. Japan Silver Week keeps Asia thin."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY AMD/Judas + OTE WAIT. Asia 03:07 EAT, spot ~4265 sits on/near Fri SSL 4244-4258 and in weekly discount (4244-4399, EQ ~4322). HTF daily still bearish from the 4510/4399 LH sequence. No London/NY killzone, no fresh displacement/MSS after the JPY void, not at PDH ~4316 premium. Do not fade thin Asia mid. Arm London 09:00-12:00 EAT for Judas of Asia H/L then 5-15m MSS + FVG/CE."
+    "reason": "INTRADAY AMD/Judas + OTE WAIT. Asia 03:13 EAT. Public gold cluster ~4274 (FXStreet 4274.27 H4280/L4265) vs ~4258 on other spot pages. Still in weekly discount vs 4244-4399 (EQ ~4322), HTF daily remains bearish from 4510/4399 LH. No London/NY killzone, no fresh displacement/MSS after the JPY void, not at PDH ~4316. Do not fade thin Asia mid. Arm London 09:00-12:00 EAT for Judas of Asia H/L then 5-15m MSS + FVG/CE."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4265.15,
-      "change_pct": -0.12,
+      "price": 4274.27,
+      "change_pct": -0.11,
       "side": "WAIT",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — need London Judas sweep of Asia high (~4275) or SSL 4244-4258 then 5-15m MSS + FVG/CE. Watch 4316 Fri BSL/PDH for sells only after bearish displacement; 4244-4258 SSL for buys only after bullish MSS.",
-      "location": "Public spot ~4265. Session box 4257-4275. Week 4244-4399 discount (EQ ~4322). Asia, not OTE, testing PDL/SSL not PDH.",
-      "news": "No USD red-folder next 4h. JPY BoJ minutes/SPPI ~02:50 EAT already printed. Bowman ~15:15 EAT; Dallas Fed 17:30 EAT; RBA Tue 00:30 EAT.",
+      "trigger": "none — need London Judas sweep of Asia high (~4280) or SSL 4244-4258 then 5-15m MSS + FVG/CE. Watch 4316 Fri BSL/PDH for sells only after bearish displacement; 4244-4258 SSL for buys only after bullish MSS.",
+      "location": "Public spot cluster 4258-4274 (FXStreet last 4274.27, session 4265-4280). Week 4244-4399 discount (EQ ~4322). Asia, not OTE, mid-box not PDH.",
+      "news": "No USD red-folder next 4h. JPY BoJ minutes/SPPI ~02:50 EAT already printed. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; RBA Tue ~00:30 EAT.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -38,13 +38,13 @@
     {
       "symbol": "EURUSD",
       "price": 1.1385,
-      "change_pct": -0.06,
+      "change_pct": 0.07,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid ~1.1385. Tight Sunday/Asia box after fade from ~1.1409; no hold above 1.1410 and no confirmed break of ~1.1361.",
-      "news": "No EUR red-folder next 4h. Lagarde speaks later Mon ~16:30 EAT. Thin open only.",
+      "location": "Public mid 1.1385 (H1.1387 / L1.1378). Tight Asia box; no hold above 1.1410 and no confirmed break of ~1.1361.",
+      "news": "No EUR red-folder next 4h. Lagarde speaks later Mon ~16:30 EAT. Thin Asia only.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -52,12 +52,12 @@
     {
       "symbol": "GBPUSD",
       "price": 1.3236,
-      "change_pct": -0.08,
+      "change_pct": 0.01,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid ~1.3236. Tight box vs 1.3207-1.3261. Neither a discount bounce nor a confirmed hold of 1.3260.",
+      "location": "Public mid 1.3236 (H1.3242 / L1.3231). Tight box vs 1.3207-1.3261. Neither a discount bounce nor a confirmed hold of 1.3260.",
       "news": "No GBP red print next 4h. Ramsden speaks ~13:00 EAT. BRC Shop Price 02:01 EAT Tue.",
       "entry": null,
       "sl": null,
@@ -66,26 +66,26 @@
     {
       "symbol": "USDJPY",
       "price": 157.4,
-      "change_pct": 0.04,
+      "change_pct": 0.08,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bullish",
       "trigger": "none",
-      "location": "Public mid ~157.40 after the fade off ~159. Mid of the box; neither a hold above 159 nor a confirmed dip-buy MSS. Intervention risk still elevated near 159.",
-      "news": "BoJ minutes + SPPI 02:50 EAT — treat as JPY event risk, not a trigger. Do not chase mid-bounce into the print.",
+      "location": "Public mid 157.40 (H157.49 / L157.27) after fade off ~159. Mid of the box; neither a hold above 159 nor a confirmed dip-buy MSS. Intervention risk still elevated near 159. Japan Silver Week = thin JPY book.",
+      "news": "BoJ minutes + SPPI ~02:50 EAT already printed — treat as spent JPY event risk, not a trigger. Do not chase mid-bounce.",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "BTCUSD",
-      "price": 84388,
-      "change_pct": 0.0,
+      "price": 84400,
+      "change_pct": -0.03,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid ~84388 vs recent box ~84115-85034; mid of range, no hold of highs and no confirmed break of 83500.",
+      "location": "Public mid ~84400 vs recent box ~84237-85140; mid of range, no hold of highs and no confirmed break of 83500.",
       "news": "No crypto-specific red print. Thin Sunday/Asia liquidity can still whip BTC.",
       "entry": null,
       "sl": null,
