@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T14:12:00+03:00",
+  "updated_at": "2026-09-28T15:09:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "London PM / NY AM prep",
+  "session": "NY AM open / Silver Bullet prep",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.12,
-    "note": "Public mids (not broker ticks): XAU ~4156 (FXS 4157.19 / LiveEx 4154.72 / xau.today 4156.79). DXY ~101.12 firm. No red-folder USD print next 4h to 18:12 EAT. Lagarde yellow ~16:30 EAT; Dallas Fed low ~17:30 EAT; Cook/Barkin later ET. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
+    "dxy": 101.08,
+    "note": "Public mids (not broker ticks): XAU ~4148 (Investing 4148.12 / biquote 4151.56 / goldprice 4163.53). Day H/L ~4285.37 / 4140.69. DXY ~101.08 (+0.11). 10Y real yields ~2.85% 18y high; nominal 10Y ~5.17-5.23%. No red-folder USD print next 4h to 19:09 EAT. Dallas Fed low ~17:30 EAT; Cook/Barkin later ET. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4288,
     "tp1": 4110,
     "rr": 2.71,
-    "reason": "INTRADAY AMD+Judas. London PM 14:12 EAT. Public spot ~4156 after PDH/open ~4285 Judas tap then displacement into session L ~4141. HTF daily LH from 4510/4399 still bearish; DXY ~101.12 firm so no bullish SMT. Location is discount of 4285-4141 dealing range (EQ ~4213) — do not chase the dump and do not buy the first bounce. Arm into NY AM 15:30-18:00 EAT / Silver Bullet 17:00-18:00 EAT: A) retrace into 4213-4255 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4240 / SL 4288 beyond full wick not Asia H/PDH 4285 / TP1 4110 TP2 4040. B) SFP of 4141-4120 then bullish MSS + OTE long only as scalp against HTF."
+    "reason": "INTRADAY AMD+Judas. NY AM 15:09 EAT. Public spot ~4148 after PDH/open ~4285 Judas tap then displacement into session L ~4141. HTF daily LH from 4510/4399 still bearish; DXY ~101.08 firm so no bullish SMT. Location is discount of 4285-4141 dealing range (EQ ~4213) — do not chase the dump and do not buy the first bounce. Arm into NY AM 15:30-18:00 EAT / Silver Bullet 17:00-18:00 EAT: A) retrace into 4213-4255 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4240 / SL 4288 beyond full wick not Asia H/PDH 4285 / TP1 4110 TP2 4040. B) SFP of 4141-4120 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4156.5,
-      "change_pct": -3.0,
+      "price": 4148.1,
+      "change_pct": -3.2,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — London expansion already printed ~4285 to ~4141; bounce to ~4156 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4213-4255 yet. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
-      "location": "Public mid ~4156 (FXS 4157.19; LiveEx 4154.72; xau.today 4156.79). Session ~4141-4285; PDH/open ~4285. Week L printing. Discount of day range EQ ~4213. Wrong location for shorts now.",
-      "news": "No USD red-folder next 4h to 18:12 EAT. Lagarde yellow ~16:30 EAT. Dallas Fed low ~17:30 EAT; Cook/Barkin later Mon ET. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
+      "trigger": "none — London expansion already printed ~4285 to ~4141; 15:09 EAT bounce to ~4148 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4213-4255 yet. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
+      "location": "Public mid ~4148 (Investing 4148.12; biquote 4151.56; goldprice 4163.53). Session ~4141-4285; PDH/open ~4285. Week L printing. Discount of day range EQ ~4213. Wrong location for shorts now.",
+      "news": "No USD red-folder next 4h to 19:09 EAT. Dallas Fed low ~17:30 EAT; Cook/Barkin later Mon ET. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
       "entry": 4240,
       "sl": 4288,
       "tp1": 4110
