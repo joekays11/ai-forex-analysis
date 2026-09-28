@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T07:11:00+03:00",
+  "updated_at": "2026-09-28T08:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "Asia",
+  "session": "Pre-London",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.11,
-    "note": "XAU spot ~4197 (biquote 4196.64; session 4191.08-4261.12). Open ~4260; PDH/Sun close ~4260-4285. DXY 101.11 (101.07-101.19). No USD red-folder next 4h (to 11:11 EAT). Low-tier EUR prints ~08:00-09:00 EAT; Ramsden ~10:00 EAT. Bowman ~15:15 EAT orange; Cook/Barkin ~20:25-20:30 EAT. Lagarde later Mon. RBA cash Tue ~00:30 EAT. Japan Silver Week = thin Asia book."
+    "dxy": 101.09,
+    "note": "XAU spot ~4197 (biquote 4195.93 / FXEmpire 4196.83 / Investing ~4199). Session H/L 4261/4191, open ~4260. DXY 101.09 (101.07-101.19). No USD red-folder next 4h (to 12:06 EAT). Ramsden already/low-tier. Bowman ~15:15 EAT orange; Cook/Barkin ~20:25-20:30 EAT. RBA cash Tue ~00:30 EAT. Japan Silver Week = thin Asia book."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4288,
     "tp1": 4191,
     "rr": 1.69,
-    "reason": "INTRADAY Judas/AMD. Asia 07:11 EAT. Spot ~4197 after SSL/week-low probe (session L 4191 vs PDH ~4285 / Asia H 4261). HTF daily LH from 4510/4399 still bearish; DXY 101.11 firm so no bullish SMT. Location is discount after expansion — do not chase the dump and do not buy the first bounce. Arm London 09:00-12:00 EAT: A) Judas rally into 4244-4261 (CE/FVG/Asia H) then 5-15m bearish MSS + FVG/CE short 4252 / SL 4288 beyond full wick not Asia H / TP1 4191 TP2 4140. B) SFP of 4191 then bullish MSS + OTE long only as scalp against HTF."
+    "reason": "INTRADAY Judas/AMD. Pre-London 08:06 EAT. Spot ~4197 after SSL/week-low probe (session L 4191 vs PDH ~4285 / Asia H 4261). HTF daily LH from 4510/4399 still bearish; DXY 101.09 firm so no bullish SMT. Location is discount after expansion — do not chase the dump and do not buy the first bounce. Arm London 09:00-12:00 EAT: A) Judas rally into 4244-4261 (CE/FVG/Asia H) then 5-15m bearish MSS + FVG/CE short 4252 / SL 4288 beyond full wick not Asia H / TP1 4191 TP2 4140. B) SFP of 4191 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4196.64,
-      "change_pct": -1.49,
+      "price": 4197.0,
+      "change_pct": -1.48,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — still Asia, no London Judas. Session L 4191 probed; bounce to 4197 is not 5-15m bullish MSS and not OTE. Need London raid of Asia H 4261 then bearish MSS + FVG/CE, or SFP of 4191 then bullish MSS. Sells only from premium 4244-4261 after displacement; buys only after confirmed MSS off 4191.",
+      "trigger": "none — pre-London, no Judas yet. Session L 4191 probed; bounce to 4197 is not 5-15m bullish MSS and not OTE. Need London raid of Asia H 4261 then bearish MSS + FVG/CE, or SFP of 4191 then bullish MSS. Sells only from premium 4244-4261 after displacement; buys only after confirmed MSS off 4191.",
       "location": "Spot 4197. Session 4191-4261; PDH/Sun ~4285; Fri BSL ~4316. Below last-week low ~4244. Asia discount after ~70-handle displacement lower. Wrong location for shorts now.",
-      "news": "No USD red-folder next 4h to 11:11 EAT. Low-tier EUR ~08:00-09:00 EAT; Ramsden ~10:00 EAT. Bowman ~15:15 EAT; Cook/Barkin ~20:25 EAT; RBA Tue ~00:30 EAT.",
+      "news": "No USD red-folder next 4h to 12:06 EAT. Ramsden low-tier. Bowman ~15:15 EAT; Cook/Barkin ~20:25 EAT; RBA Tue ~00:30 EAT.",
       "entry": 4252,
       "sl": 4288,
       "tp1": 4191
