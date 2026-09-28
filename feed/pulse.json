@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T19:14:00+03:00",
+  "updated_at": "2026-09-28T20:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY PM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.22,
-    "note": "Public mids (not broker ticks): XAU ~4157 (FXEmpire 4156.11 bid 4155.24 / ask 4156.97, FXStreet 4157.19, LiveEx ~4162; ~-3.0%). Day H/L cluster ~4275-4152; prior SSL/7w L ~4111; PDH/Fri close ~4285. DXY ~101.22 (+0.24%, H 101.31 L 100.98). 10Y ~5.23%. No red-folder USD print next 4h. Dallas Fed + bills spent. FOMC Cook/Barkin ~20:15-20:30 EAT (soft blackout). JOLTS + CB Confidence Tue ~16:00 EAT. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
+    "dxy": 101.14,
+    "note": "Public mids (not broker ticks): XAU ~4128 (biquote 4128.45 bid 4128.37 / ask 4128.54; MarketScreener ~4121-4132; LiveEx ~4136). Day H/L 4261.12 / 4110.72; open ~4260; PDH/Fri close ~4285; prior SSL/7w area ~4111. DXY ~101.14 (Yahoo 101.14 +0.16%, DealPlexus 101.22 H 101.31 L 100.98). No red-folder USD print next 4h. Dallas Fed + bills spent. FOMC Cook ~20:25 EAT / Barkin ~20:30 EAT (soft blackout NOW). JOLTS + CB Confidence Tue ~16:00 EAT. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4272,
     "tp1": 4088,
     "rr": 2.8,
-    "reason": "INTRADAY AMD+Judas. 19:14 EAT NY PM. Public spot ~4157 after Judas tap of open/PDH ~4285 then displacement through prior SSL into ~4111. Bounce 4111-4157 is still the first discount bounce, not a premium trigger. HTF daily LH still bearish; DXY ~101.22 holds session highs so no bullish SMT. Location is discount of 4285-4111 dealing range (EQ ~4198) — do not chase the dump and do not buy the first bounce. Arm London/NY: A) retrace into 4198-4235 EQ/OTE then 5-15m bearish MSS + FVG/CE short 4224 / SL 4272 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Skip new risk into Cook/Barkin ~20:15-20:30 EAT."
+    "reason": "INTRADAY AMD+Judas. 20:06 EAT NY PM. Public spot ~4128 after Judas tap of open/PDH ~4261-4285 then displacement through prior SSL into ~4111. Hold 4128 is still discount of 4285-4111 dealing range (EQ ~4198), not a premium trigger. HTF daily LH bearish; DXY ~101.14 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce into Cook/Barkin. Arm London/NY: A) retrace into 4198-4235 EQ/OTE then 5-15m bearish MSS + FVG/CE short 4224 / SL 4272 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Skip new risk into Cook/Barkin ~20:25-20:30 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4157.19,
-      "change_pct": -2.99,
+      "price": 4128.45,
+      "change_pct": -3.09,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — London/NY expansion already printed ~4285/4261 to ~4111; 19:14 EAT hold ~4157 is not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4198-4235 yet. 4157 bounce is first discount bounce. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
-      "location": "Public mid ~4157 (FXStreet 4157.19; FXEmpire 4156.11 bid 4155.24 / ask 4156.97; LiveEx ~4162). Session cluster ~4152-4275; prior low ~4111; PDH/Fri close ~4285. Discount of day range EQ ~4198. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "No USD red-folder next 4h. Dallas Fed + bill auctions spent. Soft blackout into Cook/Barkin ~20:15-20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
+      "trigger": "none — NY expansion already printed ~4285/4261 to ~4111; 20:06 EAT hold ~4128 is not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4198-4235 yet. 4128 is late-session discount after 150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. Soft blackout into Cook/Barkin.",
+      "location": "Public mid ~4128 (biquote 4128.45 bid 4128.37 / ask 4128.54). Session H/L 4261.12 / 4110.72; PDH/Fri close ~4285. Discount of day range EQ ~4198. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "No USD red-folder next 4h. Dallas Fed + bill auctions spent. Soft blackout NOW into Cook ~20:25 EAT / Barkin ~20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
       "entry": 4224,
       "sl": 4272,
       "tp1": 4088
