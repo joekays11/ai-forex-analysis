@@ -1,39 +1,39 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T06:16:00+03:00",
+  "updated_at": "2026-09-28T07:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 100.35,
-    "note": "XAU public cluster ~4202-4221 (Investing 4201.79; LiveExchanges 4214.71; FXStreet 4221.44). Session box ~4194-4261; PDH/prev close ~4285. DXY public ~100.35 (Investing). No USD red-folder next 4h (to 10:16 EAT). Nationwide HPI ~09:00 EAT (low). Bowman ~15:15 EAT; Lagarde ~16:30 EAT (orange); Dallas Fed Mfg ~17:30 EAT (low). RBA cash Tue ~00:30 EAT. Japan Silver Week = thin Asia book."
+    "dxy": 101.09,
+    "note": "XAU spot ~4196 (biquote 4196.06; session 4191.08-4261.12). Open ~4260; PDH/Sun close ~4260-4285. DXY 101.09 (101.07-101.18). No USD red-folder next 4h (to 11:06 EAT). Bowman ~15:15 EAT orange; Cook/Barkin ~20:25-20:30 EAT. Lagarde later Mon. RBA cash Tue ~00:30 EAT. Japan Silver Week = thin Asia book."
   },
   "sotd": {
     "symbol": "XAUUSD",
-    "side": "WAIT",
+    "side": "SELL",
     "status": "WAIT",
-    "grade": "—",
-    "entry": null,
-    "sl": null,
-    "tp1": null,
-    "rr": null,
-    "reason": "INTRADAY Judas/AMD. Asia 06:16 EAT. Spot public ~4202 after SSL/weekly-low probe (session L ~4194 vs PDH ~4285). Bounce of ~8 from 05:11/06:06 lows is not a 5-15m bullish MSS and not an OTE. HTF daily LH from 4510/4399 still bearish; DXY firm so no bullish SMT. Location is discount continuation, not premium short. No London KZ. Do not chase the dump or the first bounce. Arm London 09:00-12:00 EAT: A) Judas rally into 4244-4261 (CE/FVG/Asia H) then bearish MSS + FVG/CE short; B) SFP of 4194 then bullish MSS + OTE long only as scalp against HTF."
+    "grade": "B",
+    "entry": 4252,
+    "sl": 4288,
+    "tp1": 4191,
+    "rr": 1.69,
+    "reason": "INTRADAY Judas/AMD. Asia 07:06 EAT. Spot ~4196 after SSL/week-low probe (session L 4191 vs PDH ~4285 / Asia H 4261). HTF daily LH from 4510/4399 still bearish; DXY 101.09 firm so no bullish SMT. Location is discount after expansion — do not chase the dump and do not buy the first bounce. Arm London 09:00-12:00 EAT: A) Judas rally into 4244-4261 (CE/FVG/Asia H) then 5-15m bearish MSS + FVG/CE short 4252 / SL 4288 beyond full wick not Asia H / TP1 4191 TP2 4140. B) SFP of 4191 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4202.0,
-      "change_pct": -1.95,
-      "side": "WAIT",
+      "price": 4196.06,
+      "change_pct": -1.51,
+      "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — session L ~4194 probed; first bounce to ~4202 is not MSS. Need London Judas of Asia H (~4261) then 5-15m bearish MSS + FVG/CE, or SFP of 4194 then bullish MSS. Sells only from premium 4244-4261/4285 PDH after displacement; buys only after confirmed MSS off 4194.",
-      "location": "Spot ~4202 (Investing 4201.79 / cluster 4202-4221). Session 4194-4261; PDH/Sun ~4285; Fri BSL ~4316. Below last-week low ~4244. Asia discount bounce, not OTE, not PDH.",
-      "news": "No USD red-folder next 4h to 10:16 EAT. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; RBA Tue ~00:30 EAT.",
-      "entry": null,
-      "sl": null,
-      "tp1": null
+      "trigger": "none — still Asia, no London Judas. Session L 4191 probed; bounce to 4196 is not 5-15m bullish MSS and not OTE. Need London raid of Asia H 4261 then bearish MSS + FVG/CE, or SFP of 4191 then bullish MSS. Sells only from premium 4244-4261 after displacement; buys only after confirmed MSS off 4191.",
+      "location": "Spot 4196. Session 4191-4261; PDH/Sun ~4285; Fri BSL ~4316. Below last-week low ~4244. Asia discount after ~70-handle displacement lower. Wrong location for shorts now.",
+      "news": "No USD red-folder next 4h to 11:06 EAT. Bowman ~15:15 EAT; Cook/Barkin ~20:25 EAT; RBA Tue ~00:30 EAT.",
+      "entry": 4252,
+      "sl": 4288,
+      "tp1": 4191
     },
     {
       "symbol": "EURUSD",
