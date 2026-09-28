@@ -1,39 +1,39 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T12:12:00+03:00",
+  "updated_at": "2026-09-28T13:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "London mid-session",
+  "session": "London close / NY prep",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.05,
-    "note": "Public mids (not broker ticks): XAU ~4156.7 (FXStreet 4157.19 H/L 4280.36/4151.07; LiveEx 4156.28). EUR 1.1381. GBP 1.3266. USDJPY 156.81 (FXStreet 156.82 / LiveEx 156.79 / Investing 156.73). BTC ~83036 (FXStreet 82947 / LiveEx 83126). DXY 101.05 firm (+0.02; range 100.98-101.20). 10y yields elevated; Oct Fed hike odds bid. No red-folder USD/EUR/GBP next 4h (to 16:12 EAT). Ramsden (GBP, yellow) ~13:00 EAT. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; Cook/Barkin later. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
+    "dxy": 101.06,
+    "note": "Public mids (not broker ticks): XAU ~4157 (TE 4157.04 -2.99%; day box ~4280/4140). DXY 101.06 firm (+0.09; range ~100.98-101.20). 10y yields elevated. No red-folder USD next 4h (to 17:06 EAT). Bowman yellow ~15:15 EAT; Dallas Fed low ~17:30 EAT; Lagarde/Cook/Barkin later. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4232,
-    "sl": 4274,
-    "tp1": 4112,
-    "rr": 2.86,
-    "reason": "INTRADAY AMD+Judas/OTE. London mid 12:12 EAT. Public spot ~4157 after PDH/Asia ~4280 Judas tap then displacement into session L ~4151. HTF daily LH from 4510/4399 still bearish; DXY 101.05 firm so no bullish SMT. Location is discount of 4280-4151 dealing range (EQ ~4216) — do not chase the dump and do not buy the first bounce. Prior TP1 4138 spent/near. Arm into NY: A) retrace into 4216-4250 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4232 / SL 4274 beyond full wick not Asia H/PDH 4280 / TP1 4112 TP2 4040. B) SFP of 4151-4144 then bullish MSS + OTE long only as scalp against HTF."
+    "entry": 4228,
+    "sl": 4276,
+    "tp1": 4110,
+    "rr": 2.46,
+    "reason": "INTRADAY AMD+Judas. London close 13:06 EAT. Public spot ~4157 after PDH/Asia ~4280 Judas tap then displacement into session L ~4140. HTF daily LH from 4510/4399 still bearish; DXY 101.06 firm so no bullish SMT. Location is discount of 4280-4140 dealing range (EQ ~4210) — do not chase the dump and do not buy the first bounce. Arm into NY AM 15:30-18:00 EAT: A) retrace into 4210-4250 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4228 / SL 4276 beyond full wick not Asia H/PDH 4280 / TP1 4110 TP2 4040. B) SFP of 4140-4135 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4156.7,
-      "change_pct": -3.0,
+      "price": 4157.0,
+      "change_pct": -2.99,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — London expansion already printed 4280 to ~4151; bounce to ~4157 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4216-4250 yet. Prior 4191/4175/4138 objectives spent or tagged. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
-      "location": "Public mid ~4156.7 (FXStreet 4157.19; LiveEx 4156.28). Session ~4151-4280; PDH ~4280. Week L printing. Discount of day range EQ ~4216 and week EQ ~4263. Wrong location for shorts now.",
-      "news": "No USD red-folder next 4h to 16:12 EAT. Ramsden yellow ~13:00 EAT. Bowman ~15:15 EAT (yellow). Dallas Fed ~17:30 EAT; Lagarde/Cook/Barkin later Mon. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
-      "entry": 4232,
-      "sl": 4274,
-      "tp1": 4112
+      "trigger": "none — London expansion already printed ~4280 to ~4140; bounce to ~4157 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4210-4250 yet. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
+      "location": "Public mid ~4157 (TE 4157.04). Session ~4140-4280; PDH ~4280. Week L printing. Discount of day range EQ ~4210 and week EQ ~4263. Wrong location for shorts now.",
+      "news": "No USD red-folder next 4h to 17:06 EAT. Bowman yellow ~15:15 EAT. Dallas Fed low ~17:30 EAT; Lagarde/Cook/Barkin later Mon. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
+      "entry": 4228,
+      "sl": 4276,
+      "tp1": 4110
     },
     {
       "symbol": "EURUSD",
