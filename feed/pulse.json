@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T21:06:00+03:00",
+  "updated_at": "2026-09-28T21:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY LATE",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.23,
-    "note": "Public mids (not broker ticks): XAU ~4136 (biquote 4135.44; MarketScreener ~4138; GoldPrice ~4138; FXGlory 4134.28). Day H/L 4261.12 / 4110.72; open ~4260; PDH/Fri high ~4316 / Fri close ~4285; session SSL 4110.72. DXY ~101.23 (H 101.31 L 100.97). No red-folder USD next 4h. Cook/Barkin spent ~20:25-20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. RBA Tue ~07:30 EAT. PCE Wed; NFP Fri."
+    "dxy": 101.21,
+    "note": "Public mids (not broker ticks): XAU ~4135 (biquote 4135.89; GoldPrice 4135.66; MarketScreener 4138; FXGlory 4134.28; LiveEx 4122). Day H/L ~4261 / 4111; open ~4260; PDH/Fri high ~4316 / Fri close ~4285; session SSL 4110.72. DXY ~101.21. No red-folder USD next 4h. Cook/Barkin spent ~20:25-20:30 EAT. BRC Shop Price late Mon night (low). JOLTS + CB Confidence Tue ~16:00 EAT. RBA Tue ~07:30 EAT. PCE Wed; NFP Fri."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4272,
     "tp1": 4088,
     "rr": 2.8,
-    "reason": "INTRADAY AMD+Po3. 21:06 EAT NY LATE. Public spot ~4136 after Judas/open tap ~4261 then displacement through prior SSL into 4110.72. Hold 4136 is still discount of 4261-4111 dealing range (EQ ~4186), not a premium trigger. HTF daily LH bearish; DXY ~101.23 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4186-4229 EQ/OTE then 5-15m bearish MSS + FVG/CE short 4224 / SL 4272 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones spent; Silver Bullet spent."
+    "reason": "INTRADAY AMD+Po3. 21:11 EAT NY LATE. Public spot ~4135 after Judas/open tap ~4261 then displacement through prior SSL into 4110.72. Hold 4135 is still discount of 4261-4111 dealing range (EQ ~4186), not a premium trigger. HTF daily LH bearish; DXY ~101.21 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4186-4229 EQ/OTE then 5-15m bearish MSS + FVG/CE short 4224 / SL 4272 beyond full wick not Asia H/PDH 4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones spent; Silver Bullet spent."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4136.00,
-      "change_pct": -2.93,
+      "price": 4135.00,
+      "change_pct": -2.92,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — NY expansion already printed ~4261 to ~4111; 21:06 EAT hold ~4136 is not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4186-4229 yet. 4136 is late-session discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. Cook/Barkin spent.",
-      "location": "Public mid ~4136 (biquote 4135.44; MarketScreener ~4138). Session H/L 4261.12 / 4110.72; PDH/Fri close ~4285. Discount of day range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "No USD red-folder next 4h. Cook/Barkin spent ~20:25-20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. RBA Tue ~07:30 EAT.",
+      "trigger": "none — NY expansion already printed ~4261 to ~4111; 21:11 EAT hold ~4135 is not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4186-4229 yet. 4135 is late-session discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. Cook/Barkin spent.",
+      "location": "Public mid ~4135 (biquote 4135.89; GoldPrice 4135.66; MarketScreener 4138). Session H/L 4261.12 / 4110.72; PDH/Fri close ~4285. Discount of day range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "No USD red-folder next 4h. Cook/Barkin spent ~20:25-20:30 EAT. BRC Shop Price late Mon night (low). JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. RBA Tue ~07:30 EAT.",
       "entry": 4224,
       "sl": 4272,
       "tp1": 4088
@@ -58,7 +58,7 @@
       "bias": "neutral",
       "trigger": "none",
       "location": "Public mid 1.3257 (LiveEx 1.3257 H 1.3273 L 1.3226). Mid of day box. Neither a discount bounce nor a confirmed hold of 1.3280.",
-      "news": "No GBP red print next 4h. Ramsden already spent. BRC Shop Price late Mon night / Tue EAT.",
+      "news": "No GBP red print next 4h. Ramsden already spent. BRC Shop Price late Mon night / Tue EAT (low).",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -86,7 +86,7 @@
       "bias": "neutral",
       "trigger": "none",
       "location": "Public mid ~83472 (LiveEx 83472 H 84890 L 82713). Mid-low of recent box; no hold of highs and no confirmed break of ~82700.",
-      "news": "No crypto-specific red print. Thin NY PM can still whip BTC into Cook/Barkin.",
+      "news": "No crypto-specific red print. Thin NY PM can still whip BTC; Cook/Barkin already spent.",
       "entry": null,
       "sl": null,
       "tp1": null
