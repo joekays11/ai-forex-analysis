@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T04:06:00+03:00",
+  "updated_at": "2026-09-28T04:14:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "Asia",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 99.77,
-    "note": "Public cluster: XAU ~4224 Investing / ~4232 MarketScreener / ~4219-4261 broker pages. Day range ~4219-4285. DXY last public ~99.77 (Yahoo); some index pages print ~101.12. No red-folder USD in next 4h (to 08:06 EAT). JPY BoJ minutes/SPPI already printed ~02:50 EAT. First USD print is Bowman ~15:15 EAT; Dallas Fed ~17:30 EAT; Lagarde ~16:30 EAT. RBA cash rate Tue ~00:30 EAT. Japan Silver Week keeps Asia thin."
+    "dxy": 101.09,
+    "note": "Public cluster: XAU ~4223 biquote / ~4232 MarketScreener-Metlyz / FXStreet ~4274 outlier. Day box ~4219-4261 (some pages still show Sun H ~4285). DXY public split: ICE ~99.71 vs CFD/index pages ~101.09-101.17. No red-folder in next 4h (to 08:14 EAT). SGD IP ~08:00 EAT is mid/low. Nationwide HPI ~09:00 EAT just outside window. BoJ minutes/SPPI already printed ~02:50 EAT. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; RBA cash rate Tue ~00:30 EAT. Japan Silver Week keeps Asia thin."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": null,
     "tp1": null,
     "rr": null,
-    "reason": "INTRADAY AMD/Judas + SSL sweep WAIT. Asia 04:06 EAT. Public gold ~4224 (Investing 4223.81 H4285.37/L4219.06) after taking weekly SSL ~4244. HTF daily remains bearish from 4510/4399 LH. Swept 4244 but no 5-15m bullish MSS/displacement yet; not London KZ; not OTE of a confirmed reversal. Do not fade thin Asia mid-dump. Arm London 09:00-12:00 EAT: either Judas rally into 4244-4261 then bearish MSS + FVG/CE, or bullish MSS after SFP of 4219 then OTE long."
+    "reason": "INTRADAY AMD/Judas + SSL sweep WAIT. Asia 04:14 EAT. Public gold ~4223 (biquote 4222.94 H4261/L4219) after weekly SSL ~4244. HTF daily still bearish from 4510/4399 LH. Swept 4244 but no 5-15m bullish MSS/displacement; not London KZ; not OTE of a confirmed reversal. Do not fade thin Asia mid-dump. Arm London 09:00-12:00 EAT: either Judas rally into 4244-4261 then bearish MSS + FVG/CE, or bullish MSS after SFP of 4219 then OTE long."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4223.81,
-      "change_pct": -1.44,
+      "price": 4222.94,
+      "change_pct": -0.87,
       "side": "WAIT",
       "status": "WAIT",
       "bias": "bearish",
       "trigger": "none — weekly SSL ~4244 taken, session L ~4219. Need London Judas of Asia H (~4261) or SFP of 4219 then 5-15m MSS + FVG/CE. Watch 4285 Sun/PDH and 4316 Fri BSL for sells only after bearish displacement; 4219-4244 SSL for buys only after bullish MSS.",
-      "location": "Public spot cluster 4224-4232 (Investing 4223.81, session 4219-4285). Below last-week low 4244; week box 4244-4399 now broken (EQ was ~4322). Asia, not OTE, discount expansion not PDH.",
+      "location": "Public spot cluster 4223-4232 (biquote 4222.94, session 4219-4261). Below last-week low 4244; week box 4244-4399 now broken. Asia, not OTE, discount expansion not PDH.",
       "news": "No USD red-folder next 4h. JPY BoJ minutes/SPPI ~02:50 EAT already printed. Bowman ~15:15 EAT; Lagarde ~16:30 EAT; Dallas Fed ~17:30 EAT; RBA Tue ~00:30 EAT.",
       "entry": null,
       "sl": null,
@@ -43,7 +43,7 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid 1.1385 (H1.1387 / L1.1378). Tight Asia box; no hold above 1.1410 and no confirmed break of ~1.1361.",
+      "location": "Public mid 1.1385 (FXStreet 1.13854 / Insider ~1.1391). Tight Asia box; no hold above 1.1410 and no confirmed break of ~1.1361.",
       "news": "No EUR red-folder next 4h. Lagarde speaks later Mon ~16:30 EAT. Thin Asia only.",
       "entry": null,
       "sl": null,
@@ -57,8 +57,8 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid 1.3236 (H1.3242 / L1.3231). Tight box vs 1.3207-1.3261. Neither a discount bounce nor a confirmed hold of 1.3260.",
-      "news": "No GBP red print next 4h. Ramsden speaks ~13:00 EAT. BRC Shop Price 02:01 EAT Tue.",
+      "location": "Public mid 1.3236 (FXStreet 1.32357 / Insider ~1.3246). Tight box vs 1.3207-1.3261. Neither a discount bounce nor a confirmed hold of 1.3260.",
+      "news": "No GBP red print next 4h. Nationwide HPI ~09:00 EAT (just outside window). Ramsden ~13:00 EAT. BRC Shop Price 02:01 EAT Tue.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -71,7 +71,7 @@
       "status": "WATCH",
       "bias": "bullish",
       "trigger": "none",
-      "location": "Public mid 157.40 (H157.49 / L157.27) after fade off ~159. Mid of the box; neither a hold above 159 nor a confirmed dip-buy MSS. Intervention risk still elevated near 159. Japan Silver Week = thin JPY book.",
+      "location": "Public mid 157.40 (FXStreet 157.40 / Insider ~157.30-157.75) after fade off ~159. Mid of the box; neither a hold above 159 nor a confirmed dip-buy MSS. Intervention risk still elevated near 159. Japan Silver Week = thin JPY book.",
       "news": "BoJ minutes + SPPI ~02:50 EAT already printed — treat as spent JPY event risk, not a trigger. Do not chase mid-bounce.",
       "entry": null,
       "sl": null,
@@ -85,7 +85,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid ~84400 vs recent box ~84237-85140; mid of range, no hold of highs and no confirmed break of 83500.",
+      "location": "Public mid ~84400 (FXStreet 84399.85 / Insider 84412 / treasuries ~84313). Mid of recent box ~84200-85140; no hold of highs and no confirmed break of 83500.",
       "news": "No crypto-specific red print. Thin Sunday/Asia liquidity can still whip BTC.",
       "entry": null,
       "sl": null,
