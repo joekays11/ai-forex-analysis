@@ -1,38 +1,38 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T16:20:00+03:00",
+  "updated_at": "2026-09-28T17:10:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY AM killzone",
+  "session": "NY AM / Silver Bullet",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.16,
-    "note": "Public mids (not broker ticks): XAU ~4155 (LiveEx 4162.26 / prior biquote ~4148 / Kitco bid ~4152). Day H/L ~4261 / ~4140. Open ~4260. DXY ~101.16. No red-folder USD/EUR/GBP print next 4h to 20:20 EAT. Lagarde medium already in/near window. Cook/Barkin speeches ~20:25-20:30 EAT (just after window). Dallas Fed Mfg medium in NY AM. JOLTS + CB Confidence Tue ~16:00 EAT. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
+    "dxy": 101.19,
+    "note": "Public mids (not broker ticks): XAU Investing ~4145.16 (-3.27%). Day H/L 4285.37 / 4136.54. Open/PDH ~4285. DXY 101.19 (+0.22%, H 101.23). 10Y ~5.23%. No red-folder USD print next 4h. Bill auctions ~18:30 EAT. FOMC Cook/Barkin speeches ~20:25-20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4232,
-    "sl": 4272,
+    "entry": 4230,
+    "sl": 4278,
     "tp1": 4110,
-    "rr": 3.05,
-    "reason": "INTRADAY AMD+Judas / Silver Bullet. 16:20 EAT NY AM. Public spot ~4155 after Judas tap of open/PDH ~4261 then displacement into session L ~4140. HTF daily LH from 4510/4399 still bearish; DXY ~101.16 firm so no bullish SMT. Location is discount of 4261-4140 dealing range (EQ ~4201) — do not chase the dump and do not buy the first bounce. Arm into remainder of NY AM / Silver Bullet 17:00-18:00 EAT: A) retrace into 4201-4236 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4232 / SL 4272 beyond full wick not Asia H/PDH 4261 / TP1 4110 TP2 4040. B) SFP of 4140-4120 then bullish MSS + OTE long only as scalp against HTF. Skip new risk into Cook/Barkin ~20:25 EAT."
+    "rr": 2.5,
+    "reason": "INTRADAY AMD+Judas / Silver Bullet. 17:10 EAT inside 17:00-18:00 SB and tail of NY AM. Public spot ~4145 after Judas tap of open/PDH 4285 then displacement into session L 4136 (7-week low). HTF daily LH still bearish; DXY 101.19 new session highs so no bullish SMT. Location is deep discount of 4285-4136 dealing range (EQ ~4211) — do not chase the dump and do not buy the first bounce. Arm into remainder of SB / late NY: A) retrace into 4211-4240 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4230 / SL 4278 beyond full wick not Asia H/PDH 4285 / TP1 4110 TP2 4040. B) SFP of 4136-4120 then bullish MSS + OTE long only as scalp against HTF. Skip new risk into Cook/Barkin ~20:25 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4155.0,
-      "change_pct": -2.55,
+      "price": 4145.16,
+      "change_pct": -3.27,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — London/NY expansion already printed ~4261 to ~4140; 16:20 EAT hold ~4155 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4201-4236 yet. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
-      "location": "Public mid ~4155 (LiveEx 4162.26; Kitco bid ~4152). Session ~4140-4261; PDH/open ~4261. Week L printing. Discount of day range EQ ~4201. Wrong location for chase shorts now.",
-      "news": "No USD red-folder next 4h to 20:20 EAT. Lagarde medium. Dallas Fed Mfg medium. Cook/Barkin ~20:25-20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
-      "entry": 4232,
-      "sl": 4272,
+      "trigger": "none — London/NY expansion already printed 4285 to 4136; 17:10 EAT hold ~4145 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4211-4240 yet. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
+      "location": "Public mid ~4145 (Investing 4145.16 / bid 4143.65). Session 4136.54-4285.37; PDH/open 4285. Week and 7-week L printing. Discount of day range EQ ~4211. Wrong location for chase shorts now.",
+      "news": "No USD red-folder next 4h. Bill auctions ~18:30 EAT. Cook/Barkin ~20:25-20:30 EAT. JOLTS + CB Confidence Tue ~16:00 EAT. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
+      "entry": 4230,
+      "sl": 4278,
       "tp1": 4110
     },
     {
