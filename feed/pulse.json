@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-28T13:06:00+03:00",
+  "updated_at": "2026-09-28T13:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "London close / NY prep",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.06,
-    "note": "Public mids (not broker ticks): XAU ~4157 (TE 4157.04 -2.99%; day box ~4280/4140). DXY 101.06 firm (+0.09; range ~100.98-101.20). 10y yields elevated. No red-folder USD next 4h (to 17:06 EAT). Bowman yellow ~15:15 EAT; Dallas Fed low ~17:30 EAT; Lagarde/Cook/Barkin later. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
+    "dxy": 101.07,
+    "note": "Public mids (not broker ticks): XAU ~4156 (LiveEx 4156.28 / FXS 4157.19, ~-3.0%; day box ~4262/4154). DXY ~101.07 firm. 10y ~5.22%. No red-folder USD/EUR/GBP next 4h (to 17:11 EAT). Lagarde yellow ~16:30 EAT; Dallas Fed low ~17:30 EAT; Cook/Barkin later. RBA Tue ~00:30 EAT. PCE Wed; NFP Fri."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4276,
     "tp1": 4110,
     "rr": 2.46,
-    "reason": "INTRADAY AMD+Judas. London close 13:06 EAT. Public spot ~4157 after PDH/Asia ~4280 Judas tap then displacement into session L ~4140. HTF daily LH from 4510/4399 still bearish; DXY 101.06 firm so no bullish SMT. Location is discount of 4280-4140 dealing range (EQ ~4210) — do not chase the dump and do not buy the first bounce. Arm into NY AM 15:30-18:00 EAT: A) retrace into 4210-4250 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4228 / SL 4276 beyond full wick not Asia H/PDH 4280 / TP1 4110 TP2 4040. B) SFP of 4140-4135 then bullish MSS + OTE long only as scalp against HTF."
+    "reason": "INTRADAY AMD+Judas. London close 13:11 EAT. Public spot ~4156 after PDH/Asia ~4262 Judas tap then displacement into session L ~4154. HTF daily LH from 4510/4399 still bearish; DXY ~101.07 firm so no bullish SMT. Location is discount of 4262-4154 dealing range (EQ ~4208) — do not chase the dump and do not buy the first bounce. Arm into NY AM 15:30-18:00 EAT: A) retrace into 4208-4250 EQ/CE/OTE then 5-15m bearish MSS + FVG/CE short 4228 / SL 4276 beyond full wick not Asia H/PDH 4262 / TP1 4110 TP2 4040. B) SFP of 4154-4135 then bullish MSS + OTE long only as scalp against HTF."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4157.0,
-      "change_pct": -2.99,
+      "price": 4156.0,
+      "change_pct": -3.0,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — London expansion already printed ~4280 to ~4140; bounce to ~4157 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4210-4250 yet. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
-      "location": "Public mid ~4157 (TE 4157.04). Session ~4140-4280; PDH ~4280. Week L printing. Discount of day range EQ ~4210 and week EQ ~4263. Wrong location for shorts now.",
-      "news": "No USD red-folder next 4h to 17:06 EAT. Bowman yellow ~15:15 EAT. Dallas Fed low ~17:30 EAT; Lagarde/Cook/Barkin later Mon. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
+      "trigger": "none — London expansion already printed ~4262 to ~4154; bounce to ~4156 is not 5-15m bullish MSS and not premium. No OTE/CE tap of 4208-4250 yet. Sells only from premium/EQ after displacement; buys only after confirmed MSS off session low.",
+      "location": "Public mid ~4156 (LiveEx 4156.28; FXS 4157.19). Session ~4154-4262; PDH ~4262. Week L printing. Discount of day range EQ ~4208. Wrong location for shorts now.",
+      "news": "No USD red-folder next 4h to 17:11 EAT. Lagarde yellow ~16:30 EAT. Dallas Fed low ~17:30 EAT; Cook/Barkin later Mon. PCE Wed; NFP Fri. RBA Tue ~00:30 EAT.",
       "entry": 4228,
       "sl": 4276,
       "tp1": 4110
@@ -43,8 +43,8 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid 1.1381 (FXStreet 1.13809 H/L 1.13912/1.13712; LiveEx 1.1382). Tight box; no hold above 1.1410 and no confirmed break of ~1.1361.",
-      "news": "No EUR red-folder next 4h. Lagarde later Mon ~16:30 EAT. Thin London only.",
+      "location": "Public mid 1.1381 (FXS 1.13809; LiveEx 1.1382 H/L 1.1391/1.1373). Tight box below 1.1400; no hold above 1.1410 and no confirmed break of ~1.1360.",
+      "news": "No EUR red-folder next 4h. Lagarde yellow ~16:30 EAT — not a red blackout, but skip new risk into the speech.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -52,27 +52,27 @@
     {
       "symbol": "GBPUSD",
       "price": 1.3266,
-      "change_pct": 0.23,
+      "change_pct": 0.16,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid ~1.3266 (FXStreet 1.32648 H/L 1.32725/1.32238; LiveEx 1.3268). Upper half of day box. Neither a discount bounce nor a confirmed hold of 1.3280.",
-      "news": "No GBP red print next 4h. Ramsden speech ~13:00 EAT is yellow, not a red blackout. BRC Shop Price late Mon night / Tue EAT.",
+      "location": "Public mid ~1.3266 (LiveEx 1.3268 H/L 1.3270/1.3226; FXS 1.32648). Upper half of day box. Neither a discount bounce nor a confirmed hold of 1.3280.",
+      "news": "No GBP red print next 4h. Ramsden already spent. BRC Shop Price late Mon night / Tue EAT.",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "USDJPY",
-      "price": 156.81,
-      "change_pct": -0.32,
+      "price": 156.8,
+      "change_pct": -0.33,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bullish",
       "trigger": "none",
-      "location": "Public mid ~156.81 (FXStreet 156.82 H/L 157.86/156.62; LiveEx 156.79; Investing 156.73). Fade off ~157.86 into lower half of day box. Neither a hold above 157.20 nor a confirmed dip-buy MSS. Intervention risk still elevated near 159.",
-      "news": "BoJ minutes + SPPI already printed — treat as spent JPY event risk, not a trigger. Do not chase the fade.",
+      "location": "Public mid ~156.80 (LiveEx 156.79 H/L 157.84/156.67; FXS 156.82). Fade off ~157.84 into lower half of day box. Neither a hold above 157.20 nor a confirmed dip-buy MSS. Intervention risk still elevated near 159.",
+      "news": "BoJ minutes + SPPI already printed — spent JPY event risk, not a trigger. Do not chase the fade.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -80,12 +80,12 @@
     {
       "symbol": "BTCUSD",
       "price": 83036,
-      "change_pct": -1.94,
+      "change_pct": -2.0,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid ~83036 (FXStreet 82947 H/L 84991/82688; LiveEx 83126). Lower half of recent box; no hold of highs and no confirmed break of 82680.",
+      "location": "Public mid ~83036 (LiveEx 83126 H/L 84890/82988; FXS 82947). Lower half of recent box; no hold of highs and no confirmed break of ~82700.",
       "news": "No crypto-specific red print. Thin London liquidity can still whip BTC.",
       "entry": null,
       "sl": null,
