@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T05:12:00+03:00",
+  "updated_at": "2026-09-29T06:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.22,
-    "note": "Public mids 05:12 EAT Tue: XAU 4120.45 (Asia stall after Mon dump H~4280 L~4111). DXY ~101.22 (day ~101.18-101.26). No USD/EUR/GBP/JPY red-folder in next 4h. RBA Cash Rate + statement ~07:30 EAT (AUD high, hike to 4.60% widely expected) then presser ~08:30 EAT. JOLTS + CB Consumer Confidence ~17:00 EAT. PCE Wed. Dollar firm near summer highs; gold still in the discount extreme of 4280-4111 — not a chase-short and not a first-bounce long."
+    "note": "Public mids 06:06 EAT Tue: XAU ~4136.7 (Asia bounce off Mon L ~4111 toward ~4139; still discount of Mon 4280-4111). DXY ~101.22 (day ~101.17-101.27). No USD red-folder in next 4h. RBA Cash Rate + statement ~07:30 EAT (AUD high) then presser ~08:30 EAT. JOLTS + CB Consumer Confidence ~17:00 EAT. PCE Wed 15:30 EAT. Dollar firm near summer highs; gold not a chase-short from 4136 and not a first-bounce long."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Judas/OTE. 05:12 EAT ASIA. Spot 4120.45 after Monday Judas tap ~4280 then displacement through SSL into ~4111. Asia still hugging the low of Mon 4280-4111 (EQ ~4196). HTF daily LH + Monday MSS bearish; DXY ~101.22 holds highs — no bullish SMT. Do not chase 4120 and do not buy first bounce off 4110. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4110-4095 then bullish MSS only as scalp vs HTF. Killzones closed; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location fail — WAIT."
+    "reason": "INTRADAY AMD+Judas/OTE. 06:06 EAT ASIA. Spot ~4136.7 after Monday Judas tap ~4280 then displacement through SSL into ~4111. Asia printed a shallow bounce 4111-4139, still hugging the low of Mon 4280-4111 (EQ ~4196). HTF daily LH + Monday MSS bearish; DXY ~101.22 holds highs — no bullish SMT. Do not chase 4136 and do not buy first bounce off 4110. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4110-4095 then bullish MSS only as scalp vs HTF. Killzones closed; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4120.45,
-      "change_pct": -0.16,
+      "price": 4136.73,
+      "change_pct": 0.53,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4280 to ~4111; 05:12 EAT Asia is a stall on the low (~4114-4137 earlier, now ~4120), not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~160pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
-      "location": "Spot 4120.45. Asia hugging Mon L ~4111 vs Mon H ~4280 / PDH-Fri ~4316. Discount of Mon range EQ ~4196. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "trigger": "none — Monday expansion already printed ~4280 to ~4111; 06:06 EAT Asia is a shallow bounce off the low (~4111 to ~4139), not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~160pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
+      "location": "Spot 4136.73. Asia bounce vs Mon L ~4111 / Tue so-far H ~4139 vs Mon H ~4280 / PDH-Fri ~4316. Discount of Mon range EQ ~4196. Wrong location for chase shorts and wrong location for first-bounce longs.",
       "news": "No USD red-folder next 4h. RBA Cash Rate + statement ~07:30 EAT (AUD high). RBA presser ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
