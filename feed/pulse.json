@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T07:11:00+03:00",
+  "updated_at": "2026-09-29T08:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.22,
-    "note": "Public mids 07:11 EAT Tue: XAU ~4136.3 (Asia bounce 4116-4140 after Mon dump ~4280-4111). DXY ~101.22 last public mid. RED next 4h: RBA Cash Rate + statement ~07:30 EAT then presser ~08:30 EAT (AUD high, gold/risk whip). Euro mid-prints ~10:00 EAT (KOF / Spanish Flash CPI; some boards also flag EUR retail). No USD red-folder until JOLTS + CB Confidence ~17:00 EAT. PCE Wed 15:30 EAT. Dollar firm; gold still discount of Mon range — not a chase-short from 4136 and not a first-bounce long off 4116."
+    "dxy": 101.19,
+    "note": "Public mids 08:06 EAT Tue: XAU ~4128.4 (Asia box 4113-4141 after Mon dump 4261-4111). DXY ~101.19, 52w high 101.80. RBA Cash Rate already out; RBA presser ~08:30 EAT still live-risk. No USD red-folder in next 4h. CAD GDP ~15:30 EAT. JOLTS + CB Consumer Confidence ~17:00 EAT (NY AM / Silver Bullet). PCE Wed 15:30 EAT. Dollar firm near highs; gold still discount of Mon range — not a chase-short from 4128 and not a first-bounce long off 4113."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Judas/OTE. 07:11 EAT ASIA. Spot ~4136 after Monday Judas tap ~4280 then displacement through SSL into ~4111. Asia still a shallow bounce 4116-4140, discount of Mon 4280-4111 (EQ ~4196). HTF daily LH + Monday MSS bearish; DXY ~101.22 holds highs. NEWS BLACKOUT: RBA ~07:30 EAT + presser ~08:30 EAT. Do not chase 4136 and do not buy first bounce off 4116. Arm London after RBA dust: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4110-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location fail — WAIT."
+    "reason": "INTRADAY AMD+Judas/OTE. 08:06 EAT ASIA. Spot ~4128 after Monday Judas tap ~4261 then displacement through SSL into ~4111. Asia still a shallow balance 4113-4141, discount of Mon 4261-4111 (EQ ~4186). HTF daily LH + Monday MSS bearish; DXY ~101.19 holds highs. NEWS: RBA presser ~08:30 EAT still blackout. Do not chase 4128 and do not buy first bounce off 4113. Arm London after presser: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4261 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4136.33,
-      "change_pct": -3.49,
+      "price": 4128.36,
+      "change_pct": 0.03,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4280 to ~4111; 07:11 EAT Asia is still a shallow bounce off the low (~4116 to ~4140), not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~160pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. RBA ~07:30 EAT is live-risk blackout.",
-      "location": "Spot 4136.33. Asia bounce vs Mon L ~4111 / Tue so-far H ~4140 vs Mon H ~4280 / 24h H ~4262. Discount of Mon range EQ ~4196. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "RED next 4h: RBA Cash Rate + statement ~07:30 EAT, RBA presser ~08:30 EAT. Euro mid-prints ~10:00 EAT. No USD red-folder until JOLTS + CB Confidence ~17:00 EAT. PCE Wed 15:30 EAT.",
+      "trigger": "none — Monday expansion already printed ~4261 to ~4111; 08:06 EAT Asia is still a shallow box off the low (4113-4141), not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. RBA presser ~08:30 EAT is live-risk blackout.",
+      "location": "Spot 4128.36. Asia box vs Mon L ~4111 / Tue so-far H ~4141 vs Mon H ~4261. Discount of Mon range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "RBA presser ~08:30 EAT (still inside next 4h, AUD high). Euro mid-prints already through / Lagarde later. No USD red-folder until JOLTS + CB Confidence ~17:00 EAT. CAD GDP ~15:30 EAT. PCE Wed 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
