@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T17:15:00+03:00",
+  "updated_at": "2026-09-29T18:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY AM / SILVER BULLET POST-JOLTS",
+  "session": "NY LUNCH / POST SILVER BULLET",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.42,
-    "note": "Public mid 17:15 EAT Tue NY AM / Silver Bullet: XAU cluster ~4152-4164 after fade from Tue high ~4168 (Investing day 4113.68-4161.35; Mon dump 4280.56-4110.95). DXY ~101.42 near 52w high ~101.80. JOLTS 7.079M vs 7.23M (prior rev 7.335M) + CB Conf 81.9 vs ~89 / 88.6 prior printed 17:00 EAT (dual miss). Fed speakers from ~18:00 EAT (Bowman/Barr/Goolsbee/Musalem/Williams). PCE Wed 15:30 EAT. Spot is mid-premium of Tue box (EQ ~4137) and still discount of Mon range (EQ ~4196). Do not chase the first post-print swing."
+    "dxy": 101.46,
+    "note": "Public mid 18:06 EAT Tue post Silver Bullet: XAU cluster ~4167 after squeeze to Tue high ~4175 (Investing 4113.68-4175.16; Mon dump 4280.56-4110.95). DXY 101.46 near 52w high 101.80. JOLTS 7.079M vs 7.23M + CB Conf 81.9 vs ~89 already printed 17:00 EAT (dual miss). Fed Goolsbee ~20:00 EAT, Musalem ~20:30, Williams ~21:00. PCE Wed 15:30 EAT. Spot is premium of Tue box (EQ ~4144) and still discount of Mon range (EQ ~4196). Do not chase the squeeze; arm shorts only at Mon OTE."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Silver Bullet + AMD/Judas OTE. 17:15 EAT NY AM / Silver Bullet post-print. Monday Judas tap ~4261-4280 then displacement through SSL into ~4111. Tue recovered 4113.68-4168 then faded toward ~4156 into the news window. Spot is premium of today, discount of Mon EQ ~4196. HTF daily LH + Monday MSS still bearish; DXY holds ~101.42. Dual miss (JOLTS 7.079M / CB 81.9) is hostile to chasing shorts at the first spike and can still fund a squeeze into 4196-4230. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is live on the red print — void live chase. Trigger+location fail — WAIT."
+    "reason": "INTRADAY AMD/Judas OTE + Monday Displacement FVG CE. 18:06 EAT NY lunch / post Silver Bullet. Monday Judas tap ~4261-4280 then displacement through SSL into ~4111. Tue recovered 4113.68-4175.16 after dual-miss squeeze. Spot ~4167 is premium of today, discount of Mon EQ ~4196. HTF daily LH + Monday MSS still bearish; DXY 101.46. Dual miss funded the squeeze toward 4196 as mapped; not yet at 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Trigger+location fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4156,
-      "change_pct": 0.72,
+      "price": 4167,
+      "change_pct": 1.28,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 17:15 EAT Silver Bullet is a post-JOLTS fade off Tue BSL ~4168 toward ~4156, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Dual miss can still squeeze toward Mon EQ ~4196. Sells only from premium/EQ after displacement; do not fade the first post-print swing.",
-      "location": "Public mid ~4156 (Investing ~4152-4157 day 4113.68-4161.35; LiveExchanges ~4145; MarketScreener ~4164). Tue box vs Mon L ~4111 / Tue H ~4168 vs Mon H ~4281. Discount of Mon range EQ ~4196. Mid-premium of today's range (EQ ~4137) only. Wrong location for chase shorts and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
-      "news": "PRINTED 17:00 EAT: JOLTS openings 7.079M vs 7.23M fcst / 7.335M prior rev; CB Consumer Confidence 81.9 vs ~89 fcst / 88.6 prior (dual miss). RED-FOLDER reaction still live inside Silver Bullet. Fed speakers ~18:00-21:00 EAT. PCE Wed 15:30 EAT. NEWS BLACKOUT ON until displacement settles.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 18:06 EAT post Silver Bullet is a dual-miss squeeze off 4114 toward Tue BSL ~4175, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230. Sells only from premium/EQ after displacement; do not chase the squeeze short and do not buy mid-range.",
+      "location": "Public mid ~4167 (Investing 4167.49 day 4113.68-4175.16; COMEX ~4170 H 4174.8). Tue box vs Mon L ~4111 / Tue H ~4175 vs Mon H ~4281. Discount of Mon range EQ ~4196. Premium of today's range (EQ ~4144). Wrong location for chase shorts and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
+      "news": "PRINTED 17:00 EAT: JOLTS openings 7.079M vs 7.23M fcst; CB Consumer Confidence 81.9 vs ~89 (dual miss). No USD red-folder left in next 4h. Fed speakers Goolsbee ~20:00 / Musalem ~20:30 / Williams ~21:00 EAT (medium). PCE Wed 15:30 EAT. Reaction risk into speakers — no live chase.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
