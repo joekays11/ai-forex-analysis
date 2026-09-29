@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T23:25:00+03:00",
+  "updated_at": "2026-09-30T00:08:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY PM LATE / ASIA OPEN",
+  "session": "ASIA OPEN / TOKYO",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.42,
-    "note": "Public mid 23:25 EAT Tue late NY / Asia open. XAU cluster ~4174 (Investing 4174.41 H 4177.59 L 4113.68 +1.44%; CNBC ~4169.75; Titan ~4171.87). Day box 4113.68-4177.59 vs Mon H ~4281 / Mon L ~4111. DXY public mid ~101.42 (MarketWatch 101.40; MacroMicro 101.37; GuruFocus ~101.47). JOLTS 7.079M vs 7.23M + CB Conf 81.9 vs 89.2 printed 17:00 EAT (dual miss). API crude window ~22:30-23:30 EAT already in/near print. Next 4h: no red-folder USD print. JPY prelim IP + retail ~01:50 EAT Wed orange. NZD ANZ ~02:00 EAT. AUD CPI 04:30 EAT Wed outside window. PCE/GDP Wed 15:30 EAT. Spot still extreme premium of Tue box (EQ ~4146) and discount of Mon range (EQ ~4196). Do not chase the squeeze; arm shorts only at Mon OTE."
+    "dxy": 101.40,
+    "note": "Public mid 00:08 EAT Wed Asia open. XAU cluster ~4182 (biquote 4181.68 H 4185.4 L 4113.23; Investing day box 4113.68-4175/4185). Tue recovered from Mon SSL ~4111 to ~4185. DXY public mid ~101.40 (MarketWatch 101.40; DealPlexus 101.41 H 101.61; GuruFocus ~101.41). Next 4h: no red-folder USD. JPY prelim IP + retail ~01:50 EAT orange. NZD ANZ ~02:00 EAT. AUD CPI 04:30 EAT just outside window. China NBS PMI ~04:30 EAT. Red USD later: ADP 15:15 EAT, Core PCE + final GDP 15:30 EAT, Chicago PMI 16:45 EAT. Spot extreme premium of Tue box (EQ ~4149) and still discount of Mon range (EQ ~4196). Do not chase the squeeze; arm shorts only at Mon OTE."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD/Judas OTE + Monday Displacement FVG CE. 23:25 EAT late NY PM / Asia open. Monday Judas tap ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4178 after dual-miss squeeze and is holding near Tue H ~4178. Spot ~4174 is extreme premium of today (EQ ~4146), still discount of Mon EQ ~4196. HTF daily LH + Monday MSS still bearish. Dual miss funded the squeeze toward 4196; not yet at 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Trigger + location both fail at spot — WAIT."
+    "reason": "INTRADAY AMD/Judas OTE + Monday Displacement FVG CE. 00:08 EAT Asia open. Monday Judas tap ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4113-4185 after dual-miss squeeze and Asia is holding under Tue H ~4185. Spot ~4182 is extreme premium of Tue box (EQ ~4149), still discount of Mon EQ ~4196. HTF daily LH + Monday MSS still bearish. Squeeze can still extend into 4196 / 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Trigger + location + killzone all fail at spot — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4174,
-      "change_pct": 1.44,
+      "price": 4182,
+      "change_pct": 1.32,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 23:25 EAT post Silver Bullet is a dual-miss squeeze holding near Tue H ~4178, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230. Sells only from premium/EQ after displacement; do not chase session-high shorts and do not buy mid-range.",
-      "location": "Public mid ~4174 (Investing 4174.41 H 4177.59 L 4113.68; CNBC ~4169.75; Titan ~4171.87). Tue box vs Mon L ~4111 / Tue H ~4178 vs Mon H ~4281. Discount of Mon range EQ ~4196. Extreme premium of today's range (EQ ~4146). Wrong location for chase shorts and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
-      "news": "PRINTED 17:00 EAT: JOLTS openings 7.079M vs 7.23M fcst; CB Consumer Confidence 81.9 vs 89.2 (dual miss). API crude window ~22:30-23:30 EAT in/near print. No USD red-folder left in next 4h. JPY prelim IP + retail ~01:50 EAT Wed. NZD ANZ ~02:00 EAT. AUD CPI 04:30 EAT Wed outside window. PCE/GDP Wed 15:30 EAT. NEWS BLACKOUT ON — no live chase into Asia open.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 00:08 EAT Asia open is a dual-miss squeeze holding under Tue H ~4185, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230. Sells only from premium/EQ after displacement; do not chase session-high shorts and do not buy mid-range.",
+      "location": "Public mid ~4182 (biquote 4181.68 H 4185.4 L 4113.23; Investing H ~4175-4185 L 4113.68). Tue box vs Mon L ~4111 / Tue H ~4185 vs Mon H ~4281. Discount of Mon range EQ ~4196. Extreme premium of Tue range (EQ ~4149). Wrong location for chase shorts and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
+      "news": "PRINTED Tue 17:00 EAT: JOLTS 7.079M vs 7.23M; CB Conf 81.9 vs 89.2 (dual miss). No USD red-folder in next 4h. JPY prelim IP + retail ~01:50 EAT. NZD ANZ ~02:00 EAT. AUD CPI + China NBS PMI ~04:30 EAT just outside window. Red USD later Wed: ADP 15:15 EAT, Core PCE + final GDP 15:30 EAT, Chicago PMI 16:45 EAT. NEWS BLACKOUT ON — no live chase into Asia.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
