@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T08:06:00+03:00",
+  "updated_at": "2026-09-29T08:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.19,
-    "note": "Public mids 08:06 EAT Tue: XAU ~4128.4 (Asia box 4113-4141 after Mon dump 4261-4111). DXY ~101.19, 52w high 101.80. RBA Cash Rate already out; RBA presser ~08:30 EAT still live-risk. No USD red-folder in next 4h. CAD GDP ~15:30 EAT. JOLTS + CB Consumer Confidence ~17:00 EAT (NY AM / Silver Bullet). PCE Wed 15:30 EAT. Dollar firm near highs; gold still discount of Mon range — not a chase-short from 4128 and not a first-bounce long off 4113."
+    "note": "Public mids 08:11 EAT Tue: XAU ~4136.3 (Asia box ~4113-4141 after Mon dump 4261-4111; small bounce off ~4128). DXY ~101.19, 52w high 101.80. RBA hiked +25bp to 4.60% as expected; RBA presser ~08:30 EAT still live-risk blackout. No USD red-folder in next 4h. CHF KOF + ES Flash CPI ~10:00 EAT (medium). GBP M4/mortgages ~11:30 EAT (medium). CAD GDP ~15:30 EAT. JOLTS + CB Consumer Confidence ~17:00 EAT. PCE Wed 15:30 EAT. Dollar firm near highs; gold still discount of Mon range — not a chase-short from 4136 and not a first-bounce long off 4113."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Judas/OTE. 08:06 EAT ASIA. Spot ~4128 after Monday Judas tap ~4261 then displacement through SSL into ~4111. Asia still a shallow balance 4113-4141, discount of Mon 4261-4111 (EQ ~4186). HTF daily LH + Monday MSS bearish; DXY ~101.19 holds highs. NEWS: RBA presser ~08:30 EAT still blackout. Do not chase 4128 and do not buy first bounce off 4113. Arm London after presser: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4261 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location fail — WAIT."
+    "reason": "INTRADAY AMD+Judas/OTE. 08:11 EAT ASIA. Spot ~4136 after Monday Judas tap ~4261 then displacement through SSL into ~4111. Asia still a shallow balance 4113-4141, discount of Mon 4261-4111 (EQ ~4186). HTF daily LH + Monday MSS bearish; DXY ~101.19 holds highs. NEWS: RBA +25bp to 4.60% already printed; presser ~08:30 EAT still blackout. Do not chase 4136 and do not buy first bounce off 4113. Arm London after presser: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4261 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4128.36,
-      "change_pct": 0.03,
+      "price": 4136.33,
+      "change_pct": -3.49,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4261 to ~4111; 08:06 EAT Asia is still a shallow box off the low (4113-4141), not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. RBA presser ~08:30 EAT is live-risk blackout.",
-      "location": "Spot 4128.36. Asia box vs Mon L ~4111 / Tue so-far H ~4141 vs Mon H ~4261. Discount of Mon range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "RBA presser ~08:30 EAT (still inside next 4h, AUD high). Euro mid-prints already through / Lagarde later. No USD red-folder until JOLTS + CB Confidence ~17:00 EAT. CAD GDP ~15:30 EAT. PCE Wed 15:30 EAT.",
+      "trigger": "none — Monday expansion already printed ~4261 to ~4111; 08:11 EAT Asia is still a shallow box off the low (4113-4141), small bounce to ~4136 not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~150pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. RBA presser ~08:30 EAT is live-risk blackout.",
+      "location": "Spot 4136.33. Asia box vs Mon L ~4111 / Tue so-far H ~4141 vs Mon H ~4261. Discount of Mon range EQ ~4186. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "RBA hiked +25bp to 4.60%. Presser ~08:30 EAT still inside next 4h (AUD high). No USD red-folder until JOLTS + CB Confidence ~17:00 EAT. Medium: KOF + ES Flash CPI ~10:00 EAT; UK M4/mortgages ~11:30 EAT. CAD GDP ~15:30 EAT. PCE Wed 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
@@ -44,7 +44,7 @@
       "bias": "bearish",
       "trigger": "none",
       "location": "Public mid 1.1377. Tight box 1.1355-1.1391 below 1.1400; no hold above 1.1410 and no confirmed break of ~1.1355.",
-      "news": "No EUR red-folder in the next few minutes. Spanish Flash CPI / KOF ~10:00 EAT. Lagarde later Tuesday — outside the 4h window. RBA can still whip the dollar.",
+      "news": "No EUR red-folder in next 4h. Spanish Flash CPI / KOF ~10:00 EAT (medium). Lagarde later Tuesday — outside the 4h window. RBA presser can still whip the dollar.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -72,7 +72,7 @@
       "bias": "bullish",
       "trigger": "none",
       "location": "Public mid 157.24. Mid of the 156.54-157.84 box after fade off ~157.8s. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160.",
-      "news": "No JPY/USD red-folder next 4h. RBA can still whip USD crosses. Do not chase the fade into the print.",
+      "news": "No JPY/USD red-folder next 4h. RBA presser can still whip USD crosses. Do not chase the fade into the print.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -86,7 +86,7 @@
       "bias": "neutral",
       "trigger": "none",
       "location": "Public mid ~83926 (public cluster still wide ~83.0k-84.0k). Mid of the recent ~82.7k-84.9k box; no hold of highs and no confirmed break of ~82700. Public feeds diverge — not a tick.",
-      "news": "No crypto-specific red print. Thin Asia plus RBA can still whip risk.",
+      "news": "No crypto-specific red print. Thin Asia plus RBA presser can still whip risk.",
       "entry": null,
       "sl": null,
       "tp1": null
