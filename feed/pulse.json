@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T03:06:00+03:00",
+  "updated_at": "2026-09-29T03:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.19,
-    "note": "Public mids (not broker ticks): XAU ~4126 (Investing 4126.13 +0.27% on Asia print; Asia H/L 4115-4129; Mon NY dump H ~4285 L ~4111). DXY ~101.19 (Investing 101.19 H 101.20 L 101.17; Mon 101.31/100.98). No USD red-folder next 4h. RBA Cash Rate + statement 07:30 EAT (high AUD, just outside 4h). Bullock presser ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT. Firm DXY after NY gold dump (~170pts off ~4285 into ~4111) keeps metals bid-less into Tokyo; hold ~4126 is still the discount extreme of 4285-4111, not a short location."
+    "note": "Public mids (not broker ticks): XAU ~4122 (Live-Rates 4122.10, day ~-3.2%; Asia stall ~4115-4129 after Mon NY dump H ~4285 L ~4111). EUR 1.13705 / GBP 1.32530 / USDJPY 157.42 / BTC ~83563. DXY ~101.19 holds the Monday recovery. No USD red-folder next 4h. RBA Cash Rate + statement ~07:30 EAT (high AUD, just outside 4h). Bullock presser ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT. Firm DXY after the ~170pt gold dump keeps metals bid-less into Tokyo; 4122 is still the discount extreme of 4285-4111, not a short location and not a first-bounce long."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Po3. 03:06 EAT ASIA (Tokyo open). Public spot ~4126 after Monday Judas/open tap ~4285 then displacement through prior SSL into ~4111. Asia box ~4115-4129 is discount of 4285-4111 dealing range (EQ ~4198), not a premium trigger. HTF daily LH + Monday MSS bearish; DXY ~101.19 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones not open; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location both fail — WAIT."
+    "reason": "INTRADAY AMD+Po3. 03:11 EAT ASIA (Tokyo). Public spot ~4122 after Monday Judas/open tap ~4285 then displacement through prior SSL into ~4111. Asia box ~4115-4129 is discount of 4285-4111 dealing range (EQ ~4198), not a premium trigger. HTF daily LH + Monday MSS bearish; DXY ~101.19 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones not open; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location both fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4126.13,
-      "change_pct": 0.27,
+      "price": 4122.1,
+      "change_pct": -3.24,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — NY expansion already printed ~4285 to ~4111; 03:06 EAT Asia box ~4115-4129 is a stall on the low, not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~170pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
-      "location": "Public mid ~4126 (Investing 4126.13 bid 4125.96). Asia H/L ~4129 / 4115. Mon H/L ~4285 / 4111. PDH/Fri ~4316. Discount of day range EQ ~4198. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "trigger": "none — NY expansion already printed ~4285 to ~4111; 03:11 EAT Asia box ~4115-4129 is a stall on the low, not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~170pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
+      "location": "Public mid ~4122 (Live-Rates 4122.10). Asia H/L ~4129 / 4115. Mon H/L ~4285 / 4111. PDH/Fri ~4316. Discount of day range EQ ~4198. Wrong location for chase shorts and wrong location for first-bounce longs.",
       "news": "No USD red-folder next 4h. RBA Cash Rate ~07:30 EAT (AUD high, just outside 4h). JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
@@ -37,13 +37,13 @@
     },
     {
       "symbol": "EURUSD",
-      "price": 1.1371,
+      "price": 1.13705,
       "change_pct": -0.06,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid 1.1371 (Live-Rates 1.13705 / LiveEx ~1.1373). Tight box below 1.1400; H ~1.1391 L ~1.1355. No hold above 1.1410 and no confirmed break of ~1.1355.",
+      "location": "Public mid 1.13705 (Live-Rates). Tight box below 1.1400; H ~1.1391 L ~1.1355. No hold above 1.1410 and no confirmed break of ~1.1355.",
       "news": "No EUR red-folder next 4h. Spanish Flash CPI later morning. Lagarde later Tuesday — not in the 4h window.",
       "entry": null,
       "sl": null,
@@ -57,7 +57,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid 1.3253 (Live-Rates 1.32530 / LiveEx 1.3254). Mid of day box H ~1.3275 L ~1.3226. Neither a discount bounce nor a confirmed hold of 1.3280.",
+      "location": "Public mid 1.32530 (Live-Rates). Mid of day box H ~1.3275 L ~1.3226. Neither a discount bounce nor a confirmed hold of 1.3280.",
       "news": "No GBP red print next 4h. UK data later is low-tier (M4 / mortgages).",
       "entry": null,
       "sl": null,
@@ -65,14 +65,14 @@
     },
     {
       "symbol": "USDJPY",
-      "price": 157.42,
+      "price": 157.418,
       "change_pct": -0.01,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "bullish",
       "trigger": "none",
-      "location": "Public mid 157.42 (Live-Rates 157.418 / LiveEx 157.40). Mid of day box after fade off ~157.8s (H ~157.84 L ~156.54). Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-159.",
-      "news": "No JPY/USD red-folder next 4h. BoJ minutes + SPPI spent. Do not chase the fade into Asia.",
+      "location": "Public mid 157.418 (Live-Rates). Mid of day box after fade off ~157.8s (H ~157.84 L ~156.54). Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-159.",
+      "news": "No JPY/USD red-folder next 4h. Do not chase the fade into Asia.",
       "entry": null,
       "sl": null,
       "tp1": null
