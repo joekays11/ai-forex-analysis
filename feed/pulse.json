@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T20:06:00+03:00",
+  "updated_at": "2026-09-29T20:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY PM LATE / PRE-ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.40,
-    "note": "Public mid 20:06 EAT Tue late NY PM. XAU cluster ~4150 (feeds 4145-4158). DXY ~101.40 (day 101.18-101.49) still near 52w high 101.80. JOLTS 7.079M vs 7.23M + CB Conf 81.9 vs 89.2 printed 17:00 EAT (dual miss). Next 4h: no red-folder data. Fed speakers in-window (Goolsbee ~20:00, Musalem ~20:30, Williams ~21:00, Waller ~22:00 EAT). API ~23:30 EAT medium. PCE Wed 15:30 EAT. Spot is slight premium of Tue box (EQ ~4144) and discount of Mon range (EQ ~4196). Do not chase the squeeze; arm shorts only at Mon OTE."
+    "dxy": 101.38,
+    "note": "Public mid 20:11 EAT Tue late NY PM. XAU cluster ~4148 (feeds 4145-4158). DXY ~101.38 (day 101.18-101.49) still near 52w high 101.80. JOLTS 7.079M vs 7.23M + CB Conf 81.9 vs 89.2 printed 17:00 EAT (dual miss). Next 4h: no red-folder data. Fed speakers in-window (Goolsbee ~20:00, Musalem ~20:30, Williams ~21:00, Waller ~22:00 EAT). API ~23:30 EAT medium. AUD CPI 04:30 EAT Wed is outside this window. PCE Wed 15:30 EAT. Spot is slight premium of Tue box (EQ ~4144) and discount of Mon range (EQ ~4196). Do not chase the squeeze; arm shorts only at Mon OTE."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD/Judas OTE + Monday Displacement FVG CE. 20:06 EAT late NY PM / pre-Asia. Monday Judas tap ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4175 after dual-miss squeeze; faded off 4175 toward 4150. Spot ~4150 is slight premium of today, discount of Mon EQ ~4196. HTF daily LH + Monday MSS still bearish. Dual miss funded the squeeze toward 4196; not yet at 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Speaker window live — WAIT."
+    "reason": "INTRADAY AMD/Judas OTE + Monday Displacement FVG CE. 20:11 EAT late NY PM / pre-Asia. Monday Judas tap ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4175 after dual-miss squeeze; faded off 4175 toward 4148. Spot ~4148 is slight premium of today, discount of Mon EQ ~4196. HTF daily LH + Monday MSS still bearish. Dual miss funded the squeeze toward 4196; not yet at 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Speaker window live — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4150,
-      "change_pct": 0.85,
+      "price": 4148,
+      "change_pct": 0.51,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 20:06 EAT post Silver Bullet is a dual-miss squeeze fade off Tue BSL ~4175 toward 4150, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230 into Fed speakers. Sells only from premium/EQ after displacement; do not chase mid-range shorts and do not buy mid-range.",
-      "location": "Public mid ~4150 (Investing 4145; cluster 4145-4158). Tue box vs Mon L ~4111 / Tue H ~4175 vs Mon H ~4281. Discount of Mon range EQ ~4196. Slight premium of today's range (EQ ~4144). Wrong location for chase shorts and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
-      "news": "PRINTED 17:00 EAT: JOLTS openings 7.079M vs 7.23M fcst; CB Consumer Confidence 81.9 vs 89.2 (dual miss). No USD red-folder left in next 4h. Fed speakers Goolsbee ~20:00 / Musalem ~20:30 / Williams ~21:00 / Waller ~22:00 EAT (medium, in window). API ~23:30 EAT. PCE Wed 15:30 EAT. Speaker reaction risk — no live chase.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 20:11 EAT post Silver Bullet is a dual-miss squeeze fade off Tue BSL ~4175 toward 4148, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230 into Fed speakers. Sells only from premium/EQ after displacement; do not chase mid-range shorts and do not buy mid-range.",
+      "location": "Public mid ~4148 (GoldPrice/XAUS ~4148; LiveExchanges 4145; xau.today 4158). Tue box vs Mon L ~4111 / Tue H ~4175 vs Mon H ~4281. Discount of Mon range EQ ~4196. Slight premium of today's range (EQ ~4144). Wrong location for chase shorts and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
+      "news": "PRINTED 17:00 EAT: JOLTS openings 7.079M vs 7.23M fcst; CB Consumer Confidence 81.9 vs 89.2 (dual miss). No USD red-folder left in next 4h. Fed speakers Goolsbee ~20:00 / Musalem ~20:30 / Williams ~21:00 / Waller ~22:00 EAT (medium, in window). API ~23:30 EAT. AUD CPI 04:30 EAT Wed outside window. PCE Wed 15:30 EAT. Speaker reaction risk — no live chase.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
@@ -85,7 +85,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid 83890 (GoldPrice 83889; LiveExchanges ~83751). Mid-high of the recent ~82.5k-84.6k box; no confirmed hold of highs and no break of ~82490. Public feeds diverge, not a tick.",
+      "location": "Public mid 83890 (GoldPrice 83889; LiveExchanges ~83751; Yahoo ~83457). Mid-high of the recent ~82.5k-84.6k box; no confirmed hold of highs and no break of ~82490. Public feeds diverge, not a tick.",
       "news": "No crypto-specific red print. NY session plus Fed speakers can still whip risk. NEWS BLACKOUT ON.",
       "entry": null,
       "sl": null,
