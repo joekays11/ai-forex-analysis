@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T13:14:00+03:00",
+  "updated_at": "2026-09-29T14:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "LONDON AFTERNOON / PRE-NY",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.35,
-    "note": "Public mids 13:14 EAT Tue London afternoon: XAU ~4145 (LE 4145.29; day box ~4115-4149 after Mon dump ~4281-4111; still discount of Mon range EQ ~4196). DXY last noted 101.35 near 52w high ~101.80. RBA +25bp already printed. RED-FOLDER in next 4h: JOLTS Job Openings + CB Consumer Confidence 17:00 EAT (NY AM / Silver Bullet). In-window also: Lagarde ~14:00 EAT; CAD GDP ~15:30 EAT; USD HPI/Case-Shiller ~16:00 EAT. PCE Wed 15:30 EAT. Dollar firm near highs; gold still discount of Mon range — not a chase-short from 4145 and not a first-bounce long off 4111."
+    "dxy": 101.34,
+    "note": "Public mids 14:06 EAT Tue pre-NY: XAU ~4155 (Investing 4154.89; day box 4113.68-4156.13 after Mon dump ~4281-4111; still discount of Mon range EQ ~4196). DXY 101.34 (day 101.17-101.49) near 52w high ~101.80. RBA +25bp already printed. RED-FOLDER in next 4h: JOLTS Job Openings + CB Consumer Confidence 17:00 EAT (NY AM / Silver Bullet). In-window also: CAD GDP ~15:30 EAT; USD HPI/Case-Shiller ~16:00 EAT. Fed speakers after window. PCE Wed 15:30 EAT. Dollar firm; gold probing Tue high still not Mon EQ — not a chase-short from 4155 and not a first-bounce long off 4111."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Judas/OTE. 13:14 EAT LONDON AFTERNOON. Spot ~4145 after Monday Judas tap ~4261-4280 then displacement through SSL into ~4111. London box 4115-4149 is still a shallow balance off the low, discount of Mon 4281-4111 (EQ ~4196). HTF daily LH + Monday MSS bearish; DXY holds highs. NEWS: JOLTS+CB red-folder 17:00 EAT inside 4h window. Do not chase 4145 and do not buy first bounce off 4111. Arm NY after data: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT WITH JOLTS — void live print. Trigger+location fail — WAIT."
+    "reason": "INTRADAY AMD+Judas/OTE. 14:06 EAT LONDON AFTERNOON / PRE-NY. Spot ~4155 after Monday Judas tap ~4261-4280 then displacement through SSL into ~4111. Tue box 4113.68-4156.13 is still a shallow balance off the low, discount of Mon 4281-4111 (EQ ~4196). HTF daily LH + Monday MSS bearish; DXY holds 101.34. NEWS: JOLTS+CB red-folder 17:00 EAT inside 4h window. Do not chase 4155 and do not buy first bounce off 4111. Arm NY after data: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT WITH JOLTS — void live print. Trigger+location fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4145.29,
-      "change_pct": 0.51,
+      "price": 4154.89,
+      "change_pct": 0.97,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111; 13:14 EAT London afternoon is still a shallow box off the low (~4115-4149), public mid ~4145 not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~170pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. JOLTS+CB 17:00 EAT red-folder now in window.",
-      "location": "Spot ~4145 (LE 4145.29; day ~4115.40-4145.42). Tue box vs Mon L ~4111 / Tue H ~4149 vs Mon H ~4281. Discount of Mon range EQ ~4196. Premium of today's tiny range only. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "RED-FOLDER in next 4h: JOLTS Job Openings (fcst 7.23M / prev 7.27M) + CB Consumer Confidence (fcst 89.2 / prev 89.4) at 17:00 EAT. Also Lagarde ~14:00 EAT; CAD GDP ~15:30 EAT; USD HPI/Case-Shiller ~16:00 EAT. PCE Wed 15:30 EAT. RBA hike already printed.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111; 14:06 EAT pre-NY is still a shallow box off the low (4113.68-4156.13), public mid ~4155 not 5-15m bullish MSS and not Mon premium/EQ. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~170pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low. JOLTS+CB 17:00 EAT red-folder now in window.",
+      "location": "Spot ~4155 (Investing 4154.89; day 4113.68-4156.13). Tue box vs Mon L ~4111 / Tue H ~4156 vs Mon H ~4281. Discount of Mon range EQ ~4196. Premium of today's tiny range only. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "RED-FOLDER in next 4h: JOLTS Job Openings (fcst 7.23M / prev 7.27M) + CB Consumer Confidence (fcst 89.2 / prev 89.4) at 17:00 EAT. Also CAD GDP ~15:30 EAT; USD HPI/Case-Shiller ~16:00 EAT. PCE Wed 15:30 EAT. RBA hike already printed.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
