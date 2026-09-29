@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-29T03:11:00+03:00",
+  "updated_at": "2026-09-29T04:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.19,
-    "note": "Public mids (not broker ticks): XAU ~4122 (Live-Rates 4122.10, day ~-3.2%; Asia stall ~4115-4129 after Mon NY dump H ~4285 L ~4111). EUR 1.13705 / GBP 1.32530 / USDJPY 157.42 / BTC ~83563. DXY ~101.19 holds the Monday recovery. No USD red-folder next 4h. RBA Cash Rate + statement ~07:30 EAT (high AUD, just outside 4h). Bullock presser ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT. Firm DXY after the ~170pt gold dump keeps metals bid-less into Tokyo; 4122 is still the discount extreme of 4285-4111, not a short location and not a first-bounce long."
+    "dxy": 101.23,
+    "note": "Public mids (not broker ticks): XAU Kitco 4119.80/4121.80 mid ~4120.8 at 09:06 PM ET Mon = 04:06 EAT Tue. Mon/session H 4279.90 L 4110.20. DXY 101.23 (+0.03). EUR 1.13705 / GBP 1.32530 / USDJPY 157.42 / BTC ~83563. No USD red-folder next 4h. RBA Cash Rate + statement ~07:30 EAT (AUD high, now inside the 4h window). Bullock presser ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT. Firm DXY after the ~170pt gold dump keeps metals bid-less into Tokyo; 4121 is still the discount extreme of 4280-4110, not a short location and not a first-bounce long."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY AMD+Po3. 03:11 EAT ASIA (Tokyo). Public spot ~4122 after Monday Judas/open tap ~4285 then displacement through prior SSL into ~4111. Asia box ~4115-4129 is discount of 4285-4111 dealing range (EQ ~4198), not a premium trigger. HTF daily LH + Monday MSS bearish; DXY ~101.19 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4111. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4285 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones not open; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location both fail — WAIT."
+    "reason": "INTRADAY AMD+Po3. 04:06 EAT ASIA (Tokyo). Public spot ~4121 after Monday Judas/open tap ~4280 then displacement through prior SSL into ~4110. Asia box ~4115-4129 still hugging the low of 4280-4110 (EQ ~4195), not a premium trigger. HTF daily LH + Monday MSS bearish; DXY 101.23 holds highs so no bullish SMT. Do not chase the dump and do not buy the first bounce off 4110. Arm London: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4110-4095 then bullish MSS + OTE long only as scalp against HTF. Killzones not open; Silver Bullet 17:00-18:00 EAT with JOLTS. Trigger+location both fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4122.1,
-      "change_pct": -3.24,
+      "price": 4120.8,
+      "change_pct": -3.27,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — NY expansion already printed ~4285 to ~4111; 03:11 EAT Asia box ~4115-4129 is a stall on the low, not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~170pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
-      "location": "Public mid ~4122 (Live-Rates 4122.10). Asia H/L ~4129 / 4115. Mon H/L ~4285 / 4111. PDH/Fri ~4316. Discount of day range EQ ~4198. Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "No USD red-folder next 4h. RBA Cash Rate ~07:30 EAT (AUD high, just outside 4h). JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT.",
+      "trigger": "none — NY expansion already printed ~4280 to ~4110; 04:06 EAT Asia box ~4115-4129 is a stall on the low, not 5-15m bullish MSS and not premium. Prior SSL taken. No OTE/CE tap of 4205-4230 yet. Discount after ~170pt dump. Sells only from premium/EQ after displacement; buys only after confirmed SFP+MSS off session low.",
+      "location": "Public mid ~4121 (Kitco 4119.80/4121.80). Asia H/L ~4129 / 4115. Mon H/L ~4280 / 4110. PDH/Fri ~4316. Discount of day range EQ ~4195. Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "No USD red-folder next 4h. RBA Cash Rate + statement ~07:30 EAT (AUD high, inside 4h). Bullock ~08:30 EAT. JOLTS + CB Confidence Tue ~17:00 EAT. PCE Wed 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
