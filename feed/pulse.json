@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T23:15:00+03:00",
+  "updated_at": "2026-10-01T00:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY LATE",
+  "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.41,
-    "note": "23:15 EAT Wed NY LATE (~45m to NY close). DXY public cluster ~101.41 (Jujin 101.41, MW DXY 101.43; GuruFocus print ~101.20 diverges). XAU public spot cluster ~4152 (live-rates 4152.20 -0.78%; GoldPrice 4151.30 ~16:03 ET). Investing XAU page 4199 and LiveExchanges ~4189 diverge — not a tick. Day box still referenced 4151-4219 from earlier Investing print. USD reds already printed (ADP, Core PCE, final GDP, income/spending, EIA). Next 4h: no red-folder USD print. Residual FOMC speak Goolsbee ~00:10 EAT, Kashkari ~01:00 EAT. Cook ~22:25 EAT already in the rear-view. Public quotes only; not broker-grade ticks."
+    "dxy": 101.33,
+    "note": "00:06 EAT Thu ASIA open. XAU public cluster ~4156 (GoldTracker 4156.20 bid 4155.95 / ask 4156.46, Investing ~4152-4155). Wed box H 4211-4219 L 4147.63, prev close ~4184.7. DXY public cluster ~101.33-101.41 (MW ~101.33, TE 101.41, GuruFocus 101.40). No red-folder USD in next 4h. JPY Tankan ~02:50 EAT can whip metals via USDJPY. Later reds: Claims 15:30 EAT, ISM Mfg 17:00 EAT. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3/AMD + Judas. 23:15 EAT NY LATE after SB close. Public spot cluster still ~4152 discount after the 4219 PDH raid; some feeds print 4189-4199 but that is not a confirmed return into 4205-4230 OTE. HTF daily LH + Mon MSS/SSL 4111 remain bearish vs DXY ~101.41. Paper plan stays 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Do not LIVE-chase the late-NY discount or a single divergent 4199 print. Re-arm only if a consensus public cluster returns to 4205-4230 and prints 5-15m bearish MSS + FVG/CE."
+    "reason": "INTRADAY Po3/AMD + Judas. 00:06 EAT ASIA. Public spot ~4156 is discount of the 4111-4280 dealing range (EQ ~4196) after Wed BSL/PDH raid 4211-4219 rejected. HTF daily LH + Mon SSL 4111 remain bearish vs DXY ~101.33. Do not sell the Asia discount. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 OTE/PDH and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00)."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4152,
-      "change_pct": -0.78,
+      "price": 4156,
+      "change_pct": -0.68,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest. Not live in the ~4152 public discount. SB 17:00-18:00 EAT is closed.",
-      "location": "Public spot cluster ~4152 (live-rates 4152.20 -0.78%; GoldPrice 4151.30). Investing XAU 4199 / LiveExchanges ~4189 diverge. Discount of today's 4151-4219 box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell the late-NY fade or to buy mid-range. Feeds diverge — not a tick.",
-      "news": "USD reds PRINTED earlier: ADP, Core PCE, final GDP. Next 4h: no red-folder USD print. Residual FOMC speak Goolsbee ~00:10 EAT, Kashkari ~01:00 EAT. No live red USD print.",
+      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live in the ~4156 Asia discount. SB 17:00-18:00 EAT not open.",
+      "location": "Public spot cluster ~4156 (GoldTracker 4156.20; Investing 4152-4155). Discount of Wed 4148-4219 box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell Asia or to fade mid-range. Feeds diverge — not a tick.",
+      "news": "No red-folder USD in next 4h. JPY Tankan ~02:50 EAT. Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
