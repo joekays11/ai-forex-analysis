@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T18:12:00+03:00",
+  "updated_at": "2026-09-30T19:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY PM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.22,
-    "note": "18:12 EAT Wed NY PM. Public DXY ~101.22 (DealPlexus -0.15, day 101.03-101.47, prev ~101.37). Gold public feeds split: Investing cluster ~4169-4181 (prev 4182.45, earlier day high ~4219), LiveExchanges ~4195 (day 4166-4202). USD reds already printed (ADP +90k, cool Core PCE ~3.0% YoY vs 3.3% exp, final GDP). Next 4h: no red-folder USD print; residual FOMC speak Barkin ~20:30 EAT, Cook/Trump near window edge. JPY Tankan after the 4h window. Public quotes only; not broker-grade ticks."
+    "dxy": 101.28,
+    "note": "19:06 EAT Wed NY PM. DXY CNBC 101.277 (-0.09, day 101.03-101.47, prev 101.37). Gold public feeds split and fading: CNBC XAU= 4165.09 (H 4218.16 L 4164.89), Investing cluster 4173-4186 (day 4165.80-4219.08), LiveExchanges/biquote 4188-4195 (H ~4202). Working spot ~4168. USD reds already printed (ADP, Core PCE, final GDP, income/spending). Next 4h: no red-folder USD print; residual FOMC speak (Barkin ~20:30 EAT). EIA printed. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3/AMD + OTE. 18:12 EAT NY PM after SB close. Day tagged BSL/PDH ~4219 then displaced into discount. HTF daily LH + Mon MSS/SSL 4111 remain bearish vs DXY 101.22. Paper plan stays 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Do not LIVE-chase the 4170-4195 discount cluster. Re-arm only if price returns to 4205-4230 OTE and prints 5-15m bearish MSS + FVG/CE."
+    "reason": "INTRADAY Po3/AMD + OTE. 19:06 EAT NY PM after SB close. Day tagged BSL/PDH ~4218-4219 then displaced into discount ~4165. HTF daily LH + Mon MSS/SSL 4111 remain bearish vs DXY 101.28. Paper plan stays 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Do not LIVE-chase the 4165-4188 discount cluster. Re-arm only if price returns to 4205-4230 OTE and prints 5-15m bearish MSS + FVG/CE."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4176,
-      "change_pct": -0.15,
+      "price": 4168,
+      "change_pct": -0.31,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest. Not live in the 4170-4195 public discount cluster. SB 17:00-18:00 EAT is closed.",
-      "location": "Public cluster ~4176 (Investing ~4169-4181 day high ~4219 / LiveExchanges ~4195 day 4166-4202). Discount of today's box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell the late-NY fade or to buy continuation mid-range. Feeds diverge — not a tick.",
+      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest. Not live in the 4165-4188 public discount cluster. SB 17:00-18:00 EAT is closed.",
+      "location": "Public cluster ~4168 (CNBC 4165 day 4165-4218; Investing 4173-4186 day 4166-4219; LiveExchanges ~4188 day 4166-4202). Discount of today's box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell the late-NY fade or to buy continuation mid-range. Feeds diverge — not a tick.",
       "news": "USD reds PRINTED earlier: ADP, Core PCE, final GDP. Next 4h: no red-folder USD print. Residual FOMC speak (Barkin ~20:30 EAT). EIA already printed. No live red USD print.",
       "entry": 4220,
       "sl": 4274,
