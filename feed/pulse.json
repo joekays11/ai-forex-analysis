@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T16:16:00+03:00",
+  "updated_at": "2026-09-30T17:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.19,
-    "note": "16:16 EAT Wed NY AM. Public DXY ~101.19 (101.03-101.47, -0.19%). Investing XAU 4199.95 day 4165.80-4219.08. ADP 90k vs 73k, Core PCE 0.2%/3.0% vs 0.3%/3.3%, final GDP 2.2% vs 1.5% already printed. Next 4h: Chicago PMI ~16:45 EAT (med), EIA crude ~17:30 EAT. Silver Bullet 17:00-18:00 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 101.31,
+    "note": "17:06 EAT Wed NY AM Silver Bullet. Public DXY ~101.31 (101.20-101.47, off 101.47). Investing XAU 4183.11 day 4165.80-4219.08. Soft PCE already printed (core 0.2%/3.0% vs 0.3%/3.3%), ADP 90k, final GDP 2.2%. Next 4h: EIA crude ~17:30 EAT (not USD red); residual speaker risk. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3 + AMD/Judas OTE. 16:16 EAT NY AM. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Soft PCE + GDP/ADP mix squeezed Wed from 4166 into 4219; Investing now 4199.95 just under Mon OTE 4205-4230. HTF daily LH + Monday MSS remain bearish vs DXY ~101.19 off 101.47. Arm 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. Do not LIVE-chase 4200 mid-range without LTF MSS. Chicago PMI 16:45 then Silver Bullet 17:00-18:00 EAT."
+    "reason": "INTRADAY Silver Bullet + Po3/AMD OTE. 17:06 EAT inside 17:00-18:00 SB. Mon Judas ~4261-4281 then displacement through SSL ~4111. Soft PCE squeeze tagged 4219.08 then faded to ~4184. HTF daily LH + Mon MSS remain bearish vs DXY 101.31 off 101.47. Arm 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. Do not LIVE-chase 4184 mid-discount. EIA 17:30 EAT can whip."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4200,
-      "change_pct": 0.42,
+      "price": 4184,
+      "change_pct": 0.02,
       "side": "SELL",
       "status": "ARMED",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE inside 4205-4230 OTE after the PCE squeeze. Not live yet — Investing 4199.95, day high 4219.08, no public confirmation of a 5-15m break of structure. Silver Bullet window 17:00-18:00 EAT is the preferred execution window.",
-      "location": "Public mid 4200 (Investing 4199.95 day 4165.80-4219.08). Just under Mon OTE 4205-4230 / mid-premium of today's range. EQ of Mon 4111-4281 ~4196 sitting under price. Correct plan location is 4220 on LTF MSS; wrong location to buy continuation or to market-sell mid-candle.",
-      "news": "USD reds PRINTED: ADP 90k vs 73k, Core PCE 0.2%/3.0% vs 0.3%/3.3%, final GDP 2.2% vs 1.5%. Next 4h: Chicago PMI ~16:45 EAT (medium), EIA crude ~17:30 EAT. Not a live red-folder print. Avoid first spike into Chicago PMI.",
+      "trigger": "5-15m bearish MSS + FVG/CE inside 4205-4230 OTE / day-high retest of 4219. Not live at 4184. Silver Bullet 17:00-18:00 EAT is the execution window only if price returns to premium and prints MSS.",
+      "location": "Public ~4184 (Investing 4183.11 day 4165.80-4219.08). Discount of today's range (EQ ~4192) and under Mon EQ 4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell the fade or to buy continuation mid-range.",
+      "news": "USD reds PRINTED: ADP 90k vs 73k, Core PCE 0.2%/3.0% vs 0.3%/3.3%, final GDP 2.2% vs 1.5%. Next 4h: EIA crude ~17:30 EAT (energy, not USD red-folder). No live red USD print. Avoid first EIA spike.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
