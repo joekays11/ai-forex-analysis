@@ -1,36 +1,36 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T15:18:00+03:00",
+  "updated_at": "2026-09-30T16:09:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.24,
-    "note": "15:18 EAT Wed NY AM / London-NY overlap just open. Public DXY ~101.24 (101.17-101.47, -0.13%). Investing XAU 4186.23 day 4165.80-4202.29 vs Mon range 4111-4281, EQ ~4196. Next 4h USD reds IN WINDOW: ADP ~15:15 EAT (printing now), Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT, EIA crude ~17:30 EAT. NEWS BLACKOUT ON into NY AM — do not arm the first spike. Silver Bullet 17:00-18:00 EAT is after Core PCE/GDP. Public quotes only; not broker-grade ticks."
+    "dxy": 101.13,
+    "note": "16:09 EAT Wed NY AM. Public DXY ~101.13 (101.03-101.47, -0.25%). Investing XAU 4209.01 day 4165.80-4219.08. ADP 90k vs 73k, Core PCE 0.2%/3.0% vs 0.3%/3.3%, final GDP 2.2% vs 1.5% already printed. Next 4h: Chicago PMI ~16:45 EAT (med), EIA crude ~17:30 EAT. Silver Bullet 17:00-18:00 EAT. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
-    "status": "WAIT",
+    "status": "ARMED",
     "grade": "B",
     "entry": 4220,
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3 + AMD/Judas OTE. 15:18 EAT NY AM. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4185; Wed box 4166-4202 fading under EQ ~4196. HTF daily LH + Monday MSS remain bearish vs DXY ~101.24. Arm only after reds: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Location + news fail — WAIT."
+    "reason": "INTRADAY Po3 + AMD/Judas OTE. 16:09 EAT NY AM. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Soft PCE + GDP/ADP mix squeezed Wed from 4166 into 4219 — inside Mon OTE 4205-4230. HTF daily LH + Monday MSS remain bearish vs DXY ~101.13 off 101.47. Arm 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. Do not LIVE-chase 4209 mid-OTE without LTF MSS. Chicago PMI 16:45 then Silver Bullet 17:00-18:00 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4186,
-      "change_pct": 0.09,
+      "price": 4209,
+      "change_pct": 0.64,
       "side": "SELL",
-      "status": "WAIT",
+      "status": "ARMED",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 15:18 EAT NY AM still around Mon range EQ ~4196 (Investing spot 4186.23; other public feeds ~4180-4195). Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still complete 4205-4230 OTE into NY AM after the 15:15-15:30 EAT USD reds. Sells only from premium/OTE after displacement; do not chase EQ shorts and do not buy mid-range.",
-      "location": "Public mid 4186 (Investing 4186.23 day 4165.80-4202.29; LiveExchanges ~4180). At/under Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Wrong location for chase shorts under OTE and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
-      "news": "USD red-folder IN WINDOW. ADP ~15:15 EAT printing now; Core PCE + final GDP + Personal Income/Spending ~15:30 EAT; Chicago PMI ~16:45 EAT. NEWS BLACKOUT ON into NY AM — WAIT. Do not trade the first print. Silver Bullet 17:00-18:00 EAT is after the reds.",
+      "trigger": "5-15m bearish MSS + FVG/CE inside 4205-4230 OTE after the PCE squeeze. Not live yet — Investing 4209.01, day high 4219.08, no public confirmation of a 5-15m break of structure. Silver Bullet window 17:00-18:00 EAT is the preferred execution window.",
+      "location": "Public mid 4209 (Investing 4209.01 day 4165.80-4219.08). Inside Mon OTE 4205-4230 / premium of today's range. EQ of Mon 4111-4281 ~4196 already reclaimed. Correct OTE location for planned shorts; wrong location to buy continuation or to market-sell mid-candle.",
+      "news": "USD reds PRINTED: ADP 90k vs 73k, Core PCE 0.2%/3.0% vs 0.3%/3.3%, final GDP 2.2% vs 1.5%. Next 4h: Chicago PMI ~16:45 EAT (medium), EIA crude ~17:30 EAT. Not a live red-folder print. Avoid first spike into Chicago PMI.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
@@ -71,7 +71,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public cluster 156.66-156.94 (LiveExchanges 156.66 -0.48%; Yahoo ~156.94). Soft of the Asia fade from ~157.3-157.5. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160. Feeds diverge — not a tick.",
+      "location": "Public cluster 156.66-156.94 (LiveExchanges 156.66 -0.48%; earlier Yahoo ~156.94). Soft of the Asia fade from ~157.3-157.5. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160. Feeds diverge — not a tick.",
       "news": "Japan IP/retail already out. No JPY red-folder in the next 4h, but USD ADP/PCE later can whip the pair. NEWS BLACKOUT ON for USD event risk — still no trigger.",
       "entry": null,
       "sl": null,
