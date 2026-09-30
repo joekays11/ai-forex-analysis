@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T14:11:00+03:00",
+  "updated_at": "2026-09-30T15:12:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "PRE-NY",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.19,
-    "note": "14:11 EAT Wed PRE-NY. Public XAU cluster ~4183-4196 (prior Investing 4183.46; LiveExchanges/CoinCodex ~4194-4196). DXY last print 101.19. Monday dealing range 4111-4281, EQ ~4196. Next 4h USD reds: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT ON into NY AM — do not arm the first spike. Silver Bullet 17:00-18:00 EAT is after the reds. Public quotes only; not broker-grade ticks."
+    "note": "15:12 EAT Wed PRE-NY into NY AM. Investing XAU 4186.23 day 4165.80-4202.29. DXY 101.19 (101.17-101.47, -0.19%). Monday dealing range 4111-4281, EQ ~4196. Next 4h USD reds: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT ON into NY AM — do not arm the first spike. Silver Bullet 17:00-18:00 EAT is after the reds. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,18 +18,18 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3 + AMD/Judas OTE. 14:11 EAT PRE-NY. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4185; Wed probed ~4166 through EQ ~4196 toward 4202 then faded. HTF daily LH + Monday MSS remain bearish vs DXY 101.19. Arm only after reds: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Location + news fail — WAIT."
+    "reason": "INTRADAY Po3 + AMD/Judas OTE. 15:12 EAT PRE-NY. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4185; Wed box 4166-4202 fading under EQ ~4196. HTF daily LH + Monday MSS remain bearish vs DXY 101.19. Arm only after reds: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Location + news fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4190,
-      "change_pct": 0.18,
+      "price": 4186,
+      "change_pct": 0.09,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 14:11 EAT PRE-NY still around Mon range EQ ~4196. Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still complete 4205-4230 OTE into NY AM after the 15:15-15:30 EAT USD reds. Sells only from premium/OTE after displacement; do not chase EQ shorts and do not buy mid-range.",
-      "location": "Public mid ~4190 (cluster 4183-4196; day box roughly 4166-4202 vs Mon L ~4111 / Mon H ~4281). At/under Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Wrong location for chase shorts under OTE and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 15:12 EAT PRE-NY still around Mon range EQ ~4196 (spot 4186). Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still complete 4205-4230 OTE into NY AM after the 15:15-15:30 EAT USD reds. Sells only from premium/OTE after displacement; do not chase EQ shorts and do not buy mid-range.",
+      "location": "Public mid 4186 (Investing 4186.23; day box 4165.80-4202.29 vs Mon L ~4111 / Mon H ~4281). At/under Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Wrong location for chase shorts under OTE and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
       "news": "USD red-folder in window. Next 4h: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT ON into NY AM — WAIT. Do not trade the first print. Silver Bullet 17:00-18:00 EAT is after the reds.",
       "entry": 4220,
       "sl": 4274,
