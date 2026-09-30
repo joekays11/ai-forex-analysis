@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T13:11:00+03:00",
+  "updated_at": "2026-09-30T14:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "PRE-NY",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.26,
-    "note": "13:11 EAT Wed PRE-NY (~10:11 GMT). XAU public cluster ~4188 (Investing 4187.39 +0.12% day 4165.80-4202.29; LiveExchanges 4189.44). DXY Yahoo 101.26 (-0.11%, day 101.21-101.46) after the 101.47 fade. Squeeze still parked at Mon range EQ ~4196 under day high ~4202 — no 5-15m MSS at Mon OTE 4205-4230. Next 4h USD reds: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT OFF now — prints not live; do not arm the first spike. Silver Bullet 17:00-18:00 EAT is after the reds."
+    "dxy": 101.19,
+    "note": "14:06 EAT Wed PRE-NY. XAU Investing 4183.46 (+0.02%, day 4165.80-4202.29, prev 4182.45). DXY 101.19 (-0.19%, day 101.17-101.47, prev 101.38). Monday dealing range 4111-4281, EQ ~4196. Price faded 4202 back to ~4183 — still EQ, not Mon OTE 4205-4230. Next 4h USD reds: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT ON into NY AM — do not arm the first spike. Silver Bullet 17:00-18:00 EAT is after the reds."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3 + AMD/Judas OTE. 13:11 EAT PRE-NY. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4188; Wed squeeze 4166 through EQ ~4196 into day high ~4202, parked ~4188. HTF daily LH + Monday MSS remain bearish vs DXY 101.26 after a 101.47 fade. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is after USD reds. Trigger + refined OTE location fail at ~4188/4202 — WAIT."
+    "reason": "INTRADAY Po3 + AMD/Judas OTE. 14:06 EAT PRE-NY. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4185; Wed squeezed 4166 through EQ ~4196 into day high ~4202 then faded to ~4183. HTF daily LH + Monday MSS remain bearish vs DXY 101.19 after a 101.47 fade. Arm only after reds: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is after USD reds. Location + news fail — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4188,
-      "change_pct": 0.12,
+      "price": 4183,
+      "change_pct": 0.02,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 13:11 EAT PRE-NY is a Po3 squeeze through Mon range EQ ~4196 into day high ~4202 after the 4166 Asia-London low. Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still complete 4205-4230 OTE into NY AM after the 15:15-15:30 EAT USD reds. Sells only from premium/OTE after displacement; do not chase EQ/4202 shorts and do not buy mid-range.",
-      "location": "Working public cluster ~4188 (Investing 4187.39 +0.12% day 4165.80-4202.29; LiveExchanges 4189.44). Day box ~4166-4202 vs Mon L ~4111 / Mon H ~4281. At Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Premium of Wed Asia box. Wrong location for chase shorts under OTE and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
-      "news": "No USD red-folder live. Next 4h: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT OFF now — WAIT on location/displacement, not a live USD news blackout. Do not trade the first print.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 14:06 EAT PRE-NY faded the 4202 BSL probe back to ~4183 at Mon range EQ ~4196. Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still complete 4205-4230 OTE into NY AM after the 15:15-15:30 EAT USD reds. Sells only from premium/OTE after displacement; do not chase EQ/4202 shorts and do not buy mid-range.",
+      "location": "Investing 4183.46 +0.02% day 4165.80-4202.29 (prev 4182.45). Day box ~4166-4202 vs Mon L ~4111 / Mon H ~4281. At/under Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Premium of Wed Asia box. Wrong location for chase shorts under OTE and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
+      "news": "USD red-folder in window. Next 4h: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. NEWS BLACKOUT ON into NY AM 15:30 EAT — WAIT. Do not trade the first print. Silver Bullet 17:00-18:00 EAT is after the reds.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
