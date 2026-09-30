@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T03:11:00+03:00",
+  "updated_at": "2026-09-30T04:08:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "TOKYO / ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.38,
-    "note": "03:11 EAT Wed Tokyo/Asia. XAU public mid ~4180 (LiveExchanges 4180.78; xau.today 4179; Titan/FXEmpire ~4178; CNBC cluster 4169-4179; COMEX GC=F ~4216 is futures not spot). DXY last noted 101.38-101.40. Next 4h: no USD red-folder. AUD CPI + China NBS PMI ~04:30 EAT can whip metals/risk. UK final GDP / German prelim CPI ~05:00-06:00 EAT (not USD red). Red USD later: ADP 15:15 EAT, Core PCE + final GDP 15:30 EAT, Chicago PMI 16:45 EAT. Spot still discount of Mon EQ ~4196 and not at 4205-4230 OTE. Do not chase the squeeze; arm shorts only at Mon OTE."
+    "dxy": 101.41,
+    "note": "04:08 EAT Wed Tokyo/Asia. XAU spot ~4178 (Investing 4178.08, day 4175.50-4187.69, prev 4182.45). DXY 101.41 (101.37-101.43). Next 4h: no USD red-folder. AUD CPI + China PMI ~04:30 EAT can whip metals. UK final GDP / German prelim CPI ~05:00-06:00 EAT. Red USD later: ADP 15:15 EAT, Core PCE + final GDP 15:30 EAT, Chicago PMI 16:45 EAT. Spot is discount of Mon EQ ~4196 and still not at 4205-4230 OTE. Do not chase the squeeze; arm shorts only at Mon OTE after displacement."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3 + AMD/Judas OTE. 03:11 EAT Tokyo/Asia. Monday Judas tap ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4185 and Asia is hugging ~4180 under PDH/EQH. HTF daily LH + Monday MSS still bearish vs DXY 101.38. Squeeze can still extend into 4196 / 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Trigger + location + killzone all fail at ~4180 — WAIT."
+    "reason": "INTRADAY Po3 + AMD/Judas OTE. 04:08 EAT Tokyo/Asia. Monday Judas tap ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4187 and Asia is hugging ~4178 under PDH/EQH 4187. HTF daily LH + Monday MSS still bearish vs DXY 101.41. Squeeze can still extend into 4196 / 4205-4230 OTE. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is closed. Trigger + location + killzone all fail at ~4178 — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4180,
-      "change_pct": 1.28,
+      "price": 4178,
+      "change_pct": -0.10,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 03:11 EAT Tokyo is a mid-range Po3 squeeze under ~4185 PDH, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230. Sells only from premium/EQ after displacement; do not chase session-high shorts and do not buy mid-range.",
-      "location": "Public mid ~4180. Cluster: LiveExchanges 4180.78, xau.today 4179.03, Titan 4178, FXEmpire 4178, CNBC 4169-4179. Tue box vs Mon L ~4111 / Tue H ~4185 vs Mon H ~4281. Discount of Mon range EQ ~4196. Premium of Tue range (EQ ~4149). Wrong location for chase shorts and wrong location for first-bounce longs.",
-      "news": "No USD red-folder in next 4h. AUD CPI + China NBS PMI ~04:30 EAT. UK GDP / German prelim CPI ~05:00-06:00 EAT. Red USD later Wed: ADP 15:15 EAT, Core PCE + final GDP 15:30 EAT, Chicago PMI 16:45 EAT. NEWS BLACKOUT ON — no live chase into thin Asia ahead of AUD CPI.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 04:08 EAT Tokyo is a mid-range Po3 squeeze under ~4188 PDH, not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into Mon EQ ~4196 / OTE 4205-4230. Sells only from premium/EQ after displacement; do not chase session-high shorts and do not buy mid-range.",
+      "location": "Public spot ~4178. Investing 4178.08 day 4175.50-4187.69 prev 4182.45. Tue box vs Mon L ~4111 / Tue-Wed H ~4188 vs Mon H ~4281. Discount of Mon range EQ ~4196. Premium of Tue range (EQ ~4150). Wrong location for chase shorts and wrong location for first-bounce longs.",
+      "news": "No USD red-folder in next 4h. AUD CPI + China PMI ~04:30 EAT. UK GDP / German prelim CPI ~05:00-06:00 EAT. Red USD later Wed: ADP 15:15 EAT, Core PCE + final GDP 15:30 EAT, Chicago PMI 16:45 EAT. NEWS BLACKOUT ON — no live chase into thin Asia ahead of AUD CPI.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
