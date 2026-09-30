@@ -1,36 +1,36 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T17:13:00+03:00",
+  "updated_at": "2026-09-30T18:08:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "NY AM",
+  "session": "NY PM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.38,
-    "note": "17:13 EAT Wed NY AM Silver Bullet (17:00-18:00). Public DXY ~101.38 (Investing 101.38 / CNBC 101.375, day ~101.17-101.49). Gold public cluster ~4184-4193 (LiveExchanges ~4188-4193, FXEmpire ~4185). USD reds already printed (soft Core PCE, ADP, final GDP). Next 4h: EIA crude ~17:30 EAT (energy, not USD red-folder); FOMC Barkin ~20:30 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 101.19,
+    "note": "18:08 EAT Wed late NY (NY AM KZ + Silver Bullet 17:00-18:00 closed). Public DXY 101.19 (Investing -0.19, day 101.03-101.47, prev 101.38). Gold Investing 4167.28 -0.36% day 4162.20-4219.08, prev 4182.45. USD reds already printed (ADP +90k, soft Core PCE, final GDP). Next 4h: no red-folder USD print; residual FOMC speak (Barkin/Goolsbee/Kashkari window). Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
-    "status": "ARMED",
+    "status": "WAIT",
     "grade": "B",
     "entry": 4220,
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Silver Bullet + Po3/AMD OTE. 17:13 EAT still inside 17:00-18:00 SB. Mon Judas ~4261-4281 then displacement through SSL ~4111. Soft PCE squeeze tagged ~4219 then faded into mid/discount. HTF daily LH + Mon MSS remain bearish vs DXY ~101.38. Arm 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. Do not LIVE-chase ~4188 mid-range. EIA 17:30 EAT can whip."
+    "reason": "INTRADAY Po3/AMD + OTE. 18:08 EAT NY PM after SB close. Day tagged BSL/PDH ~4219 then displaced into discount 4162-4167. HTF daily LH + Mon MSS/SSL 4111 remain bearish vs DXY 101.19. Paper plan stays 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Do not LIVE-chase 4167 discount. Re-arm only if price returns to 4205-4230 OTE and prints 5-15m bearish MSS + FVG/CE."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4188,
-      "change_pct": 0.05,
+      "price": 4167,
+      "change_pct": -0.36,
       "side": "SELL",
-      "status": "ARMED",
+      "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE inside 4205-4230 OTE / day-high retest of ~4219. Not live at ~4188. Silver Bullet 17:00-18:00 EAT is the execution window only if price returns to premium and prints MSS.",
-      "location": "Public ~4188 (LiveExchanges 4188-4193; FXEmpire ~4185; day box ~4166-4219). Near EQ of today's range and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell the fade or to buy continuation mid-range.",
-      "news": "USD reds PRINTED earlier: ADP, Core PCE, final GDP. Next 4h: EIA crude ~17:30 EAT (energy, not USD red-folder); FOMC Barkin ~20:30 EAT. No live red USD print. Avoid first EIA spike inside SB.",
+      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest. Not live at 4167 discount. SB 17:00-18:00 EAT is closed.",
+      "location": "Public 4167 (Investing 4167.28 day 4162.20-4219.08). Discount of today's box (EQ ~4190) and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell the late-NY fade or to buy continuation mid-range.",
+      "news": "USD reds PRINTED earlier: ADP, Core PCE, final GDP. Next 4h: no red-folder USD print. Residual FOMC speak (Barkin/Goolsbee/Kashkari). EIA already in the rear-view. No live red USD print.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
