@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-09-30T10:06:00+03:00",
+  "updated_at": "2026-09-30T10:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.41,
-    "note": "10:06 EAT Wed London KZ. XAU ~4194 (Investing 4193.76 day 4165.80-4195.27, +0.27% vs 4182.45). DXY ~101.41 (Investing 101.41 day 101.31-101.47). Squeeze from ~4166 now tapping Mon range EQ ~4196. Next 4h: German unemployment ~10:55 EAT; Italian prelim CPI ~12:00 EAT; BoE FPC minutes ~12:30 EAT. No USD red-folder until ADP ~15:15 EAT and Core PCE + final GDP + Personal Income/Spending ~15:30 EAT (Chicago PMI ~16:45 EAT). NEWS BLACKOUT OFF for USD; EUR/GBP elevated into DE labour / FPC."
+    "note": "10:11 EAT Wed London open. XAU public cluster ~4195 (Investing 4194.91 day 4165.80-4195.32 +0.30%; LiveExchanges ~4181; CNBC ~4178). DXY ~101.41 (Investing 101.41 day 101.31-101.47). Still squeezing from ~4166 into Mon range EQ ~4196. Next 4h: German unemployment ~10:55 EAT (imminent); Italian prelim CPI ~12:00 EAT; BoE FPC minutes ~12:30 EAT. No USD red-folder until ADP ~15:15 EAT and Core PCE + final GDP + Personal Income/Spending ~15:30 EAT (Chicago PMI ~16:45 EAT). NEWS BLACKOUT OFF for USD; EUR/GBP elevated into DE labour / FPC."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3 + AMD/Judas OTE. 10:06 EAT London KZ. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4188; Wed London squeezed 4166 into Mon EQ ~4196 (spot ~4194, Investing high 4195). HTF daily LH + Monday MSS remain bearish vs firm DXY ~101.41. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is later after USD reds. Trigger + refined OTE location fail at EQ ~4196 — WAIT."
+    "reason": "INTRADAY Po3 + AMD/Judas OTE. 10:11 EAT London KZ. Monday Judas ~4261-4281 then displacement through SSL into ~4111. Tue recovered 4114-4188; Wed London still squeezing 4166 into Mon EQ ~4196 (Investing spot ~4195, day high 4195). HTF daily LH + Monday MSS remain bearish vs firm DXY ~101.41. Arm only: A) retrace into 4205-4230 OTE then 5-15m bearish MSS + FVG/CE short 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040. B) SFP of 4111-4095 then bullish MSS only as scalp vs HTF. Silver Bullet 17:00-18:00 EAT is later after USD reds. Trigger + refined OTE location fail at EQ ~4196 — WAIT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4194,
-      "change_pct": 0.27,
+      "price": 4195,
+      "change_pct": 0.3,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 10:06 EAT London is a Po3 squeeze tapping Mon range EQ ~4196 (spot ~4194, day high 4195) after the 4166 Asia-London low. Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into 4205-4230 OTE inside London 09:00-12:00 EAT. Sells only from premium/OTE after displacement; do not chase EQ shorts and do not buy mid-range.",
-      "location": "Working public cluster ~4194 (Investing 4193.76 day 4165.80-4195.27; earlier feeds ~4179-4181). Day box 4166-4195 vs Mon L ~4111 / Mon H ~4281. At Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Premium of Wed Asia box. Wrong location for chase shorts at EQ and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
-      "news": "No USD red-folder in next 4h. German unemployment ~10:55 EAT; Italian prelim CPI ~12:00 EAT; BoE FPC ~12:30 EAT. USD red later: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. No live USD red — WAIT on location/displacement, not a USD news blackout.",
+      "trigger": "none — Monday expansion already printed ~4281 to ~4111. 10:11 EAT London is a Po3 squeeze tapping Mon range EQ ~4196 (Investing ~4195, day high 4195) after the 4166 Asia-London low. Not a 5-15m bearish MSS at Mon OTE 4205-4230 and not a confirmed SFP+MSS off 4111. Squeeze can still extend into 4205-4230 OTE inside London 09:00-12:00 EAT. Sells only from premium/OTE after displacement; do not chase EQ shorts and do not buy mid-range.",
+      "location": "Working public cluster ~4195 (Investing 4194.91 day 4165.80-4195.32; LiveExchanges ~4181; CNBC ~4178). Day box 4166-4195 vs Mon L ~4111 / Mon H ~4281. At Mon range EQ ~4196. Discount of Mon OTE 4205-4230. Premium of Wed Asia box. Wrong location for chase shorts at EQ and wrong location for first-bounce longs. Public feeds diverge — not a tick.",
+      "news": "No USD red-folder in next 4h. German unemployment ~10:55 EAT (imminent); Italian prelim CPI ~12:00 EAT; BoE FPC ~12:30 EAT. USD red later: ADP ~15:15 EAT, Core PCE + final GDP + Personal Income/Spending ~15:30 EAT, Chicago PMI ~16:45 EAT. No live USD red — WAIT on location/displacement, not a USD news blackout.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
@@ -43,8 +43,8 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid 1.1332 (Yahoo 1.1332 -0.10% day 1.1333-1.1348; LiveExchanges ~1.1339). Soft of the 1.1317-1.1378 box after London open; no hold above 1.1410 and no confirmed break/hold under 1.1310. Feeds diverge — not a tick.",
-      "news": "German retail/import prices + UK GDP around ~09:00 EAT just printed. German unemployment ~10:55 EAT; Italian prelim CPI ~12:00 EAT. Elevated into DE labour — do not arm first spike. NEWS BLACKOUT OFF for USD reds; still no trigger.",
+      "location": "Public mid 1.1332 (Yahoo 1.1332 -0.10%; LiveExchanges ~1.1343). Soft of the 1.1317-1.1378 box after London open; no hold above 1.1410 and no confirmed break/hold under 1.1310. Feeds diverge — not a tick.",
+      "news": "German retail/import prices + UK GDP printed earlier. German unemployment ~10:55 EAT imminent; Italian prelim CPI ~12:00 EAT. Elevated into DE labour — do not arm first spike. NEWS BLACKOUT OFF for USD reds; still no trigger.",
       "entry": null,
       "sl": null,
       "tp1": null
@@ -57,7 +57,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid 1.3226 (Yahoo 1.3226 -0.01% day 1.3226-1.3231; LiveExchanges ~1.3233). Tight box after fade from 1.326-1.327 supply. Neither a discount bounce nor a confirmed hold of 1.3280.",
+      "location": "Public mid 1.3226 (Yahoo 1.3226 -0.01%; LiveExchanges ~1.3231). Tight box after fade from 1.326-1.327 supply. Neither a discount bounce nor a confirmed hold of 1.3280.",
       "news": "UK final Q2 GDP + current account printed ~09:00 EAT. BoE FPC minutes ~12:30 EAT still inside the 4h window. Do not arm the first post-print spike. NEWS BLACKOUT ON.",
       "entry": null,
       "sl": null,
@@ -65,28 +65,28 @@
     },
     {
       "symbol": "USDJPY",
-      "price": 156.44,
-      "change_pct": -0.52,
+      "price": 156.82,
+      "change_pct": -0.28,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid 156.44 (Yahoo 156.44 -0.52% day 156.37-157.46). Soft after the Asia fade from ~157.3-157.5. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160. Feeds diverge — not a tick.",
-      "news": "Japan IP/retail already out. No JPY red-folder in the next 4h. Do not chase the fade without displacement. NEWS BLACKOUT OFF — still no trigger.",
+      "location": "Public mid 156.82 (Yahoo 156.82 -0.28% day 156.37-157.46; LiveExchanges ~157.28). Recovering the Asia fade from ~157.3-157.5. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160. Feeds diverge — not a tick.",
+      "news": "Japan IP/retail already out. No JPY red-folder in the next 4h. Do not chase the bounce without displacement. NEWS BLACKOUT OFF — still no trigger.",
       "entry": null,
       "sl": null,
       "tp1": null
     },
     {
       "symbol": "BTCUSD",
-      "price": 83205,
-      "change_pct": -0.92,
+      "price": 83000,
+      "change_pct": -1.14,
       "side": "WAIT",
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public mid ~83205 (Yahoo 83204.60 -0.92%; LiveExchanges ~83403). Soft of the recent ~82.8k-84.7k box; no confirmed hold of highs and no break of ~82780. Public feeds diverge, not a tick.",
-      "news": "No crypto-specific red print. UK GDP reaction can still whip risk. NEWS BLACKOUT OFF — still no trigger.",
+      "location": "Public mid ~83000 (Yahoo 82998 -1.14%; LiveExchanges ~83612). Soft of the recent ~82.8k-84.7k box; no confirmed hold of highs and no break of ~82780. Public feeds diverge, not a tick.",
+      "news": "No crypto-specific red print. DE labour / FPC can still whip risk. NEWS BLACKOUT OFF — still no trigger.",
       "entry": null,
       "sl": null,
       "tp1": null
