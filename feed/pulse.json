@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T19:35:00+03:00",
+  "updated_at": "2026-10-01T20:11:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "NY_PM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.98,
-    "note": "19:35 EAT Thu. NY AM 15:30-18:00 EAT and Silver Bullet 17:00-18:00 EAT are closed; NY PM is open. Public XAU ~4172.90 (MarketScreener 11:40 ET / 18:40 EAT, +0.38% vs prev 4157.12; day 4139.43-4192.99, EQ ~4166). Left the 62-79% discount OTE ~4151-4160; now early premium / 62% of the day range. SSL/PDL raided to 4139; BSL 4193 and PDH 4219 intact. No confirmed 5-15m MSS. DXY ~101.98 +0.5% (TE/MacroMicro), day 101.46-102.00, probing the 102.00 / 16-month high — SMT incomplete. Claims 15:30 EAT (197K) and ISM Manufacturing 17:00 EAT (54.5 vs ~54 / prev 54.6) already out. Next 4h to 23:35 EAT: no USD red-folder (Williams speech ~22:30 EAT is medium, H.4.1 ~23:30 EAT low). NFP Fri 15:30 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 102.01,
+    "note": "20:11 EAT Thu. NY AM 15:30-18:00 EAT and Silver Bullet 17:00-18:00 EAT are closed; NY PM still open into the cash close ~23:00 EAT. Public XAU ~4177 (Investing.com PH 20:12 EAT, +0.48% vs prev 4157.12; day 4139.43-4192.99, EQ ~4166). Inside day-range premium OTE ~4173-4182, under unswept BSL 4193 and PDH 4219. SSL/PDL raided to 4139. No confirmed 5-15m MSS. DXY ~102.01 +0.55% (MarketWatch 19:29 EAT, prev 101.45, day 101.46-102.17) probing the 102 handle / 16-month high — SMT incomplete (gold also green on the day). Claims 15:30 EAT (197K) and ISM Manufacturing 17:00 EAT (54.5 vs ~54.8 / prev 54.6; prices 77.9) already out. Next 4h to 00:11 EAT: no USD red-folder (Williams ~22:30 EAT medium, H.4.1 ~23:30 EAT low). NFP Fri 15:30 EAT is the void. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4202,
     "tp1": 4166,
     "rr": 1.57,
-    "reason": "INTRADAY AMD, not a live trigger. 19:35 EAT NY PM — SB and NY AM are closed. Spot ~4172.90 has left discount OTE 4151-4160 and sits on EQ ~4166 / only the 62% of 4139.43-4192.99. SSL/PDL raided to 4139 (manipulation); BSL 4193 rejected; PDH 4219 intact. No 5-15m bearish MSS, DXY ~101.98 still bid so SMT is incomplete, and post-KZ is not the window. Paper plan only: sell 4188 premium OB / SL 4202 beyond the 4192.99 full wick not Asia high or PDH / TP1 4166 EQ TP2 4139 RR ~1.57. Grade C. Re-arm only on a 5-15m bearish MSS from 4182-4193 that holds under 4193. Invalidate on a 5m close above 4202. NFP Fri 15:30 EAT is the void."
+    "reason": "INTRADAY AMD, not a live trigger. 20:11 EAT NY PM — SB and NY AM are closed. Spot ~4177 sits in day-range premium OTE ~4173-4182 of 4139.43-4192.99 (EQ ~4166), not at the 4188-4193 OB. SSL/PDL raided to 4139 (manipulation); BSL 4193 rejected; PDH 4219 intact. No 5-15m bearish MSS, DXY ~102.01 still bid so SMT is incomplete, and post-KZ is not the window. Paper plan only: sell 4188 premium OB / SL 4202 beyond the 4192.99 full wick not Asia high or PDH / TP1 4166 EQ TP2 4139 RR ~1.57. Grade C. Re-arm only on a 5-15m bearish MSS from 4182-4193 that holds under 4193. Invalidate on a 5m close above 4202. NFP Fri 15:30 EAT is the void."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4172.9,
-      "change_pct": 0.38,
+      "price": 4177.0,
+      "change_pct": 0.48,
       "side": "SELL",
       "status": "WAIT",
       "bias": "neutral",
-      "trigger": "5-15m bearish MSS from the 4182-4193 premium OB / BSL only, and only if 4193 holds. Not live. SB and NY AM are closed. Do not sell EQ.",
-      "location": "MarketScreener 4172.90 at 11:40 ET / 18:40 EAT (+0.38%, prev 4157.12, day 4139.43-4192.99, EQ ~4166). Early premium, off the SSL/PDL sweep to 4139, under unswept BSL 4193 and PDH 4219. No MSS. Public quote — not a tick.",
-      "news": "Claims already printed 15:30 EAT (197K). ISM Manufacturing PMI already out 17:00 EAT (54.5 vs ~54 / prev 54.6). No USD red-folder to 23:35 EAT. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bearish MSS from the 4182-4193 premium OB / BSL only, and only if 4193 holds. Not live. SB and NY AM are closed. Do not sell EQ or chase 4177.",
+      "location": "Investing.com PH 4176.96 at 20:12 EAT (+0.48%, prev 4157.12, day 4139.43-4192.99, EQ ~4166). Day-range premium OTE ~4173-4182, off the SSL/PDL sweep to 4139, under unswept BSL 4193 and PDH 4219. No MSS. Public quote — not a tick.",
+      "news": "Claims already printed 15:30 EAT (197K). ISM Manufacturing PMI already out 17:00 EAT (54.5 vs ~54.8 / prev 54.6; prices 77.9). No USD red-folder to 00:11 EAT. NFP Fri 15:30 EAT.",
       "entry": 4188,
       "sl": 4202,
       "tp1": 4166
