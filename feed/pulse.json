@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T03:07:00+03:00",
+  "updated_at": "2026-10-01T06:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.40,
-    "note": "03:07 EAT Thu ASIA. Public cluster: XAU ~4156 (Investing 4154.93 / FXGlory 4155.42 / IndiaGold 4157.29; Asia box ~4147-4161). EUR 1.1328, GBP 1.3259, USDJPY 157.35, BTC ~83777. DXY public ~101.24-101.48 (close cluster 101.40-101.46). No USD red-folder in next 4h. In-window: JPY final mfg PMI ~03:30 EAT, AUD goods trade + RBA FSR ~04:30 EAT. Later reds: US Claims 15:30 EAT, ISM Mfg + Waller 17:00 EAT. NFP Fri 15:30 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 101.45,
+    "note": "06:06 EAT Thu ASIA, pre-London. Public cluster: XAU ~4163 (Investing 4164.38 +0.17% day 4139.43-4164.85; biquote 4161.94 bid/ask 4161.86/4162.03, Oct 1 H 4164.90 L 4139.19, open 4156.24). Wed PDH/PDL 4219/4147. DXY public close cluster 101.40-101.51 (firm, near 52w high 101.61). No USD red-folder in next 4h (to ~10:06 EAT). Later reds: US Claims 15:30 EAT, ISM Mfg + Waller 17:00 EAT. NFP Fri 15:30 EAT. CNY holiday. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3/AMD + Judas. 03:07 EAT ASIA. Public spot ~4156 is discount of the 4111-4280 dealing range (EQ ~4196) and mid-low of Wed 4148-4219 after BSL/PDH raid 4211-4219 rejected. HTF daily LH + Mon SSL 4111 remain bearish vs DXY ~101.40. Do not sell the Asia discount. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 OTE/PDH and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). JPY PMI ~03:30 EAT can whip metals via USDJPY."
+    "reason": "INTRADAY Power of Three (AMD) + Judas. 06:06 EAT ASIA. Public spot ~4163 is discount of the 4111-4280 dealing range (EQ ~4196) and of Wed 4147-4219 (EQ ~4183). Asia lifted 4139 toward 4165 with no bearish MSS. HTF daily LH + Mon SSL 4111 remain bearish vs DXY ~101.45. Do not sell the Asia discount. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 OTE/PDH and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). No USD red-folder before 10:06 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4156,
-      "change_pct": -0.62,
+      "price": 4163,
+      "change_pct": 0.17,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live in the ~4156 Asia discount. SB 17:00-18:00 EAT not open.",
-      "location": "Public spot cluster ~4156 (Investing 4154.93 day 4152-4161 Asia; FXGlory 4155.42; Oct 1 01:00 bar H 4160 L 4147). Discount of Wed 4148-4219 box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell Asia or to fade mid-range. Feeds diverge — not a tick.",
-      "news": "No USD red-folder in next 4h. JPY final mfg PMI ~03:30 EAT can whip gold via USDJPY. Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live in the ~4163 Asia discount. SB 17:00-18:00 EAT not open.",
+      "location": "Public spot cluster ~4163 (Investing 4164.38 day 4139.43-4164.85; biquote 4161.94, Oct 1 H 4164.90 L 4139.19). Discount of Wed 4147-4219 and under Mon EQ ~4196 (4111-4280). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell Asia or to fade mid-range. Feeds diverge \u2014 not a tick.",
+      "news": "No USD red-folder in next 4h. Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT. CNY holiday.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
@@ -43,7 +43,7 @@
       "status": "WATCH",
       "bias": "bearish",
       "trigger": "none",
-      "location": "Public mid 1.1328 (live-rates 1.13284 -0.10%; Investing earlier 1.1339; LiveExchanges 1.1338). Soft of the 1.1330-1.1380 box; no hold above 1.1410 and no confirmed break/hold under 1.1310. Feeds diverge — not a tick.",
+      "location": "Public mid 1.1328 (live-rates 1.13284 -0.10%; Investing earlier 1.1339; LiveExchanges 1.1338). Soft of the 1.1330-1.1380 box; no hold above 1.1410 and no confirmed break/hold under 1.1310. Feeds diverge \u2014 not a tick.",
       "news": "No EUR/USD red-folder in next 4h. EU final PMIs and unemployment print later in the London window. USD Claims/ISM later EAT afternoon. Still no trigger + location.",
       "entry": null,
       "sl": null,
@@ -57,7 +57,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public 1.3259 (live-rates 1.32594 +0.23%; LiveExchanges 1.3259). Soft of the London bounce under 1.3300-1.3311. Neither a confirmed hold of 1.3300-1.3320 nor a discount MSS. Feeds diverge — not a tick.",
+      "location": "Public 1.3259 (live-rates 1.32594 +0.23%; LiveExchanges 1.3259). Soft of the London bounce under 1.3300-1.3311. Neither a confirmed hold of 1.3300-1.3320 nor a discount MSS. Feeds diverge \u2014 not a tick.",
       "news": "No GBP red-folder in next 4h. UK final mfg PMI later in London. USD Claims/ISM later. Still no trigger + location.",
       "entry": null,
       "sl": null,
@@ -71,7 +71,7 @@
       "status": "WATCH",
       "bias": "neutral",
       "trigger": "none",
-      "location": "Public cluster ~157.35 (live-rates 157.350 -0.05%; MarketsGrid earlier 157.42). Mid of the Asia fade box. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160. Feeds diverge — not a tick.",
+      "location": "Public cluster ~157.35 (live-rates 157.350 -0.05%; MarketsGrid earlier 157.42). Mid of the Asia fade box. Neither a hold above 157.60-157.84 nor a confirmed dip-buy MSS. Intervention risk still elevated near 158-160. Feeds diverge \u2014 not a tick.",
       "news": "JPY Tankan + BoJ Summary of Opinions ~02:50 EAT, final mfg PMI ~03:30 EAT. News blackout into those prints. Still no trigger + location.",
       "entry": null,
       "sl": null,
