@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T15:08:00+03:00",
+  "updated_at": "2026-10-01T16:09:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "PRE_NY_AM",
+  "session": "NY_AM",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.9,
-    "note": "15:08 EAT Thu, PRE_NY_AM. NY AM killzone opens 15:30 EAT; London closed 12:00 EAT. Public cluster: Markets Insider 4170.40 at 07:28 ET / 14:28 EAT (+0.31%, prev 4157.35, open 4160.46, day 4139.43-4192.99, EQ ~4166). Stamp lags ~40m; feeds diverge (Investing earlier 4160.34, FXStreet Asia ~4150-4161). Still mild premium of the day range, OTE of the 4139-4193 Judas leg (~4151-4160) already left. No confirmed 5-15m bullish MSS. DXY ~101.69-101.98 (MacroMicro 101.98, MarketWatch ~101.78, day 101.46-102.00, prev 101.45) firm near the 102.00 52w high — no bullish SMT. Red-folder inside next 4h (to 19:08 EAT): USD Initial Claims 15:30 EAT (~22m, consensus ~200-205K, prev 197K); ISM Manufacturing PMI 17:00 EAT (forecast ~54.8-55, prev 54.6) sits inside Silver Bullet 17:00-18:00 EAT. NFP Fri 15:30 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 101.65,
+    "note": "16:09 EAT Thu, NY_AM (killzone 15:30-18:00 EAT open). Investing spot 4176.44 at 09:07 ET / 16:07 EAT, bid/ask 4176.27/4176.61, +0.46% vs prev/open 4157.12, day 4139.43-4192.99, EQ ~4166. Mild premium. SSL/PDL swept to 4139; BSL 4193 rejected; PDH 4219 intact. OTE of the 4139-4193 leg (~4151-4160) already left. No confirmed 5-15m bullish MSS at this price. DXY Investing 101.65 +0.20% at 07:55 stamp (day 101.45-102.00, earlier prints to 101.98) off the 102.00 52w high but still green — SMT incomplete, not a clean bullish divergence. Claims already out 15:30 EAT (197K vs ~200-205K). Red-folder inside next 4h (to 20:09 EAT): ISM Manufacturing PMI 17:00 EAT (forecast ~54-55, prev 54.6) sits inside Silver Bullet 17:00-18:00 EAT. NFP Fri 15:30 EAT. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4132,
     "tp1": 4193,
     "rr": 1.5,
-    "reason": "INTRADAY London Judas + OTE. 15:08 EAT PRE_NY_AM. Last coherent public spot 4170.40 is mild premium of 4139.43-4192.99 (EQ ~4166); 79% OTE ~4151 already left. SSL/PDL 4147 raided to 4139; BSL 4193 rejected, PDH 4219 intact. HTF still LH under 4200-4261 and DXY firm into 102, so no SMT for the buy. Paper plan 4156 / SL 4132 beyond the 4139 full wick not Asia high or PDH / TP1 4193 TP2 4219 RR 1.5. Do not chase 4170. Grade C. Re-arm only after Claims 15:30 EAT if NY AM prints a 5-15m bullish MSS that holds 4139 and returns to the OTE. Invalidate on a 5m close under 4132. Stand down through ISM 17:00 inside Silver Bullet."
+    "reason": "INTRADAY NY AM Judas + OTE. 16:09 EAT NY_AM. Spot 4176.44 is mild premium of 4139.43-4192.99 (EQ ~4166); 62-79% OTE ~4151-4160 already left. SSL/PDL 4147 raided to 4139; BSL 4193 rejected, PDH 4219 intact. HTF still LH under 4200-4219 and DXY still green off 102, so no clean SMT for the buy. Paper plan 4156 / SL 4132 beyond the 4139 full wick not Asia high or PDH / TP1 4193 TP2 4219 RR 1.5. Do not chase 4176. Grade C. Re-arm only on a 5-15m bullish MSS that holds 4139 and returns to the OTE after the ISM void. Invalidate on a 5m close under 4132. Stand down through ISM 17:00 inside Silver Bullet."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4170.4,
-      "change_pct": 0.31,
+      "price": 4176.44,
+      "change_pct": 0.46,
       "side": "BUY",
       "status": "WAIT",
       "bias": "neutral",
-      "trigger": "5-15m bullish MSS / FVG-CE return to the 4151-4160 OTE only after Claims 15:30 EAT, inside NY AM 15:30-18:00 EAT, and only if 4139 holds. Not live above EQ. SB 17:00-18:00 EAT is an ISM void.",
-      "location": "Last coherent public spot 4170.40 (Markets Insider 07:28 ET / 14:28 EAT, +0.31%, prev 4157.35, day 4139.43-4192.99, EQ ~4166). Mild premium after SSL/PDL sweep to 4139 and rejection from 4193. OTE location already left. Wrong time: Claims in ~22m, NY AM not open, no displacement. Feeds diverge — not a tick.",
-      "news": "USD Initial Claims 15:30 EAT and ISM Manufacturing PMI 17:00 EAT are red/high prints inside the next 4h (to 19:08 EAT). ISM sits inside Silver Bullet. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bullish MSS / FVG-CE return to the 4151-4160 OTE only after the ISM void, inside NY AM 15:30-18:00 EAT, and only if 4139 holds. Not live above EQ. SB 17:00-18:00 EAT is an ISM void.",
+      "location": "Investing 4176.44 at 09:07 ET / 16:07 EAT (+0.46%, prev/open 4157.12, day 4139.43-4192.99, EQ ~4166). Mild premium after SSL/PDL sweep to 4139 and rejection from 4193. OTE location already left. Wrong place: no displacement at 4176, ISM in ~51m. Public quote — not a tick.",
+      "news": "Claims already printed 15:30 EAT (197K vs ~200-205K). ISM Manufacturing PMI 17:00 EAT is the red/high print inside the next 4h (to 20:09 EAT) and inside Silver Bullet. NFP Fri 15:30 EAT.",
       "entry": 4156,
       "sl": 4132,
       "tp1": 4193
