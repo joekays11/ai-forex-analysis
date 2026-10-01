@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T02:12:00+03:00",
+  "updated_at": "2026-10-01T03:07:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.40,
-    "note": "02:12 EAT Thu ASIA. Public cluster: XAU ~4152 (live-rates 4152.20 -0.78%), EUR 1.1328, GBP 1.3259, USDJPY 157.35, BTC ~83777. DXY public ~101.35-101.48 (MW last ~101.48, GF 101.47). No USD red-folder in next 4h. In-window: JPY Tankan + BoJ Summary of Opinions ~02:50 EAT, JPY final mfg PMI ~03:30 EAT, AUD trade balance + RBA FSR ~04:30 EAT. Later reds: US Claims 15:30 EAT, ISM Mfg 17:00 EAT. Public quotes only; not broker-grade ticks."
+    "note": "03:07 EAT Thu ASIA. Public cluster: XAU ~4156 (Investing 4154.93 / FXGlory 4155.42 / IndiaGold 4157.29; Asia box ~4147-4161). EUR 1.1328, GBP 1.3259, USDJPY 157.35, BTC ~83777. DXY public ~101.24-101.48 (close cluster 101.40-101.46). No USD red-folder in next 4h. In-window: JPY final mfg PMI ~03:30 EAT, AUD goods trade + RBA FSR ~04:30 EAT. Later reds: US Claims 15:30 EAT, ISM Mfg + Waller 17:00 EAT. NFP Fri 15:30 EAT. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Po3/AMD + Judas. 02:12 EAT ASIA. Public spot ~4152 is deeper discount of the 4111-4280 dealing range (EQ ~4196) after Wed BSL/PDH raid 4211-4219 rejected. HTF daily LH + Mon SSL 4111 remain bearish vs DXY ~101.40. Do not sell the Asia discount. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 OTE/PDH and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). Tankan ~02:50 EAT can whip metals via USDJPY."
+    "reason": "INTRADAY Po3/AMD + Judas. 03:07 EAT ASIA. Public spot ~4156 is discount of the 4111-4280 dealing range (EQ ~4196) and mid-low of Wed 4148-4219 after BSL/PDH raid 4211-4219 rejected. HTF daily LH + Mon SSL 4111 remain bearish vs DXY ~101.40. Do not sell the Asia discount. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 OTE/PDH and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). JPY PMI ~03:30 EAT can whip metals via USDJPY."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4152,
-      "change_pct": -0.78,
+      "price": 4156,
+      "change_pct": -0.62,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live in the ~4152 Asia discount. SB 17:00-18:00 EAT not open.",
-      "location": "Public spot cluster ~4152 (live-rates 4152.20 -0.78%; earlier GoldTracker/MarketsGrid ~4156-4157). Deeper discount of Wed 4148-4219 box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell Asia or to fade mid-range. Feeds diverge — not a tick.",
-      "news": "No USD red-folder in next 4h. JPY Tankan + BoJ Summary ~02:50 EAT can whip gold via USDJPY. Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live in the ~4156 Asia discount. SB 17:00-18:00 EAT not open.",
+      "location": "Public spot cluster ~4156 (Investing 4154.93 day 4152-4161 Asia; FXGlory 4155.42; Oct 1 01:00 bar H 4160 L 4147). Discount of Wed 4148-4219 box and under Mon EQ ~4196 (4111-4281). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell Asia or to fade mid-range. Feeds diverge — not a tick.",
+      "news": "No USD red-folder in next 4h. JPY final mfg PMI ~03:30 EAT can whip gold via USDJPY. Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
