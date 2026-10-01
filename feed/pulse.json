@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T12:06:00+03:00",
+  "updated_at": "2026-10-01T13:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "POST_LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.78,
-    "note": "12:06 EAT Thu, London killzone closed 12:00 EAT; NY AM 15:30-18:00 not open. Public cluster: XAU ~4155 (Investing 4154.58 -0.06%, prev close 4157.12, open ~4157; day 4139.43-4192.99). Pulled back from the 4193 London high into the 4151-4160 OTE after the window shut. DXY ~101.76-101.82, firm near 16-month / 52w high (TE 101.82, DealPlexus 101.76). Red-folder inside next 4h: USD Initial Claims 15:30 EAT. ISM Manufacturing 17:00 EAT sits inside Silver Bullet 17:00-18:00 EAT. NFP Fri 15:30 EAT. Public quotes only; feeds diverge; not broker-grade ticks."
+    "dxy": 101.82,
+    "note": "13:06 EAT Thu, London killzone closed 12:00 EAT; NY AM 15:30-18:00 not open. Public cluster: XAU 4150.96 (Investing bid 4150.79 / ask 4151.13 at 06:03 ET, prev close 4157.12, open 4157.12; day 4139.43-4192.99). Tagged the 79% OTE of the 4139-4193 Judas leg (~4151) with no 5-15m bullish MSS. DXY ~101.78-101.83, firm near 16-month / 52w high (TE 101.83). Red-folder inside next 4h: USD Initial Claims 15:30 EAT. ISM Manufacturing 17:00 EAT sits inside Silver Bullet 17:00-18:00 EAT. NFP Fri 15:30 EAT. Public quotes only; feeds diverge; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4132,
     "tp1": 4193,
     "rr": 1.5,
-    "reason": "INTRADAY London Judas + OTE. 12:06 EAT POST_LONDON. Public spot ~4155 is now inside the 4151-4160 OTE of the 4139-4193 Judas leg (EQ ~4166, discount), but the London 09:00-12:00 EAT window is closed and there is no confirmed 5-15m bullish FVG/CE hold. SSL/PDL 4147 already raided to 4139; BSL remains 4193 then PDH 4219. HTF still LH under 4261-4280 and DXY firm, so no SMT support for the buy. Paper plan 4156 / SL 4132 beyond the 4139 full wick not Asia high or PDH / TP1 4193 TP2 4219 RR 1.5. Do not market-buy the late tag. Downgrade B to C. Re-arm only after Claims 15:30 EAT if NY AM prints a 5-15m bullish MSS holding 4139. Invalidate on a 5m close under 4132. Stand down through ISM 17:00 inside Silver Bullet."
+    "reason": "INTRADAY London Judas + OTE. 13:06 EAT POST_LONDON. Public spot 4150.96 is on the 79% OTE of the 4139.43-4192.99 Judas leg (EQ ~4166, deep discount), but London 09:00-12:00 EAT is closed and there is no confirmed 5-15m bullish FVG/CE or MSS. SSL/PDL 4147 already raided to 4139; BSL remains 4193 then PDH 4219. HTF still LH under 4261-4280 and DXY firm at the 16-month high, so no SMT support for the buy. Paper plan 4156 / SL 4132 beyond the 4139 full wick not Asia high or PDH / TP1 4193 TP2 4219 RR 1.5. Do not market-buy the deep OTE tag. Grade stays C. Re-arm only after Claims 15:30 EAT if NY AM prints a 5-15m bullish MSS holding 4139. Invalidate on a 5m close under 4132. Stand down through ISM 17:00 inside Silver Bullet."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4155,
-      "change_pct": -0.06,
+      "price": 4151,
+      "change_pct": -0.15,
       "side": "BUY",
       "status": "WAIT",
       "bias": "neutral",
-      "trigger": "5-15m bullish MSS / FVG-CE hold of the 4151-4160 OTE only after Claims 15:30 EAT, inside NY AM 15:30-18:00 EAT, and only if 4139 holds. Not live on the late London tag. SB 17:00-18:00 EAT is an ISM void.",
-      "location": "Public spot ~4155 (Investing 4154.58, day 4139.43-4192.99, EQ ~4166). Discount / OTE of today's Judas leg after SSL/PDL sweep to 4139 and rejection from 4193. Correct paper location, wrong time: London closed 12:00 EAT, no displacement confirmation. Feeds diverge \u2014 not a tick.",
-      "news": "USD Initial Claims 15:30 EAT is a red/high print inside the next 4h (to 16:06 EAT). ISM Manufacturing 17:00 EAT sits inside Silver Bullet. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bullish MSS / FVG-CE hold of the 4151-4160 OTE only after Claims 15:30 EAT, inside NY AM 15:30-18:00 EAT, and only if 4139 holds. Not live on the 79% tag. SB 17:00-18:00 EAT is an ISM void.",
+      "location": "Public spot 4150.96 (Investing bid 4150.79 / ask 4151.13, day 4139.43-4192.99, EQ ~4166). Deep discount / 79% OTE of today's Judas leg after SSL/PDL sweep to 4139 and rejection from 4193. Correct paper location, wrong time: London closed 12:00 EAT, no displacement. Feeds diverge \u2014 not a tick.",
+      "news": "USD Initial Claims 15:30 EAT is a red/high print inside the next 4h (to 17:06 EAT). ISM Manufacturing 17:00 EAT sits inside Silver Bullet. NFP Fri 15:30 EAT.",
       "entry": 4156,
       "sl": 4132,
       "tp1": 4193
