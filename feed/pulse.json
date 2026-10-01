@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T07:11:00+03:00",
+  "updated_at": "2026-10-01T09:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "ASIA",
+  "session": "LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
     "dxy": 101.55,
-    "note": "07:11 EAT Thu ASIA, pre-London. Public cluster: XAU ~4176 (ExchangeRates UK 4175.67 +0.47% day 4140.35-4184.88 open 4156.15; TE 4175.69). Prior 07:06 desk ~4176 day 4139-4177. Wed PDH/PDL 4219/4147. Mon SSL ~4111, supply wick ~4261-4280. DXY public cluster ~101.45-101.55, firm near 52w high 101.61. No USD red-folder in next 4h (to ~11:11 EAT). EU/UK final mfg PMIs ~10:55-11:30 EAT are not USD red-folder. Later reds: US Claims 15:30 EAT, ISM Mfg 17:00 EAT. NFP Fri 15:30 EAT. Public quotes only; feeds diverge; not broker-grade ticks."
+    "note": "09:06 EAT Thu LONDON open. Public cluster: XAU ~4190 (Investing 4190.93 +0.81% day 4139.43-4192.99 open 4157.12 at 02:05 stamp; biquote 4186.2 day 4139.11-4192.97 open 4156.24; GoldPrice 4188.95 as of 08:43 EAT). Prior 07:11 desk ~4176 Asia 4140-4185. Wed PDH/PDL 4219/4147. Mon SSL ~4111, supply wick ~4261-4280. DXY last public cluster ~101.45-101.55, firm near 52w high 101.61; no fresh London tick. No USD red-folder in next 4h (to ~13:06 EAT). Later reds: US Claims 15:30 EAT, ISM Mfg 17:00 EAT (inside SB). NFP Fri 15:30 EAT. Public quotes only; feeds diverge; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4274,
     "tp1": 4088,
     "rr": 2.4,
-    "reason": "INTRADAY Power of Three (AMD) + Judas. 07:11 EAT ASIA. Public spot ~4176 is still discount of the 4111-4280 dealing range (EQ ~4196) and only kissing EQ of Wed 4147-4219 (EQ ~4183). Asia marked ~4140 up to ~4185 with no bearish MSS. HTF daily LH + Mon SSL 4111 remain bearish vs firm DXY. Do not sell the Asia markup. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 OTE/PDH and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). No USD red-folder before 11:11 EAT."
+    "reason": "INTRADAY Power of Three (AMD) + Judas. 09:06 EAT LONDON. Public spot ~4190 has run Asia BSL ~4185 into day high ~4193 but sits at EQ of the 4111-4280 dealing range (EQ ~4196), not in premium OTE 4216-4245 / PDH 4219. No bearish MSS or displacement. HTF daily LH + Mon SSL 4111 remain bearish vs firm DXY. Do not sell the London markup. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). No USD red-folder before 13:06 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4176,
-      "change_pct": 0.47,
+      "price": 4190,
+      "change_pct": 0.81,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live on the ~4176 Asia markup. SB 17:00-18:00 EAT not open.",
-      "location": "Public spot ~4176 (UK 4175.67 day 4140.35-4184.88; TE 4175.69). Discount of 4111-4280 (EQ ~4196) and under/at Wed EQ ~4183 (4147-4219). Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell Asia or to fade 4176. Feeds diverge \u2014 not a tick.",
-      "news": "No USD red-folder in next 4h (to ~11:11 EAT). Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live on the ~4190 London markup of Asia BSL. SB 17:00-18:00 EAT not open.",
+      "location": "Public spot ~4190 (Investing 4190.93 day 4139.43-4192.99; biquote 4186.2). EQ of 4111-4280 (EQ ~4196) after sweeping Asia high ~4185. Premium of today's range only. Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell London open. Feeds diverge \u2014 not a tick.",
+      "news": "No USD red-folder in next 4h (to ~13:06 EAT). Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
       "entry": 4220,
       "sl": 4274,
       "tp1": 4088
