@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-02T00:20:00+03:00",
+  "updated_at": "2026-10-02T01:07:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA_PRE",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 102.07,
-    "note": "00:20 EAT Fri. NY cash closed ~23:00 EAT; Tokyo cash not open yet (~03:00 EAT). Public XAU cluster 4167-4177: FXEmpire 4166.73 +0.26% (day 4139.27-4193.09), TradingEconomics gold page 4177.30 +0.47%. EQ of the day range still ~4166. Premium OTE ~4173-4182, under unswept BSL 4193 and PDH 4219. SSL/PDL already raided to 4139. No fresh displacement, no 5-15m MSS. DXY still bid ~102.07-102.17 — both gold and DXY green on the day, SMT incomplete. Claims and ISM Manufacturing already out (ISM 54.5 vs 54.8). Next 4h to 04:20 EAT: no USD red-folder. Tokyo CPI / jobs ~02:30 EAT Fri is JPY and inside the window. NFP Fri 15:30 EAT (f/c ~89k vs prev 162k) is the void. Public quotes only; not broker-grade ticks."
+    "dxy": 102.04,
+    "note": "01:07 EAT Fri. NY cash closed ~23:00 EAT; Tokyo cash not open yet (~03:00 EAT). Public XAU 4177.25 +0.48% (Investing.com bid/ask 4176.95/4177.55). Thursday day range still 4139.43-4192.99, EQ ~4166. Spot sits just through EQ, at the 0.62 edge of the 4111-4219 OTE, under unswept BSL 4193 and PDH 4219. SSL/PDL already raided to 4139. No fresh displacement, no 5-15m MSS. DXY 102.04 flat in the thin tape, still under the 102.21 52w high — both gold and DXY green on the completed session, SMT incomplete. Claims and ISM Manufacturing already out (ISM 54.5, prices 77.9). Next 4h to 05:07 EAT: no USD red-folder. Tokyo CPI / jobs ~02:30 EAT Fri is JPY and inside the window. NFP Fri 15:30 EAT (f/c ~89-90k vs prev 162k, UR 4.1%) is the void. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4202,
     "tp1": 4166,
     "rr": 1.57,
-    "reason": "INTRADAY Power of Three (AMD), not a live trigger. 00:20 EAT ASIA_PRE — London, NY AM and Silver Bullet are closed. Spot cluster 4167-4177 sits on/through day-range EQ ~4166 of 4139.27-4193.09, not at the 4188-4193 OB. Manipulation already raided SSL/PDL to 4139; BSL 4193 rejected; PDH 4219 intact. No 5-15m bearish MSS, DXY bid ~102.07 so SMT is incomplete, and post-close is not the window. Paper plan only: sell 4188 premium OB / SL 4202 beyond the 4193 full wick not Asia high or PDH / TP1 4166 EQ TP2 4139 RR ~1.57. Grade C. Re-arm only on a 5-15m bearish MSS from 4182-4193 that holds under 4193. Invalidate on a 5m close above 4202. Do not sell EQ. NFP Fri 15:30 EAT is the void."
+    "reason": "INTRADAY Power of Three (AMD), not a live trigger. 01:07 EAT ASIA_PRE — London, NY AM and Silver Bullet are closed. Spot 4177.25 sits just through day-range EQ ~4166 of 4139.43-4192.99, on the 0.62 edge of the 4111-4219 OTE, not at the 4188-4193 OB. Manipulation already raided SSL/PDL to 4139; BSL 4193 rejected; PDH 4219 intact. No 5-15m bearish MSS, DXY 102.04 so SMT is incomplete, and post-close is not the window. Paper plan only: sell 4188 premium OB / SL 4202 beyond the 4193 full wick not Asia high or PDH / TP1 4166 EQ TP2 4139 RR ~1.57. Grade C. Re-arm only on a 5-15m bearish MSS from 4182-4193 that holds under 4193. Invalidate on a 5m close above 4202. Do not sell EQ. NFP Fri 15:30 EAT is the void."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4166.73,
-      "change_pct": 0.26,
+      "price": 4177.25,
+      "change_pct": 0.48,
       "side": "SELL",
       "status": "WAIT",
       "bias": "neutral",
-      "trigger": "5-15m bearish MSS from the 4182-4193 premium OB / BSL only, and only if 4193 holds. Not live. London, NY AM and Silver Bullet are closed. Do not sell EQ or chase 4167-4177.",
-      "location": "FXEmpire 4166.73 (+0.26%). Day 4139.27-4193.09, EQ ~4166. TE cross-check 4177.30. Cluster sits on EQ, off the SSL/PDL sweep to 4139, under unswept BSL 4193 and PDH 4219. No MSS. Public quote — not a tick.",
-      "news": "Claims and ISM Manufacturing already out. No USD red-folder to 04:20 EAT. Tokyo CPI ~02:30 EAT Fri is JPY. NFP Fri 15:30 EAT.",
+      "trigger": "5-15m bearish MSS from the 4182-4193 premium OB / BSL only, and only if 4193 holds. Not live. London, NY AM and Silver Bullet are closed. Do not sell EQ or chase 4177.",
+      "location": "Investing.com 4177.25 (+0.48%, bid/ask 4176.95/4177.55). Day 4139.43-4192.99, EQ ~4166. Spot just through EQ, 0.62 of 4111-4219, off the SSL/PDL sweep to 4139, under unswept BSL 4193 and PDH 4219. No MSS. Public quote — not a tick.",
+      "news": "Claims and ISM Manufacturing already out. No USD red-folder to 05:07 EAT. Tokyo CPI ~02:30 EAT Fri is JPY. NFP Fri 15:30 EAT.",
       "entry": 4188,
       "sl": 4202,
       "tp1": 4166
