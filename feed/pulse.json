@@ -1,39 +1,39 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-01T09:16:00+03:00",
+  "updated_at": "2026-10-01T10:06:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.55,
-    "note": "09:16 EAT Thu, pre-London into London open (London cash ~10:00 EAT). Public cluster: XAU ~4191 (Investing 4190.55 +0.80% day 4139.43-4192.99, stamp ~02:08 GMT-4 / ~09:08 EAT). Prior 09:06 desk ~4190; Asia BSL ~4185 already tagged. Wed PDH/PDL 4219/4147. Mon SSL ~4111, supply wick ~4261-4280. DXY last public cluster ~101.45-101.55, firm near 52w high 101.61; no fresh London tick. No USD red-folder in next 4h (to ~13:16 EAT). EU/UK final mfg PMI ~10:55-11:30 EAT is inside the window but not a USD red-folder. Later reds: US Claims 15:30 EAT, ISM Mfg 17:00 EAT (inside SB). NFP Fri 15:30 EAT. Public quotes only; feeds diverge; not broker-grade ticks."
+    "dxy": 101.62,
+    "note": "10:06 EAT Thu, London killzone (09:00-12:00 EAT). Public cluster: XAU ~4181 (Investing 4180.94 +0.57% stamp ~15:01 PHT / ~10:01 EAT; day 4139.43-4192.99; prior 09:16 desk ~4191). Open ~4156-4157. Wed PDH/PDL 4219/4147. Session low 4139 swept PDL/SSL then displaced to 4193. DXY ~101.58-101.68, firm near yearly high 101.80 (FXStreet 101.60, DealPlexus 101.68). No USD red-folder in next 4h (to ~14:06 EAT). Later reds: Claims 15:30 EAT, ISM Mfg 17:00 EAT (inside Silver Bullet). NFP Fri 15:30 EAT. Public quotes only; feeds diverge; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
-    "side": "SELL",
+    "side": "BUY",
     "status": "WAIT",
     "grade": "B",
-    "entry": 4220,
-    "sl": 4274,
-    "tp1": 4088,
-    "rr": 2.4,
-    "reason": "INTRADAY Power of Three (AMD) + Judas. 09:16 EAT LONDON. Public spot ~4191 is still the London markup of Asia BSL ~4185, sitting at EQ of the 4111-4280 dealing range (EQ ~4196), not in premium OTE 4216-4245 / PDH 4219. No bearish MSS or displacement. HTF daily LH + Mon SSL 4111 remain bearish vs firm DXY. Do not sell the open markup. Paper plan 4220 / SL 4274 beyond full wick not Asia H/PDH ~4280 / TP1 4088 TP2 4040 RR 2.4. Re-arm only if price returns to 4205-4230 and prints 5-15m bearish MSS + FVG/CE in London 09:00-12:00 EAT or NY AM 15:30-18:00 EAT (SB 17:00-18:00). No USD red-folder before 13:16 EAT."
+    "entry": 4156,
+    "sl": 4132,
+    "tp1": 4193,
+    "rr": 1.5,
+    "reason": "INTRADAY London Judas + OTE. 10:06 EAT LONDON. Public spot ~4181 is the post-sweep markup, premium of the 4139-4193 dealing range (EQ ~4166), not in OTE 4151-4160. SSL/PDL 4147 already raided to 4139 and displaced to 4193; no fresh LTF MSS at location. HTF still LH under 4261-4280 vs firm DXY, so this is session continuation only. Paper plan 4156 / SL 4132 beyond the 4139 full wick not Asia high or PDH / TP1 4193 TP2 4219 RR 1.5. Do not buy 4181. Re-arm only on a pullback into 4151-4160 with 5-15m bullish hold of FVG/CE inside London 09:00-12:00 EAT. Invalidate if 4139 wick fails and 5m closes under 4132. No USD red-folder before 14:06 EAT; stand down into Claims 15:30 and ISM 17:00."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4191,
-      "change_pct": 0.8,
-      "side": "SELL",
+      "price": 4181,
+      "change_pct": 0.57,
+      "side": "BUY",
       "status": "WAIT",
-      "bias": "bearish",
-      "trigger": "5-15m bearish MSS + FVG/CE only on a return into 4205-4230 OTE / 4219 PDH retest in London or NY AM. Not live on the ~4191 markup of Asia BSL. SB 17:00-18:00 EAT not open.",
-      "location": "Public spot ~4191 (Investing 4190.55 day 4139.43-4192.99). EQ of 4111-4280 (EQ ~4196) after sweeping Asia high ~4185. Premium of today's range only. Correct plan location is 4220 on LTF MSS after BSL 4219; wrong location to market-sell London open. Feeds diverge \u2014 not a tick.",
-      "news": "No USD red-folder in next 4h (to ~13:16 EAT). EU final mfg PMI ~10:55 EAT is inside the window but not a USD red-folder. Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT. NFP Fri 15:30 EAT.",
-      "entry": 4220,
-      "sl": 4274,
-      "tp1": 4088
+      "bias": "bullish",
+      "trigger": "5-15m bullish hold of FVG/CE only on a return into 4151-4160 OTE of the 4139-4193 Judas leg, inside London 09:00-12:00 EAT. Not live on the ~4181 premium markup. SB 17:00-18:00 EAT not open; ISM sits inside that window.",
+      "location": "Public spot ~4181 (Investing 4180.94 day 4139.43-4192.99). Premium of today's range (EQ ~4166) after SSL/PDL sweep to 4139 and displacement to 4193. Near EQ of the wider 4111-4280 range (EQ ~4196). Correct plan location is 4156 on LTF hold; wrong location to market-buy. Feeds diverge \u2014 not a tick.",
+      "news": "No USD red-folder in next 4h (to ~14:06 EAT). Later: Claims 15:30 EAT, ISM Manufacturing 17:00 EAT (inside Silver Bullet). NFP Fri 15:30 EAT.",
+      "entry": 4156,
+      "sl": 4132,
+      "tp1": 4193
     },
     {
       "symbol": "EURUSD",
