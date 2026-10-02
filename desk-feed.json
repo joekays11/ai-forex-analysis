@@ -1,82 +1,140 @@
 {
   "version": 1,
-  "publishedAt": 1790072760000,
-  "updatedAt": 1790072760000,
+  "publishedAt": 1790073600000,
+  "updatedAt": 1790073600000,
   "source": "grok-bot",
   "sotd": {
-    "pair": "XAUUSD",
+    "pair": "EURUSD",
     "side": "SELL",
     "state": "ARMED",
-    "entry": 4334,
-    "sl": 4368,
-    "tp1": 4298,
-    "tp2": 4272,
+    "entry": 1.127,
+    "sl": 1.131,
+    "tp1": 1.1225,
+    "tp2": 1.1185,
     "rr": "1:1.1",
-    "thesis": "Hawkish Fed pressured gold toward 4334. Fade rips only if 4368 fails; stand down into US speakers.",
-    "confluence": {
-      "sweep": false,
-      "bos": true,
-      "fvg": false,
-      "ob": false,
-      "mtf": true
-    },
-    "sessionNote": "London · Grok feed · educational only"
+    "thesis": "68% sell fade 1.1265-1.1280. Do not sell under 1.1240. Hard NFP miss kills it.",
+    "confluence": { "sweep": false, "bos": true, "fvg": false, "ob": false, "mtf": true },
+    "sessionNote": "Fri 2 Oct 13:40 EAT · pre-NFP · educational only"
   },
   "pulse": [
     {
-      "id": "pulse-xau-1790072760000",
+      "id": "pulse-eur-20261002",
+      "pair": "EURUSD",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 1.127,
+      "sl": 1.131,
+      "tp1": 1.1225,
+      "tp2": 1.1185,
+      "ageLabel": "0m",
+      "thesis": "68% · sell 1.1265-1.1280 · SL 1.1310 · TP 1.1225 / 1.1185"
+    },
+    {
+      "id": "pulse-gbp-20261002",
+      "pair": "GBPUSD",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 1.3235,
+      "sl": 1.328,
+      "tp1": 1.318,
+      "tp2": 1.312,
+      "ageLabel": "0m",
+      "thesis": "66% · sell 1.3225-1.3245 · SL 1.3280 · TP 1.3180 / 1.3120"
+    },
+    {
+      "id": "pulse-aud-20261002",
+      "pair": "AUDUSD",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 0.696,
+      "sl": 0.7005,
+      "tp1": 0.6915,
+      "tp2": 0.687,
+      "ageLabel": "0m",
+      "thesis": "66% · sell 0.6955-0.6970 · SL 0.7005 · TP 0.6915 / 0.6870"
+    },
+    {
+      "id": "pulse-nzd-20261002",
+      "pair": "NZDUSD",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 0.5638,
+      "sl": 0.5675,
+      "tp1": 0.559,
+      "tp2": 0.5555,
+      "ageLabel": "0m",
+      "thesis": "66% · sell 0.5630-0.5645 · SL 0.5675 · TP 0.5590 / 0.5555"
+    },
+    {
+      "id": "pulse-us30-20261002",
+      "pair": "US30",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 51200,
+      "sl": 51780,
+      "tp1": 50530,
+      "tp2": 50000,
+      "ageLabel": "0m",
+      "thesis": "66% · sell 51100-51400 · SL 51780 · TP 50530 / 50000"
+    },
+    {
+      "id": "pulse-xau-20261002",
       "pair": "XAUUSD",
       "side": "SELL",
       "state": "ARMED",
-      "entry": 4334,
-      "sl": 4368,
-      "tp1": 4298,
+      "entry": 4195,
+      "sl": 4228,
+      "tp1": 4173,
+      "tp2": 4123,
       "ageLabel": "0m",
-      "thesis": "SOTD · Fed hawkish · sell rip"
+      "thesis": "62% · sell 4191-4215 · SL 4228 · TP 4173 / 4123"
     },
     {
-      "id": "pulse-jpy-1790072760000",
+      "id": "pulse-gj-20261002",
+      "pair": "GBPJPY",
+      "side": "SELL",
+      "state": "ARMED",
+      "entry": 208.8,
+      "sl": 209.45,
+      "tp1": 207.55,
+      "tp2": 206.8,
+      "ageLabel": "0m",
+      "thesis": "64% · sell 208.60-209.00 · SL 209.45 · TP 207.55 / 206.80"
+    },
+    {
+      "id": "pulse-nas-20261002",
+      "pair": "NAS100",
+      "side": "WAIT",
+      "state": "WATCH",
+      "entry": 30750,
+      "sl": 31050,
+      "tp1": 30270,
+      "tp2": 30000,
+      "ageLabel": "0m",
+      "thesis": "64% · fade 30700-30845 only if it stalls · SL 31050"
+    },
+    {
+      "id": "pulse-btc-20261002",
+      "pair": "BTCUSD",
+      "side": "WAIT",
+      "state": "WATCH",
+      "entry": 82800,
+      "sl": 80800,
+      "tp1": 85200,
+      "tp2": 87360,
+      "ageLabel": "0m",
+      "thesis": "63% dip-buy 82400-83200 after reclaim · do not chase 86000"
+    },
+    {
+      "id": "pulse-jpy-20261002",
       "pair": "USDJPY",
       "side": "WAIT",
       "state": "WAIT",
-      "entry": 156.95,
+      "entry": 157.7,
       "sl": null,
       "tp1": null,
       "ageLabel": "0m",
-      "thesis": "Mid-range 156.7–157.7 · no trigger"
-    },
-    {
-      "id": "pulse-eur-1790072760000",
-      "pair": "EURUSD",
-      "side": "WAIT",
-      "state": "WAIT",
-      "entry": 1.1467,
-      "sl": null,
-      "tp1": null,
-      "ageLabel": "0m",
-      "thesis": "Range 1.145–1.149 · no trigger"
-    },
-    {
-      "id": "pulse-gbp-1790072760000",
-      "pair": "GBPUSD",
-      "side": "WAIT",
-      "state": "WAIT",
-      "entry": 1.3369,
-      "sl": null,
-      "tp1": null,
-      "ageLabel": "0m",
-      "thesis": "Range 1.334–1.340 · no trigger"
-    },
-    {
-      "id": "pulse-btc-1790072760000",
-      "pair": "BTCUSD",
-      "side": "WAIT",
-      "state": "WAIT",
-      "entry": 86057,
-      "sl": null,
-      "tp1": null,
-      "ageLabel": "0m",
-      "thesis": "Soft under 87k · no trigger"
+      "thesis": "55% · rejected 158.22 · no signal"
     }
   ]
 }
