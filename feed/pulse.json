@@ -1,41 +1,41 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-02T22:15:00+03:00",
+  "updated_at": "2026-10-02T23:07:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "Late NY / pre-weekend",
+  "session": "Post-NY close / weekend book",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed. Public quotes, not a tick.",
   "macro": {
     "dxy": 101.9,
     "dxy_bias": "SELL rallies",
-    "dxy_confidence": 40,
-    "note": "22:15 EAT Fri. NFP done 15:30 EAT: +29k vs ~89k, UR 4.2% vs 4.1%, AHE 0.1% vs 0.3%. DXY not re-quoted, last public ~101.90, day 101.67-102.13, offered vs 102.10 prior, not broken. Gold still offered after the 4227 Judas — SMT not confirming a long. Next 4h: no USD red folder. Nagel ~22:35 EAT is a speech, not a red folder. JPY household spending ~02:30 EAT is just outside the window. Silver Bullet closed 18:00 EAT. Weekend gap risk."
+    "dxy_confidence": 38,
+    "note": "23:07 EAT Fri. NFP done 15:30 EAT: +29k vs ~90k, UR 4.2% vs 4.1%, AHE 0.1% vs 0.3%. DXY last public ~101.90, day 101.67-102.13, offered vs 102.10 prior, not broken. Gold still offered after the 4227.70 Judas — SMT not confirming a long (dollar only mildly offered, metal ~1% down). Next 4h: no USD red folder. NY cash closed ~23:00 EAT. Silver Bullet closed 18:00 EAT. Weekend gap risk."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "BUY",
     "status": "WAIT",
     "grade": "C",
-    "confidence": 27,
+    "confidence": 24,
     "entry": 4130,
     "sl": 4102,
     "tp1": 4176,
     "tp2": 4228,
     "rr": 1.64,
-    "reason": "INTRADAY NFP Judas / SSL SFP still unconfirmed. Silver Bullet expired 18:00 EAT. Public composite ~4138 (LiveExchanges 4135.99, Live-rates 4139.85) is discount of 4125.17-4227.70 (EQ ~4176), about 13 above session SSL, no M15 bullish rejection or MSS. BSL 4227.70 was the NFP Judas above PDH ~4193 and rejected. Buy only a sweep of 4125.17 that reclaims on M15, SL under the full wick at 4102, TP1 EQ 4176. Invalid if M15 closes under 4102. Do not buy 4138. Do not sell into SSL into the weekend."
+    "reason": "INTRADAY NFP Judas / SSL SFP still unconfirmed. Public spot ~4145.5 (GoldPrice.com 4145.48 as of 15:59 ET / 22:59 EAT) is discount of 4125.17-4227.70 (EQ ~4176), about 20 above session SSL, no M15 bullish rejection or MSS. BSL 4227.70 was the NFP Judas above PDH and rejected. Buy only a sweep of 4125.17 that reclaims on M15, SL under the full wick at 4102, TP1 EQ 4176. Invalid if M15 closes under 4102. Do not buy 4145. Do not sell into SSL into the weekend."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4137.9,
-      "change_pct": -1.0,
+      "price": 4145.5,
+      "change_pct": -0.76,
       "side": "BUY",
       "status": "WAIT",
       "bias": "bullish",
-      "confidence": 27,
-      "trigger": "FAIL at trigger. Silver Bullet closed 18:00 EAT. Public composite ~4138 is discount and nearer the day low, not a confirmed SFP. Buy only an M15 close back above the sweep after 4125.17 is run. Do not buy 4138. Do not sell the NFP miss into SSL.",
-      "location": "Public composite ~4137.9 (LiveExchanges 4135.99, Live-rates 4139.85, about -1.0%). Day range 4125.17-4227.70, EQ ~4176. Spot is ~38 under EQ, about 13 above session SSL. BSL 4227.70 tapped and rejected. Not a broker tick.",
-      "news": "NFP done 15:30 EAT: +29k vs ~89k, UR 4.2% vs 4.1%, AHE 0.1% vs 0.3%. No red folder in the next 4h. Nagel ~22:35 EAT is a speech. Weekend gap risk.",
+      "confidence": 24,
+      "trigger": "FAIL at trigger. Silver Bullet closed 18:00 EAT. NY cash closed. Public ~4145.5 is discount and nearer the day low, not a confirmed SFP. Buy only an M15 close back above the sweep after 4125.17 is run. Do not buy 4145. Do not sell the NFP miss into SSL.",
+      "location": "Public ~4145.5 (GoldPrice.com 4145.48 at 22:59 EAT, about -0.76% vs ~4177 prior close). Day range 4125.17-4227.70, EQ ~4176. Spot is ~31 under EQ, about 20 above session SSL. BSL 4227.70 tapped and rejected. Not a broker tick.",
+      "news": "NFP done 15:30 EAT: +29k vs ~90k, UR 4.2% vs 4.1%, AHE 0.1% vs 0.3%. No red folder in the next 4h. Weekend gap risk.",
       "entry": 4130,
       "entry_zone": "4125.17 sweep then M15 reclaim only",
       "sl": 4102,
