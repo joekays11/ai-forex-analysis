@@ -1,13 +1,13 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-02T07:12:00+03:00",
+  "updated_at": "2026-10-02T08:07:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "ASIA",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.93,
-    "note": "07:12 EAT Fri. ASIA, pre-London (KZ 09:00). Public spot XAU ~4183.5 (Octa mid 4183.4/4183.6 at 07:08 EAT; TE 4178.39). Path unchanged: session SSL 4134.05 already printed, rally into BSL 4183.71 / HOD 4185.04. DXY 101.93 (TE 101.929, day ~101.91-102.14, still near 52-week high 102.21). Thursday dealing range 4139.43-4192.99, EQ ~4166; today range EQ ~4159. Spot is premium. PDH 4219 intact. No 5-15m bearish MSS off the high. Next 4h to 11:12 EAT: no USD red-folder. Spanish unemployment ~10:00 EAT and Italian retail ~11:00 EAT are low-impact only. EZ flash CPI ~12:00 EAT is outside this window. NFP Fri 15:30 EAT (f/c ~89-90k vs prev 162k, UR 4.1%, AHE 0.3%) is the void; Factory Orders ~17:00 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 101.94,
+    "note": "08:07 EAT Fri. ASIA, pre-London (KZ 09:00-12:00). Public spot XAU ~4175.6 (Investing 4175.60 at 08:06 EAT, day 4171.81-4183.71; prior desk Octa mid 4183.5 at 07:08 tagged BSL). Path unchanged: session SSL 4134.05 already printed, BSL 4183.71 / HOD 4185.04 tagged, now off the high. DXY 101.94 (TE 101.94, -0.08% vs Thu close 102.10, still near 52-week high 102.21). Thursday dealing range 4139.43-4192.99, EQ ~4166; today range EQ ~4159. Spot still premium of today. PDH 4219 intact. No 5-15m bearish MSS. Next 4h to 12:07 EAT: no USD red-folder. Spanish unemployment ~10:00 EAT and Italian retail ~11:00 EAT are low-impact. EZ flash CPI ~12:00 EAT sits on the window edge, not USD. NFP Fri 15:30 EAT (f/c ~89-90k vs prev 162k, UR 4.1%, AHE 0.3%) is the void; Factory Orders ~17:00 EAT. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
@@ -18,19 +18,19 @@
     "sl": 4198,
     "tp1": 4160,
     "rr": 1.71,
-    "reason": "INTRADAY Judas / Asian SSL raid. 07:12 EAT ASIA \u2014 London, NY AM and Silver Bullet are closed. Public spot ~4183.5 is premium of today 4134.05-4185.04 (EQ ~4159) and of Thursday EQ ~4166; SSL 4134.05 already swept; BSL 4183.71 tagged, HOD 4185.04; PDH 4219 and Thursday high 4192.99 intact. No 5-15m bearish MSS at the premium array. Paper plan only: sell 4184 under the swept BSL / SL 4198 beyond the 4185.04 and 4192.99 wicks / TP1 4160. Grade C. Do not sell 4183 blind and do not buy the high. Re-arm only on a 5-15m bearish MSS from 4180-4186 that holds under 4186. Invalidate on a 5m close above 4198, or on a bullish MSS that accepts above 4186. NFP Fri 15:30 EAT is the void."
+    "reason": "INTRADAY Judas / Asian SSL raid. 08:07 EAT ASIA \u2014 London not open, NY AM and Silver Bullet closed. Public spot ~4175.6 is still premium of today 4134.05-4185.04 (EQ ~4159) and of Thursday EQ ~4166, but off the BSL tag. SSL 4134.05 already swept; BSL 4183.71 tagged, HOD 4185.04; PDH 4219 and Thursday high 4192.99 intact. No 5-15m bearish MSS. Paper plan only: sell 4184 under the swept BSL / SL 4198 beyond the 4185.04 and 4192.99 wicks / TP1 4160. Grade C. Do not sell 4175 blind and do not buy the high. Re-arm only on a 5-15m bearish MSS from 4180-4186 that holds under 4186 inside London 09:00-12:00 EAT. Invalidate on a 5m close above 4198, or on a bullish MSS that accepts above 4186. Flat before NFP 15:30 EAT."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4183.5,
-      "change_pct": 0.15,
+      "price": 4175.6,
+      "change_pct": -0.04,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS from the 4180-4186 premium array / under swept BSL 4183.71 and HOD 4185.04 only, and only if 4186 holds. Not live. London, NY AM and Silver Bullet are closed. Do not sell 4183 blind or buy the session high.",
-      "location": "Public ~4183.5 (Octa mid 4183.4/4183.6 at 07:08 EAT; TE 4178.39). Day path 4134.05-4185.04, open/prev 4177.25. Thursday 4139.43-4192.99, EQ ~4166. Today EQ ~4159. Spot premium after SSL 4134.05 sweep; BSL 4183.71 tagged; PDH 4219 intact. No MSS. Public quote \u2014 not a tick.",
-      "news": "No USD red-folder to 11:12 EAT. NFP Fri 15:30 EAT (f/c ~89-90k vs 162k, UR 4.1%, AHE 0.3%) is the void. Factory Orders ~17:00 EAT. EZ flash CPI ~12:00 EAT is outside this window.",
+      "trigger": "5-15m bearish MSS from the 4180-4186 premium array / under swept BSL 4183.71 and HOD 4185.04 only, and only if 4186 holds, inside London 09:00-12:00 EAT. Not live. Do not sell 4175 blind or buy the session high.",
+      "location": "Public ~4175.6 (Investing 4175.60 at 08:06 EAT, day 4171.81-4183.71; prior Octa mid 4183.5 at 07:08). Day path 4134.05-4185.04, open/prev 4177.25. Thursday 4139.43-4192.99, EQ ~4166. Today EQ ~4159. Spot still premium after SSL 4134.05 sweep; BSL 4183.71 tagged then slipped; PDH 4219 intact. No MSS. Public quote \u2014 not a tick.",
+      "news": "No USD red-folder to 12:07 EAT. NFP Fri 15:30 EAT (f/c ~89-90k vs 162k, UR 4.1%, AHE 0.3%) is the void. Factory Orders ~17:00 EAT. EZ flash CPI ~12:00 EAT is euro, not USD.",
       "entry": 4184,
       "sl": 4198,
       "tp1": 4160
