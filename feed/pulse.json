@@ -1,38 +1,38 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-02T10:16:00+03:00",
+  "updated_at": "2026-10-02T12:06:00+03:00",
   "timezone": "Africa/Nairobi",
-  "session": "LONDON",
+  "session": "POST-LONDON",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed.",
   "macro": {
-    "dxy": 101.88,
-    "note": "10:16 EAT Fri. London cash just open; killzone window 09:00-12:00 EAT still live (~1h44m left). Public spot XAU ~4181.2 (Economies 4181.21 at 09:55 EAT; goldprice.com 4180.87; prior desk 4180.77 at 10:08). Tape still premium of today range cited 4134.05-4196.84, EQ ~4165; Thursday dealing range 4139.43-4192.99, EQ ~4166. Day high 4196.84 took Thursday 4192.99 BSL; Sep 30 PDH 4219 intact. No 5-15m bearish MSS. DXY 101.88 (TE 101.880, -0.14%). Next 4h to 14:16 EAT: EZ flash CPI / core ~12:00 EAT (FF f/c CPI 3.7% vs 3.2%, core 2.5% vs 2.4%) is the red-folder inside the window — EUR blackout. Italian retail ~11:00 EAT is low-impact. NFP Fri 15:30 EAT (f/c ~89-90k vs prev 162k, UR 4.1%, AHE 0.3%) is just outside 4h but is the session void; Factory Orders ~17:00 EAT. Public quotes only; not broker-grade ticks."
+    "dxy": 101.91,
+    "note": "12:06 EAT Fri. London killzone 09:00-12:00 EAT just closed. Public spot XAU ~4183.5 (goldprice.com 4183.47 as of 12:01 EAT / 5:01 AM ET; Investing day range 4134.05-4196.84; TE gold ~4182.6). Spot is premium of the day dealing range, EQ ~4165.4. Day high 4196.84 took Thursday BSL ~4193; day low 4134.05 swept Thursday PDL ~4139. Both pools run. Sep 30 PDH 4219 intact. No fresh 5-15m MSS at 4183. DXY 101.91 (-0.18% vs 102.10 prior 102.10), soft dollar is correlated not SMT. Next 4h to 16:06 EAT: US NFP 15:30 EAT is red-folder inside the window (f/c ~89-90k vs 162k, UR 4.1%, AHE 0.3%). Factory Orders ~17:00 EAT just outside. Void into the print. Public quotes only; not broker-grade ticks."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "C",
-    "entry": 4193,
-    "sl": 4209,
+    "entry": 4194,
+    "sl": 4210,
     "tp1": 4165,
-    "rr": 1.75,
-    "reason": "INTRADAY London Judas / AMD after Asian SSL raid. 10:16 EAT early London cash — NY AM and Silver Bullet closed. Public spot ~4181 is premium of today 4134.05-4196.84 (EQ ~4165) and of Thursday EQ ~4166, under the swept 4192.99-4196.84 BSL wick. SSL 4134 already taken; Sep 30 PDH 4219 intact. No 5-15m bearish MSS, and DXY soft (-0.14%) is not confirming a gold fade. Paper plan only: sell 4193 after a re-sweep of 4192-4197 that fails / SL 4209 beyond the 4196.84 full wick / TP1 4165. Grade C. Do not sell 4181 blind and do not buy premium. Re-arm only on a 5-15m bearish MSS from 4190-4197 that holds under 4197 inside London 09:00-12:00 EAT. Invalidate on a 5m close above 4209, or on a bullish MSS that accepts above 4197. Flat before NFP 15:30 EAT."
+    "rr": 1.81,
+    "reason": "INTRADAY London Judas / AMD after dual-pool raid. 12:06 EAT London KZ closed; NY AM 15:30-18:00 EAT not open. Public spot ~4183.5 is premium of today 4134.05-4196.84 (EQ ~4165) but not at the 4192-4197 wick. SSL 4134 and BSL 4196.84 already taken; Sep 30 PDH 4219 intact. No 5-15m bearish MSS, DXY soft (-0.18%) does not confirm a fade, and NFP 15:30 EAT is red-folder inside the next 4h. Paper plan only: sell 4194 after a re-sweep of 4192-4197 that fails / SL 4210 beyond the 4196.84 full wick / TP1 4165 EQ. Grade C. Do not sell 4183 blind and do not buy premium into NFP. Re-arm only after the print, on a 5-15m MSS. Invalidate on a 5m close above 4210, or on acceptance above 4197."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4181.2,
-      "change_pct": 0.1,
+      "price": 4183.5,
+      "change_pct": 0.15,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "trigger": "5-15m bearish MSS from a re-sweep of the 4192-4197 premium wick / under 4197 only, inside London 09:00-12:00 EAT. Not live. Do not sell 4181 blind or buy the session premium.",
-      "location": "Public ~4181.2 (Economies 4181.21 at 09:55 EAT; goldprice.com 4180.87; prior desk 4180.77). SSL 4134 swept; BSL Thursday 4192.99 taken by day high 4196.84. Thursday 4139.43-4192.99, EQ ~4166. Today EQ ~4165. Spot premium, not at 4193. Sep 30 PDH 4219 intact. No MSS. Public quote \u2014 not a tick.",
-      "news": "No USD red-folder to 14:16 EAT. EZ flash CPI ~12:00 EAT is euro, not USD. NFP Fri 15:30 EAT (f/c ~89-90k vs 162k, UR 4.1%, AHE 0.3%) is the void, just outside the 4h window. Factory Orders ~17:00 EAT.",
-      "entry": 4193,
-      "sl": 4209,
+      "trigger": "5-15m bearish MSS from a re-sweep of the 4192-4197 premium wick that fails under 4197. Not live. London KZ closed. Do not sell 4183 blind, do not buy premium, flat into NFP 15:30 EAT.",
+      "location": "Public ~4183.5 (goldprice.com 4183.47 as of 12:01 EAT; TE ~4182.6). Day range 4134.05-4196.84, EQ ~4165.4. SSL 4134 and Thursday BSL ~4193 both taken. Spot premium, not at 4194. Sep 30 PDH 4219 intact. No MSS. Public quote \u2014 not a tick.",
+      "news": "VOID: US NFP 15:30 EAT is red-folder inside the next 4h (to 16:06 EAT). F/c ~89-90k vs prev 162k, UR 4.1%, AHE 0.3% m/m. Factory Orders ~17:00 EAT just outside the window. Flat into the print.",
+      "entry": 4194,
+      "sl": 4210,
       "tp1": 4165
     },
     {
