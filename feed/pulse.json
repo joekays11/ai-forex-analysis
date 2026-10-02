@@ -1,41 +1,41 @@
 {
   "desk": "THE SMART Ai",
   "source": "Grok",
-  "updated_at": "2026-10-02T14:17:00+03:00",
+  "updated_at": "2026-10-02T15:14:00+03:00",
   "timezone": "Africa/Nairobi",
   "session": "PRE-NFP",
   "disclaimer": "Analysis snapshot, not financial advice. Not a broker feed. Public quotes, not a tick.",
   "macro": {
-    "dxy": 101.95,
+    "dxy": 102.02,
     "dxy_bias": "BUY dips",
     "dxy_confidence": 62,
-    "note": "14:17 EAT Fri. News blackout. US Employment Situation (NFP, UR, AHE) 15:30 EAT, unreleased. Consensus ~+90k vs prev +162k, UR 4.1%. Factory orders 17:00 EAT secondary. DXY ~101.95 under yearly high 102.21. Hold above 101.50 keeps the dollar board. Hard miss (under ~50k, or UR 4.2% with soft wages) flips gold and USD shorts. Do not hold a fresh position through the print."
+    "note": "15:14 EAT Fri. News blackout. US Employment Situation (NFP, UR, AHE) 15:30 EAT, unreleased. Consensus ~+90k vs prev +162k, UR 4.1%, AHE m/m 0.3%. Factory orders 17:00 EAT secondary. DXY ~102.02, day 101.79-102.13, under yearly high 102.21. Hold above 101.50 keeps the dollar board. Hard miss (under ~50k, or UR 4.2% with soft wages) flips gold and USD shorts. Do not hold a fresh position through the print."
   },
   "sotd": {
     "symbol": "XAUUSD",
     "side": "SELL",
     "status": "WAIT",
     "grade": "C",
-    "confidence": 44,
+    "confidence": 42,
     "entry": 4195,
     "sl": 4228,
     "tp1": 4134,
     "tp2": 4110,
     "rr": 1.85,
-    "reason": "INTRADAY Power of Three (AMD). London Judas ran SSL to 4134 then marked BSL near 4197. Public spot ~4185 is day-range premium but not the OTE, and NFP at 15:30 EAT voids trigger and location. Sell 4191-4200 only after a post-print M15 MSS, SL beyond the full wick at 4228, TP1 4134. Invalid above 4228 or on a hard miss."
+    "reason": "INTRADAY Power of Three (AMD). London Judas ran SSL to 4134 then marked BSL near 4197. Public spot ~4176 sits in day-range OTE premium, but NFP at 15:30 EAT voids trigger. Sell 4191-4200 only after a post-print M15 MSS, SL beyond the full wick at 4228, TP1 4134. Invalid above 4228 or on a hard miss."
   },
   "pulse": [
     {
       "symbol": "XAUUSD",
-      "price": 4185,
-      "change_pct": 0.1,
+      "price": 4176,
+      "change_pct": -0.04,
       "side": "SELL",
       "status": "WAIT",
       "bias": "bearish",
-      "confidence": 44,
-      "trigger": "FAIL. None before 15:30 EAT. Post-print only: M15 bearish MSS under the NFP spike, then sell a retrace into 4191-4200. Not at 4185.",
-      "location": "Public ~4185. Day range ~4134-4197, EQ ~4165, spot in premium. BSL ~4197 tagged, SSL ~4134 tagged. Not the OTE.",
-      "news": "BLACKOUT. NFP 15:30 EAT red folder. Consensus ~+90k vs +162k, UR 4.1%. Factory orders 17:00 EAT. Beat draws 4134-4110. Hard miss flips the sell.",
+      "confidence": 42,
+      "trigger": "FAIL. None before 15:30 EAT. Post-print only: M15 bearish MSS under the NFP spike, then sell a retrace into 4191-4200. Not at 4176.",
+      "location": "Public ~4176. Day range 4134.05-4196.84, EQ ~4165, spot in OTE premium (0.62-0.79). BSL ~4197 tagged, SSL ~4134 tagged. Location ok, news not.",
+      "news": "BLACKOUT. NFP 15:30 EAT red folder, ~16 min. Consensus ~+90k vs +162k, UR 4.1%, AHE 0.3%. Factory orders 17:00 EAT. Beat draws 4134-4110. Hard miss flips the sell.",
       "entry": 4195,
       "entry_zone": "4191-4200 post-print only",
       "sl": 4228,
