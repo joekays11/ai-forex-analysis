@@ -1,10 +1,10 @@
 {
   "date": "2026-10-06",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-10-06T13:00:00+03:00",
+  "updated_at": "2026-10-06T15:00:00+03:00",
   "dxy": 102.2,
   "prices_verified": true,
-  "spot": {"EURUSD": 1.1209, "GBPUSD": 1.3209, "USDJPY": 158.05, "XAUUSD": 4152.38},
+  "spot": {"EURUSD": 1.1209, "GBPUSD": 1.3209, "USDJPY": 158.05, "XAUUSD": 4173.41},
   "stand_aside_until": null,
   "next_red": {"time": "2026-10-06T15:30:00+03:00", "event": "USD Trade Balance (Aug), forecast -100.8B prev -88.6B"},
   "setups": [
@@ -32,8 +32,8 @@
       "tp2": 4170.0,
       "grade": "B",
       "confidence": 70,
-      "status": "TP1",
-      "events": ["NEWS LOCK", "TRIGGER", "TP1 HIT"],
+      "status": "CLOSED_TP2",
+      "events": ["NEWS LOCK", "TRIGGER", "TP1 HIT", "TP2 HIT"],
       "invalid_if": "M5 close through 4096",
       "timeframes": "M15->M5/M1",
       "hold": "minutes to 1-2h",
