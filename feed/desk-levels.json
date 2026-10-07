@@ -1,10 +1,10 @@
 {
   "date": "2026-10-07",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-10-07T10:00:00+03:00",
+  "updated_at": "2026-10-07T11:00:00+03:00",
   "dxy": 102.07,
   "prices_verified": true,
-  "spot": {"EURUSD": 1.1224, "GBPUSD": 1.3249, "USDJPY": 158.38, "XAUUSD": 4130.66},
+  "spot": {"EURUSD": 1.1224, "GBPUSD": 1.3249, "USDJPY": 158.32, "XAUUSD": 4134.56},
   "stand_aside_until": null,
   "next_red": {"time": "2026-10-07T21:00:00+03:00", "event": "USD FOMC Meeting Minutes"},
   "setups": [
@@ -32,8 +32,8 @@
       "tp2": 4188.0,
       "grade": "B",
       "confidence": 68,
-      "status": "ARMED",
-      "events": ["APPROACHING"],
+      "status": "LIVE",
+      "events": ["APPROACHING", "TRIGGER"],
       "invalid_if": "M5 close through 4121.5",
       "timeframes": "M15->M5/M1",
       "hold": "minutes to 1-2h",
