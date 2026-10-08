@@ -1,10 +1,10 @@
 {
   "date": "2026-10-08",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-10-08T10:00:00+03:00",
+  "updated_at": "2026-10-08T11:00:00+03:00",
   "dxy": 102.23,
   "prices_verified": true,
-  "spot": {"EURUSD": 1.1191, "GBPUSD": 1.321, "USDJPY": 158.2, "XAUUSD": 4122.16},
+  "spot": {"EURUSD": 1.1195, "GBPUSD": 1.321, "USDJPY": 158.2, "XAUUSD": 4120.23},
   "stand_aside_until": null,
   "next_red": {"time": "2026-10-08T15:30:00+03:00", "event": "USD Initial Jobless Claims"},
   "setups": [
@@ -20,8 +20,8 @@
       "tp2": 1.1246,
       "grade": "B",
       "confidence": 70,
-      "status": "ARMED",
-      "events": ["APPROACHING"],
+      "status": "CLOSED_SL",
+      "events": ["APPROACHING", "SL HIT"],
       "arm_low": 1.1186,
       "arm_high": 1.1198,
       "timeframes": "M15->M5/M1",
