@@ -1,10 +1,10 @@
 {
   "date": "2026-10-09",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-10-09T13:00:00+03:00",
+  "updated_at": "2026-10-09T16:00:00+03:00",
   "dxy": 102.02,
   "prices_verified": true,
-  "spot": {"EURUSD": 1.1226, "GBPUSD": 1.3236, "USDJPY": 158.19, "XAUUSD": 4194.0},
+  "spot": {"EURUSD": 1.1204, "GBPUSD": 1.3236, "USDJPY": 158.19, "XAUUSD": 4169.69},
   "stand_aside_until": null,
   "next_red": {"time": "2026-10-09T15:30:00+03:00", "event": "CAD Employment Change and Unemployment Rate"},
   "setups": [
@@ -45,8 +45,8 @@
       "grade": "B",
       "confidence": 72,
       "score": null,
-      "status": "LIVE",
-      "events": ["APPROACHING", "TRIGGER"],
+      "status": "CLOSED_SL",
+      "events": ["APPROACHING", "TRIGGER", "SL HIT"],
       "arm_low": 1.1216,
       "arm_high": 1.1226,
       "timeframes": "H1/M15",
