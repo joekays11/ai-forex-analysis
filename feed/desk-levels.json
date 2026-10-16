@@ -1,1 +1,53 @@
-{"date":"2026-10-16","timezone":"Africa/Nairobi","updated_at":"2026-10-16T11:00:00+03:00","setups":[{"id":"scalp","horizon":"SCALP","pair":"XAUUSD","side":"BUY","entry":4162.0,"entry_type":"LIMIT","sl":4145.0,"tp1":4178.0,"tp2":4195.0,"grade":"B","confidence":74,"status":"TP1","events":["TP1 HIT"]},{"id":"intraday","horizon":"INTRADAY","pair":"GBPUSD","side":"BUY","entry":1.3275,"entry_type":"LIMIT","sl":1.3250,"tp1":1.3325,"tp2":1.3355,"grade":"B","confidence":71,"status":"TP1","events":["TP1 HIT"]},{"id":"swing","horizon":"SWING","pair":"EURUSD","side":"BUY","entry":1.1185,"entry_type":"LIMIT","sl":1.1135,"tp1":1.1285,"tp2":1.1360,"grade":"C","confidence":66,"status":"ARMED","events":[],"hold_sessions":4}]}
+{
+  "date": "2026-10-16",
+  "timezone": "Africa/Nairobi",
+  "updated_at": "2026-10-16T18:00:00+03:00",
+  "setups": [
+    {
+      "id": "scalp",
+      "horizon": "SCALP",
+      "pair": "XAUUSD",
+      "side": "BUY",
+      "entry": 4162.0,
+      "entry_type": "LIMIT",
+      "sl": 4145.0,
+      "tp1": 4178.0,
+      "tp2": 4195.0,
+      "grade": "B",
+      "confidence": 74,
+      "status": "CLOSED_TP2",
+      "events": ["TP1 HIT", "TP2 HIT"]
+    },
+    {
+      "id": "intraday",
+      "horizon": "INTRADAY",
+      "pair": "GBPUSD",
+      "side": "BUY",
+      "entry": 1.3275,
+      "entry_type": "LIMIT",
+      "sl": 1.3250,
+      "tp1": 1.3325,
+      "tp2": 1.3355,
+      "grade": "B",
+      "confidence": 71,
+      "status": "CLOSED_TP2",
+      "events": ["TP1 HIT", "TP2 HIT"]
+    },
+    {
+      "id": "swing",
+      "horizon": "SWING",
+      "pair": "EURUSD",
+      "side": "BUY",
+      "entry": 1.1185,
+      "entry_type": "LIMIT",
+      "sl": 1.1135,
+      "tp1": 1.1285,
+      "tp2": 1.1360,
+      "grade": "C",
+      "confidence": 66,
+      "status": "ARMED",
+      "events": [],
+      "hold_sessions": 4
+    }
+  ]
+}
