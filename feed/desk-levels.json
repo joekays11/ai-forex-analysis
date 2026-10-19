@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-10-16T18:00:00+03:00",
+  "updated_at": "2026-10-19T09:20:00+03:00",
   "setups": [
     {
       "id": "scalp",
       "horizon": "SCALP",
       "pair": "XAUUSD",
       "side": "BUY",
-      "entry": 4162.0,
+      "entry": 4168,
       "entry_type": "LIMIT",
-      "sl": 4145.0,
-      "tp1": 4178.0,
-      "tp2": 4195.0,
+      "sl": 4152,
+      "tp1": 4185,
+      "tp2": 4198,
       "grade": "B",
-      "confidence": 74,
-      "status": "CLOSED_TP2",
-      "events": ["TP1 HIT", "TP2 HIT"]
+      "confidence": 72,
+      "status": "ARMED",
+      "events": []
     },
     {
       "id": "intraday",
       "horizon": "INTRADAY",
       "pair": "GBPUSD",
       "side": "BUY",
-      "entry": 1.3275,
+      "entry": 1.3310,
       "entry_type": "LIMIT",
-      "sl": 1.3250,
-      "tp1": 1.3325,
-      "tp2": 1.3355,
+      "sl": 1.3285,
+      "tp1": 1.3355,
+      "tp2": 1.3385,
       "grade": "B",
-      "confidence": 71,
-      "status": "CLOSED_TP2",
-      "events": ["TP1 HIT", "TP2 HIT"]
+      "confidence": 76,
+      "status": "ARMED",
+      "events": []
     },
     {
       "id": "swing",
