@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-10-20T09:18:00+03:00",
+  "updated_at": "2026-10-20T10:00:00+03:00",
   "setups": [
     {
       "id": "scalp",
@@ -15,8 +15,8 @@
       "tp2": 4152,
       "grade": "B",
       "confidence": 68,
-      "status": "ARMED",
-      "events": []
+      "status": "TP1",
+      "events": ["TP1 HIT"]
     },
     {
       "id": "intraday",
