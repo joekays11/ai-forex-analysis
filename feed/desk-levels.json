@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-11-16T15:00:00+03:00",
+  "updated_at": "2026-11-17T09:30:00+03:00",
   "setups": [
     {
       "id": "scalp",
       "horizon": "SCALP",
       "pair": "XAUUSD",
       "side": "SELL",
-      "entry": 3870,
+      "entry": 3885,
       "entry_type": "LIMIT",
-      "sl": 3895,
-      "tp1": 3850,
-      "tp2": 3835,
+      "sl": 3905,
+      "tp1": 3865,
+      "tp2": 3850,
       "grade": "B",
       "confidence": 68,
-      "status": "CLOSED_SL",
-      "events": ["SL HIT"]
+      "status": "ARMED",
+      "events": []
     },
     {
       "id": "intraday",
       "horizon": "INTRADAY",
       "pair": "EURUSD",
       "side": "SELL",
-      "entry": 1.1040,
+      "entry": 1.1025,
       "entry_type": "LIMIT",
-      "sl": 1.1060,
-      "tp1": 1.1005,
-      "tp2": 1.0985,
+      "sl": 1.1050,
+      "tp1": 1.0990,
+      "tp2": 1.0970,
       "grade": "B",
       "confidence": 72,
-      "status": "TP1",
-      "events": ["TP1 HIT"]
+      "status": "ARMED",
+      "events": []
     },
     {
       "id": "swing",
