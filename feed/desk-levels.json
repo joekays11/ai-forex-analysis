@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-11-20T09:24:00+03:00",
+  "updated_at": "2026-11-20T13:00:00+03:00",
   "setups": [
     {
       "id": "scalp",
@@ -15,8 +15,8 @@
       "tp2": 3620,
       "grade": "C",
       "confidence": 62,
-      "status": "ARMED",
-      "events": []
+      "status": "CLOSED_SL",
+      "events": ["SL HIT"]
     },
     {
       "id": "intraday",
