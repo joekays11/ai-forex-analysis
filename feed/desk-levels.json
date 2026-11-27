@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "timezone": "Africa/Nairobi",
-  "updated_at": "2026-11-27T09:22:00+03:00",
+  "updated_at": "2026-11-27T10:00:00+03:00",
   "setups": [
     {
       "id": "scalp",
@@ -15,8 +15,8 @@
       "tp2": 3680,
       "grade": "B",
       "confidence": 68,
-      "status": "ARMED",
-      "events": []
+      "status": "CLOSED_SL",
+      "events": ["SL HIT"]
     },
     {
       "id": "intraday",
@@ -30,8 +30,8 @@
       "tp2": 1.0940,
       "grade": "B",
       "confidence": 72,
-      "status": "ARMED",
-      "events": []
+      "status": "TP1",
+      "events": ["TP1 HIT"]
     },
     {
       "id": "swing",
